@@ -24,7 +24,7 @@ If a sandbox product should be on the list, **[open an issue](https://github.com
 
 ## Data and license
 
-Provider records live in [`public/agent-sandbox-providers.json`](public/agent-sandbox-providers.json). A generated table for offline reading is in [`AGENT_SANDBOX_PROVIDERS.md`](AGENT_SANDBOX_PROVIDERS.md).
+Provider records live in [`public/agent-sandbox-providers.json`](public/agent-sandbox-providers.json).
 
 ## For developers
 

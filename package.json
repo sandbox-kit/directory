@@ -8,7 +8,7 @@
     "validate:providers": "tsx scripts/validate-providers.ts",
     "verify:names": "python3 scripts/verify_provider_names.py",
     "resolve:logos": "python3 scripts/resolve_logos.py",
-    "audit:providers": "python3 scripts/provider_audit.py && python3 scripts/build_provider_list.py",
+    "audit:providers": "python3 scripts/provider_audit.py",
     "predev": "npm run validate:providers",
     "prebuild": "npm run validate:providers",
     "dev": "vite",

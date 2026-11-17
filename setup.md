@@ -23,7 +23,6 @@ npm test
 | Artifact                                                                     | Role                                      |
 | ---------------------------------------------------------------------------- | ----------------------------------------- |
 | [`public/agent-sandbox-providers.json`](public/agent-sandbox-providers.json) | **Canonical data** for the UI and scripts |
-| [`AGENT_SANDBOX_PROVIDERS.md`](AGENT_SANDBOX_PROVIDERS.md)                   | Human-readable table (generated)          |
 
 Regenerate and maintain:
 
@@ -34,7 +33,6 @@ python3 scripts/validate_websites.py        # HTTP-check, dedupe, logos, enrich
 npm run resolve:logos                       # one logo_url per row (fast UI)
 npm run audit:providers                     # drop non-sandboxes / bad URLs
 python3 scripts/enrich_providers.py         # metadata refresh without re-crawling
-python3 scripts/build_provider_list.py      # → AGENT_SANDBOX_PROVIDERS.md
 npm run validate:providers                  # Zod gate (predev / prebuild)
 npm run verify:names                        # title vs website audit
 python3 scripts/verify_provider_names.py --fix   # apply curated name/slug fixes + enrich
