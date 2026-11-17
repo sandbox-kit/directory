@@ -1,0 +1,48 @@
+{
+  "name": "sandbox-pricing",
+  "private": true,
+  "version": "0.1.0",
+  "homepage": "https://sandbox.directory",
+  "type": "module",
+  "scripts": {
+    "validate:providers": "tsx scripts/validate-providers.ts",
+    "verify:names": "python3 scripts/verify_provider_names.py",
+    "resolve:logos": "python3 scripts/resolve_logos.py",
+    "audit:providers": "python3 scripts/provider_audit.py && python3 scripts/build_provider_list.py",
+    "predev": "npm run validate:providers",
+    "prebuild": "npm run validate:providers",
+    "dev": "vite",
+    "build": "tsc --noEmit -p tsconfig.app.json && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "skills:sync": "node scripts/sync-skills-to-cursor.mjs",
+    "test": "tsc --noEmit -p tsconfig.vitest.json && vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@fontsource-variable/instrument-sans": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "vite": "^6.4.6",
+    "vitest": "^4.0.8",
+    "zod": "^4.1.12"
+  }
+}
