@@ -1,5 +1,5 @@
 /** Production origin (SPA is served here). */
-export const SITE_ORIGIN = "https://sandbox.directory";
+export const SITE_ORIGIN = "https://www.sandbox.directory";
 
 export const SITE_NAME = "sandbox.directory";
 

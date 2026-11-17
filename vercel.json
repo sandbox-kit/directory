@@ -14,10 +14,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.sandbox.directory"
+          "value": "sandbox.directory"
         }
       ],
-      "destination": "https://sandbox.directory/:path*",
+      "destination": "https://www.sandbox.directory/:path*",
       "permanent": true
     }
   ],

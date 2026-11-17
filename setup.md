@@ -78,11 +78,11 @@ Production site config: `SITE_ORIGIN` and GitHub URLs in `src/lib/site.ts`.
 
 ## Deploy (Vercel)
 
-[`vercel.json`](./vercel.json) pins build/install commands, `dist` output, SPA rewrites, cache headers, and `www` → apex redirects so the Vercel dashboard can stay on defaults.
+[`vercel.json`](./vercel.json) pins build/install commands, `dist` output, SPA rewrites, cache headers, and apex → `www` redirects so the Vercel dashboard can stay on defaults.
 
 1. Import [github.com/sandbox-kit/directory](https://github.com/sandbox-kit/directory) in Vercel (Vite is auto-detected; the file overrides details).
 2. **Production branch:** `main`.
-3. **Domains:** add `sandbox.directory` and `www.sandbox.directory` (redirect is in `vercel.json` once both are assigned).
+3. **Domains:** add `www.sandbox.directory` (primary) and `sandbox.directory` (apex → `www` redirect in `vercel.json` once both are assigned).
 
 Local preview of the production build:
 

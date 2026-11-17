@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sandbox.directory/sitemap.xml
+Sitemap: https://www.sandbox.directory/sitemap.xml
