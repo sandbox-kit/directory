@@ -1,5 +1,6 @@
 node_modules
 dist
+.vercel
 .agents/
 scripts/.agentsandboxes-scrape.json
 scripts/.link-check-report.json
