@@ -2,10 +2,10 @@ import { useState } from "react";
 import { DEFAULT_PROVIDER_LOGO, providerLogoSrc } from "@/lib/logo";
 import type { SandboxProvider } from "@/types/provider";
 
-const ICON_PX = 36;
+const ICON_PX = 32;
 
 const iconFrame =
-  "relative flex size-9 shrink-0 items-center justify-center overflow-hidden rounded-[5px] border border-sk-border bg-[#f5f5ee]";
+  "relative flex size-8 shrink-0 items-center justify-center overflow-hidden rounded-[5px] border border-sk-border bg-[#f5f5ee] sm:size-9";
 
 function DefaultProviderLogo() {
   return (
@@ -14,7 +14,7 @@ function DefaultProviderLogo() {
       alt=""
       width={28}
       height={28}
-      className="size-7 rounded-[4px] object-contain"
+      className="size-6 rounded-[4px] object-contain sm:size-7"
       decoding="async"
     />
   );
@@ -46,7 +46,7 @@ export function ProviderIcon({ provider }: Props) {
         loading="lazy"
         decoding="async"
         fetchPriority="low"
-        className="max-h-[28px] max-w-[28px] object-contain"
+        className="max-h-[24px] max-w-[24px] object-contain sm:max-h-[28px] sm:max-w-[28px]"
         onError={() => setFailed(true)}
       />
     </span>

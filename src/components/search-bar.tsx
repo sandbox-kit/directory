@@ -30,7 +30,7 @@ function SearchBarComponent({
       </p>
       <div className="relative">
         <span
-          className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-sk-muted-2"
+          className="pointer-events-none absolute left-3.5 top-1/2 size-[18px] -translate-y-1/2 text-sk-muted-2 sm:left-4"
           aria-hidden="true"
         >
           <svg
@@ -51,11 +51,11 @@ function SearchBarComponent({
           type="search"
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder="Search sandboxes, vendors, categories…"
+          placeholder="Search providers…"
           enterKeyHint="search"
           autoComplete="off"
           inputMode="search"
-          className="sk-field-focus w-full rounded-full border border-sk-border bg-sk-elevated py-3.5 pl-11 pr-4 text-[1rem] font-[450] leading-normal tracking-[-0.015em] text-sk-fg shadow-none ring-0 outline-none transition-[border-color,box-shadow] placeholder:font-[400] placeholder:text-sk-muted-2"
+          className="sk-field-focus w-full rounded-full border border-sk-border bg-sk-elevated py-3 pl-10 pr-4 text-[0.9375rem] font-[450] leading-normal tracking-[-0.015em] text-sk-fg shadow-none ring-0 outline-none transition-[border-color,box-shadow] placeholder:font-[400] placeholder:text-sk-muted-2 sm:py-3.5 sm:pl-11 sm:text-[1rem]"
           spellCheck={false}
           aria-describedby={describedBy}
         />

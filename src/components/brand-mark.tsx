@@ -6,14 +6,15 @@ export function BrandMark({ className = "" }: { className?: string }) {
   return (
     <Link
       to="/"
+      tabIndex={-1}
       aria-label="sandbox.directory home"
-      className={`sk-interactive-focus inline-flex items-center gap-3 rounded-md leading-none text-sk-fg transition hover:opacity-90 ${className}`}
+      className={`inline-flex min-w-0 items-center gap-2.5 rounded-md leading-none text-sk-fg transition hover:opacity-90 sm:gap-3 ${className}`}
     >
       <LogoMark
         title="sandbox.directory"
-        className="size-6 shrink-0 rounded-[4px] sm:size-7"
+        className="size-6 rounded-[4px] sm:size-7"
       />
-      <span className="inline-flex items-baseline whitespace-nowrap text-[15px] tracking-[-0.03em]">
+      <span className="inline-flex min-w-0 items-baseline truncate text-[14px] tracking-[-0.03em] sm:text-[15px]">
         <span className="font-[560] text-sk-fg">sandbox</span>
         <span className="font-[560] text-sk-fg">.</span>
         <span className="font-[450] text-sk-muted">directory</span>

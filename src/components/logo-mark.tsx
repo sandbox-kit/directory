@@ -11,7 +11,7 @@ export function LogoMark({
       viewBox="0 0 32 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`block size-7 shrink-0 overflow-hidden rounded-[0.45rem] ${className}`}
+      className={`block shrink-0 overflow-hidden rounded-[0.45rem] ${className || "size-7"}`}
       aria-hidden={title ? undefined : true}
       role={title ? "img" : undefined}
     >

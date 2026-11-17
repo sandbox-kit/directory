@@ -6,7 +6,7 @@ import { GITHUB_REPO } from "@/lib/site";
 export function SiteHeader() {
   return (
     <div className="fixed inset-x-0 top-0 z-50 border-b border-sk-border bg-sk-bg/92 backdrop-blur-xl">
-      <div className="mx-auto flex h-14 w-full max-w-[1300px] items-center justify-between gap-4 px-4 text-[15px] md:h-[60px]">
+      <div className="mx-auto flex h-14 w-full max-w-[1300px] items-center justify-between gap-3 px-4 text-[15px] sm:px-5 md:h-[60px] md:px-6">
         <BrandMark />
         <a
           href={GITHUB_REPO}
