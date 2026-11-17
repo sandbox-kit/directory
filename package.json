@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "validate:providers": "tsx scripts/validate-providers.ts",
+    "validate:providers": "tsx --tsconfig tsconfig.app.json scripts/validate-providers.ts",
     "verify:names": "python3 scripts/verify_provider_names.py",
     "resolve:logos": "python3 scripts/resolve_logos.py",
     "audit:providers": "python3 scripts/provider_audit.py",
