@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { dedupeProvidersByHost, providerHostKey } from "@/lib/dedupe-providers";
+import {
+  dedupeProvidersByHost,
+  normalizeVendorLabel,
+  providerHostKey,
+  providerVendorKey,
+} from "@/lib/dedupe-providers";
 import type { SandboxProvider } from "@/types/provider";
 
 const base = (overrides: Partial<SandboxProvider>): SandboxProvider => ({
@@ -46,6 +51,24 @@ describe("dedupeProvidersByHost", () => {
     expect(a).not.toBe(b);
   });
 
+  it("merges sources when host keys collide", () => {
+    const out = dedupeProvidersByHost([
+      base({
+        slug: "one",
+        website: "https://www.example.com/foo",
+        sources: ["a"],
+      }),
+      base({
+        slug: "two",
+        website: "https://example.com/bar",
+        sources: ["b"],
+        profile: "https://agentsandboxes.org/sandboxes/foo/",
+      }),
+    ]);
+    expect(out).toHaveLength(1);
+    expect(out[0]?.sources).toEqual(expect.arrayContaining(["a", "b"]));
+  });
+
   it("scopes AWS docs by product path", () => {
     const lambda = providerHostKey(
       base({
@@ -61,5 +84,26 @@ describe("dedupeProvidersByHost", () => {
     );
     expect(lambda).toBe("docs.aws.amazon.com/lambda");
     expect(nitro).toBe("docs.aws.amazon.com/awsec2");
+  });
+});
+
+describe("providerVendorKey", () => {
+  it("aligns Cloudflare subdomain rows", () => {
+    expect(normalizeVendorLabel("Cloudflare Sandboxes")).toBe("cloudflare");
+    const key = providerVendorKey(
+      base({
+        name: "Cloudflare Sandbox",
+        website: "https://developers.cloudflare.com/sandbox",
+      }),
+    );
+    expect(key).toBe("cloudflare.com|cloudflare");
+  });
+
+  it("skips GitHub repo rows", () => {
+    expect(
+      providerVendorKey(
+        base({ website: "https://github.com/org-a/sandbox-runtime" }),
+      ),
+    ).toBeNull();
   });
 });

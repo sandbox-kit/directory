@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { findInventoryDuplicates } from "@/lib/dedupe-providers";
 import {
   formatProviderParseError,
   sandboxProvidersSchema,
@@ -33,6 +34,22 @@ if (!parsed.success) {
   process.exit(1);
 }
 
+const dupes = findInventoryDuplicates(parsed.data);
+const problems = [
+  ...dupes.duplicateSlugs.map((slug) => `duplicate slug: ${slug}`),
+  ...dupes.duplicateHostKeys.map((host) => `duplicate host key: ${host}`),
+  ...dupes.duplicateVendorKeys.map(
+    (vendor) => `duplicate vendor key: ${vendor}`,
+  ),
+];
+if (problems.length > 0) {
+  for (const msg of problems) console.error(msg);
+  console.error(
+    "Inventory has duplicate providers — re-run sync:providers or dedupe before merge.",
+  );
+  process.exit(1);
+}
+
 console.log(
-  `validated public/agent-sandbox-providers.json (${parsed.data.length} providers)`,
+  `validated public/agent-sandbox-providers.json (${parsed.data.length} providers, no duplicates)`,
 );

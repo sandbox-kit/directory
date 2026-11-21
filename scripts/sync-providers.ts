@@ -1,6 +1,5 @@
 import "dotenv/config";
-import { dedupeProvidersByHost } from "@/lib/dedupe-providers";
-import { collapseProvidersByHost } from "./pipeline/providers/collapse-hosts.ts";
+import { finalizeProviderInventory } from "./pipeline/providers/collapse-hosts.ts";
 import {
   formatProviderParseError,
   sandboxProvidersSchema,
@@ -100,14 +99,18 @@ async function main(): Promise<void> {
     `verify: HTTP ${verify.httpChecked}, Firecrawl ${verify.firecrawlReconciled}, removed inactive/pivoted ${verify.removedInactive}`,
   );
 
-  const { rows: collapsed, collapsed: mergedDuplicates } =
-    collapseProvidersByHost(verify.rows);
-  if (mergedDuplicates > 0) {
+  const finalized = finalizeProviderInventory(verify.rows);
+  if (finalized.collapsedHost > 0) {
     console.log(
-      `collapsed ${mergedDuplicates} duplicate host(s) after URL verify`,
+      `collapsed ${finalized.collapsedHost} duplicate host(s) after URL verify`,
     );
   }
-  const rows = sortProviders(dedupeProvidersByHost(collapsed));
+  if (finalized.collapsedVendor > 0) {
+    console.log(
+      `collapsed ${finalized.collapsedVendor} duplicate vendor(s) after URL verify`,
+    );
+  }
+  const rows = sortProviders(finalized.rows);
 
   const parsed = sandboxProvidersSchema.safeParse(rows);
   if (!parsed.success) {

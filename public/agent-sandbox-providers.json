@@ -42,42 +42,6 @@
     ]
   },
   {
-    "slug": "agent-sandbox",
-    "name": "Agent Sandbox",
-    "website": "https://agent-sandbox.github.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:coding agent sandbox",
-      "github:agent computer sandbox",
-      "github-topic:agent-sandbox",
-      "github-topic:ai-sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://agent-sandbox.github.io",
-      "checked_at": "2026-11-21T20:13:09.027Z",
-      "http_status": 200,
-      "final_url": "https://agent-sandbox.github.io/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agent-sandbox.github.io&sz=128",
-    "display_name": "Agent Sandbox",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Managed sandbox runtime",
-      "Sandbox runtime"
-    ],
-    "isolation_technologies": [
-      "managed_runtime"
-    ],
-    "funding": [],
-    "last_verified_at": "2026-11-21T20:13:28.744Z"
-  },
-  {
     "slug": "agent-sandbox-agent",
     "name": "Agent Sandbox",
     "website": "https://agent.sandbox",
@@ -280,21 +244,25 @@
     ]
   },
   {
-    "slug": "agent-sandboxes",
+    "slug": "agent-sandbox",
     "name": "agent-sandboxes",
-    "website": "https://adamontherun.github.io/agent-sandboxes",
+    "website": "https://agent-sandbox.github.io",
     "profile": null,
     "category_guess": "Other / verify category",
     "sources": [
+      "github:coding agent sandbox",
+      "github:agent computer sandbox",
+      "github-topic:agent-sandbox",
+      "github-topic:ai-sandbox",
       "github:firecracker agent sandbox"
     ],
     "extra": true,
     "website_status": "ok",
     "website_check": {
-      "input_url": "https://adamontherun.github.io/agent-sandboxes",
-      "checked_at": "2026-11-21T20:13:09.037Z",
+      "input_url": "https://agent-sandbox.github.io",
+      "checked_at": "2026-11-21T20:13:09.027Z",
       "http_status": 200,
-      "final_url": "https://adamontherun.github.io/agent-sandboxes/",
+      "final_url": "https://agent-sandbox.github.io/",
       "method": "HEAD"
     },
     "logo_url": "https://www.google.com/s2/favicons?domain=adamontherun.github.io&sz=128",
@@ -303,17 +271,21 @@
       "GitHub"
     ],
     "isolation": [
+      "Managed sandbox runtime",
+      "Sandbox runtime",
       "Firecracker microVM",
       "KVM hardware VM"
     ],
     "isolation_technologies": [
       "firecracker",
-      "kvm"
+      "kvm",
+      "managed_runtime"
     ],
     "funding": [],
     "sandbox_capabilities": [
       "microvm"
     ],
+    "docs": [],
     "last_verified_at": "2026-11-21T20:13:29.479Z"
   },
   {
@@ -1967,7 +1939,7 @@
   },
   {
     "slug": "cloudflare-sandbox-sdk",
-    "name": "Cloudflare Sandbox",
+    "name": "Cloudflare Sandboxes",
     "website": "https://developers.cloudflare.com/sandbox",
     "profile": "https://agentsandboxes.org/sandboxes/cloudflare-sandbox/",
     "category_guess": "Hosted agent sandbox",
@@ -1996,7 +1968,9 @@
       "sandboxindex.dev",
       "boxyard",
       "producthunt",
-      "firecrawl:fly-learn-agent-sandbox-providers"
+      "firecrawl:fly-learn-agent-sandbox-providers",
+      "firecrawl:fly-agent-providers",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -2008,7 +1982,7 @@
       "method": "HEAD"
     },
     "logo_url": "https://cloudflare.com/logo.png",
-    "display_name": "Cloudflare Sandbox",
+    "display_name": "Cloudflare Sandboxes",
     "discovery": [
       "Curated index",
       "Awesome list",
@@ -2016,7 +1990,10 @@
       "agentsandboxes.org",
       "sandboxindex.dev",
       "boxyard.dev",
-      "Product Hunt"
+      "Product Hunt",
+      "fly-agent-providers",
+      "fly-learn-agent-sandbox-providers",
+      "InfraForAgents"
     ],
     "isolation": [
       "Container sandbox",
@@ -2072,77 +2049,6 @@
       }
     ],
     "last_verified_at": "2026-11-21T20:13:34.827Z"
-  },
-  {
-    "slug": "cloudflare-sandbox",
-    "name": "Cloudflare Sandbox",
-    "website": "https://cloudflare.com",
-    "profile": null,
-    "category_guess": "Hosted agent sandbox",
-    "sources": [
-      "firecrawl:fly-agent-providers",
-      "firecrawl:fly-learn-agent-sandbox-providers"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://cloudflare.com",
-      "checked_at": "2026-11-21T20:13:19.771Z",
-      "http_status": 200,
-      "final_url": "https://www.cloudflare.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://cloudflare.com/favicon.ico",
-    "display_name": "Cloudflare Sandbox",
-    "discovery": [
-      "fly-agent-providers",
-      "fly-learn-agent-sandbox-providers"
-    ],
-    "isolation": [
-      "Container sandbox"
-    ],
-    "isolation_technologies": [
-      "container"
-    ],
-    "funding": [],
-    "offering_type": "hosted",
-    "availability": "public",
-    "launch_stage": "ga",
-    "sandbox_capabilities": [
-      "linux"
-    ],
-    "docs": [
-      {
-        "description": "Containers architecture documentation",
-        "link": "https://developers.cloudflare.com/containers/platform-details/architecture/"
-      },
-      {
-        "description": "Limits documentation",
-        "link": "https://developers.cloudflare.com/sandbox/platform/limits/"
-      },
-      {
-        "description": "Sandbox SDK documentation",
-        "link": "https://developers.cloudflare.com/sandbox/"
-      }
-    ]
-  },
-  {
-    "slug": "cloudflare-sandboxes",
-    "name": "Cloudflare Sandboxes",
-    "website": "https://sandbox.cloudflare.com",
-    "profile": null,
-    "category_guess": "Discovered",
-    "sources": [
-      "InfraForAgents"
-    ],
-    "extra": true,
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandbox.cloudflare.com&sz=128",
-    "display_name": "Cloudflare Sandboxes",
-    "discovery": [
-      "InfraForAgents"
-    ],
-    "isolation": [],
-    "funding": []
   },
   {
     "slug": "coasty-machines",
@@ -3571,7 +3477,8 @@
       "InfraForAgents",
       "sandboxindex.dev",
       "LangChain",
-      "Product Hunt"
+      "Product Hunt",
+      "fly-learn-agent-sandbox-providers"
     ],
     "isolation": [
       "Firecracker microVM",
@@ -3579,10 +3486,12 @@
       "Virtual desktop",
       "Managed sandbox runtime",
       "Firecracker / microVM",
-      "Cloud sandbox API"
+      "Cloud sandbox API",
+      "Container sandbox"
     ],
     "isolation_technologies": [
       "firecracker",
+      "container",
       "kvm",
       "virtual_desktop",
       "managed_runtime"
@@ -3597,11 +3506,12 @@
     "sandbox_capabilities": [
       "linux",
       "desktop",
-      "microvm"
+      "microvm",
+      "container"
     ],
     "docs": [
       {
-        "description": "Billing and limits information",
+        "description": "Billing and limits documentation",
         "link": "https://docs.e2b.dev/billing"
       },
       {
@@ -3633,6 +3543,10 @@
         "link": "https://github.com/e2b-dev/runtime"
       },
       {
+        "description": "Internet access",
+        "link": "https://docs.e2b.dev/sandbox/internet-access"
+      },
+      {
         "description": "Pricing / billing",
         "link": "https://e2b.dev/pricing"
       },
@@ -3643,63 +3557,6 @@
       {
         "description": "Third-party sandbox profile",
         "link": "https://agentsandboxes.org/sandboxes/e2b"
-      }
-    ]
-  },
-  {
-    "slug": "e2b-docs",
-    "name": "E2B",
-    "website": "https://docs.e2b.dev/sandbox/persistence",
-    "profile": null,
-    "category_guess": "Hosted agent sandbox",
-    "sources": [
-      "firecrawl:fly-learn-agent-sandbox-providers"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.e2b.dev/sandbox/persistence",
-      "checked_at": "2026-11-21T20:13:19.809Z",
-      "http_status": 200,
-      "final_url": "https://docs.e2b.dev/sandbox/persistence",
-      "method": "HEAD"
-    },
-    "logo_url": "https://docs.e2b.dev/sandbox/logo.png",
-    "display_name": "E2B",
-    "discovery": [
-      "fly-learn-agent-sandbox-providers"
-    ],
-    "isolation": [
-      "Firecracker microVM",
-      "Container sandbox",
-      "Virtual desktop"
-    ],
-    "isolation_technologies": [
-      "firecracker",
-      "container",
-      "virtual_desktop"
-    ],
-    "funding": [],
-    "offering_type": "hosted",
-    "availability": "public",
-    "launch_stage": "ga",
-    "sandbox_capabilities": [
-      "linux",
-      "desktop",
-      "container"
-    ],
-    "docs": [
-      {
-        "description": "Billing and limits documentation",
-        "link": "https://docs.e2b.dev/billing"
-      },
-      {
-        "description": "Internet access",
-        "link": "https://docs.e2b.dev/sandbox/internet-access"
-      },
-      {
-        "description": "Sandbox persistence documentation",
-        "link": "https://docs.e2b.dev/sandbox/persistence"
       }
     ]
   },
@@ -7202,7 +7059,8 @@
     "logo_url": "https://boxyard.dev/anhur-assets/openai-com-241b164caba6998f.png",
     "display_name": "OpenAI Code Interpreter",
     "discovery": [
-      "boxyard.dev"
+      "boxyard.dev",
+      "boxyard"
     ],
     "isolation": [
       "Docker containers",
@@ -7236,45 +7094,7 @@
       {
         "description": "Comparison of Azure Container Apps Sandboxes vs OpenAI Code Interpreter",
         "link": "https://boxyard.dev/compare/openai-code-interpreter-vs-azure-container-apps-sandboxes"
-      }
-    ]
-  },
-  {
-    "slug": "openai-code-interpreter-code",
-    "name": "OpenAI Code Interpreter",
-    "website": "https://code.interpreter.openai.com",
-    "profile": null,
-    "category_guess": "Private beta / waitlist sandbox",
-    "sources": [
-      "firecrawl:boxyard"
-    ],
-    "extra": true,
-    "website_status": "broken",
-    "website_check": {
-      "input_url": "https://code.interpreter.openai.com",
-      "checked_at": "2026-11-21T20:13:19.373Z",
-      "method": "HEAD",
-      "error": "fetch failed"
-    },
-    "logo_url": "https://boxyard.dev/anhur-assets/openai-com-241b164caba6998f.png",
-    "display_name": "OpenAI Code Interpreter",
-    "discovery": [
-      "boxyard"
-    ],
-    "isolation": [
-      "Docker containers"
-    ],
-    "isolation_technologies": [
-      "docker"
-    ],
-    "funding": [],
-    "offering_type": "hosted",
-    "availability": "waitlist",
-    "launch_stage": "beta",
-    "sandbox_capabilities": [
-      "linux"
-    ],
-    "docs": [
+      },
       {
         "description": "OpenAI Code Interpreter overview",
         "link": "https://code.interpreter.openai.com"
@@ -7950,7 +7770,8 @@
       "https://docs.railway.com/sandboxes.md",
       "https://docs.railway.com/sandboxes/quickstart",
       "https://railway.com/sandboxes.md",
-      "https://railway.com/changelog/2026-09-18-railway-sandboxes.md"
+      "https://railway.com/changelog/2026-09-18-railway-sandboxes.md",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -7961,10 +7782,11 @@
       "final_url": "https://docs.railway.com/sandboxes.md",
       "method": "HEAD"
     },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.railway.com&sz=128",
+    "logo_url": "https://www.google.com/s2/favicons?domain=railway.com&sz=128",
     "display_name": "Railway Sandboxes",
     "discovery": [
-      "Curated index"
+      "Curated index",
+      "InfraForAgents"
     ],
     "isolation": [
       "Firecracker microVM",
@@ -7997,32 +7819,6 @@
         "link": "https://agentsandboxes.org/sandboxes/railway-sandboxes"
       }
     ]
-  },
-  {
-    "slug": "railway-sandboxes-railway",
-    "name": "Railway Sandboxes",
-    "website": "https://railway.com/sandboxes",
-    "profile": null,
-    "category_guess": "Discovered",
-    "sources": [
-      "InfraForAgents"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://railway.com/sandboxes",
-      "checked_at": "2026-11-21T20:13:15.988Z",
-      "http_status": 200,
-      "final_url": "https://railway.com/sandboxes",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=railway.com&sz=128",
-    "display_name": "Railway Sandboxes",
-    "discovery": [
-      "InfraForAgents"
-    ],
-    "isolation": [],
-    "funding": []
   },
   {
     "slug": "render-sandboxes",

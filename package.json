@@ -10,6 +10,7 @@
   "scripts": {
     "audit:providers": "tsx --tsconfig tsconfig.scripts.json scripts/audit-providers.ts",
     "validate:providers": "tsx --tsconfig tsconfig.scripts.json scripts/validate-providers.ts",
+    "dedupe:inventory": "tsx --tsconfig tsconfig.scripts.json scripts/dedupe-inventory.ts",
     "discover:sources": "tsx --tsconfig tsconfig.scripts.json scripts/discover-sources.ts",
     "sync:providers": "tsx --tsconfig tsconfig.scripts.json scripts/sync-providers.ts",
     "predev": "npm run validate:providers",
