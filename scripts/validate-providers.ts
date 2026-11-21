@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import {
   formatProviderParseError,
   sandboxProvidersSchema,
-} from "../src/schemas/provider.ts";
+} from "@/schemas/provider";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const inventory = path.join(root, "public", "agent-sandbox-providers.json");
@@ -14,7 +14,7 @@ try {
   raw = readFileSync(inventory, "utf8");
 } catch {
   console.error(
-    `Missing ${path.relative(root, inventory)} — run the Python pipeline first.`,
+    `Missing ${path.relative(root, inventory)} — run npm run sync:providers first.`,
   );
   process.exit(1);
 }

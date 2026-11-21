@@ -2,12 +2,8 @@ node_modules
 dist
 .vercel
 .agents/
-scripts/.agentsandboxes-scrape.json
-scripts/.link-check-report.json
-scripts/.provider-audit-report.json
-scripts/.provider-name-audit.json
-scripts/__pycache__/
 .DS_Store
 *.local
 .env
 .env.*
+!.env.example

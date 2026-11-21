@@ -1,0 +1,746 @@
+{
+  "sources": [
+    {
+      "id": "langchain-docs",
+      "url": "https://docs.langchain.com/oss/python/integrations/sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "infraforagents",
+      "url": "https://infraforagents.com/categories/sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-org",
+      "url": "https://agentsandboxes.org/sandboxes/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-fyi",
+      "url": "https://agentsandboxes.fyi",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-guide",
+      "url": "https://roost.guide/agent-sandboxes/features/",
+      "mode": "scrape"
+    },
+    {
+      "id": "sandboxindex",
+      "url": "https://sandboxindex.dev/",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes",
+      "url": "https://comparesandboxes.com/",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-arjan",
+      "url": "https://raw.githubusercontent.com/arjan/awesome-agent-sandboxes/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-fhiltscher",
+      "url": "https://raw.githubusercontent.com/fhiltscher/awesome-ai-coding-sandboxes/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-comparesandboxes",
+      "url": "https://raw.githubusercontent.com/comparesandboxes/awesome-sandboxes/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-topic-agent-sandbox",
+      "url": "https://github.com/topics/agent-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-topic-ai-sandbox",
+      "url": "https://github.com/topics/ai-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "boxyard",
+      "url": "https://boxyard.dev/providers",
+      "mode": "crawl",
+      "limit": 40
+    },
+    {
+      "id": "fly-agent-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/",
+      "mode": "scrape"
+    },
+    {
+      "id": "yc-infra",
+      "url": "https://www.ycombinator.com/companies/industry/infrastructure",
+      "mode": "crawl",
+      "limit": 80,
+      "prompt": "From this Y Combinator company directory or batch listing, extract startups whose PRIMARY product is an AI agent sandbox, secure code execution for LLM/coding agents, browser or computer-use isolation, ephemeral dev environments for agents, or MCP-hosted untrusted code. For each company: official product name, canonical website (company domain — not ycombinator.com/companies/... unless no public site yet), offering_type, availability, launch_stage. Skip generic B2B SaaS, observability-only, pure LLM APIs without isolation, and devtools unrelated to sandboxes. Include infra that clearly markets microVM/WASM/container isolation for agent workloads."
+    },
+    {
+      "id": "yc-devtools",
+      "url": "https://www.ycombinator.com/companies/industry/developer-tools",
+      "mode": "crawl",
+      "limit": 60,
+      "prompt": "From this Y Combinator developer-tools directory, extract companies building AI agent sandboxes, secure code execution for agents, browser/computer-use sandboxes, ephemeral isolated dev environments, or sandbox APIs for coding agents. Use each company's real product domain as website when listed."
+    },
+    {
+      "id": "yc-search-sandbox",
+      "url": "https://www.ycombinator.com/companies?query=sandbox",
+      "mode": "crawl",
+      "limit": 40,
+      "prompt": "Extract YC companies related to sandboxes, isolated code execution, or agent infrastructure. Name + official website only when the product matches agent/code sandboxes."
+    },
+    {
+      "id": "github-arjan-awesome-agent-sandboxes",
+      "url": "https://github.com/arjan/awesome-agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-agent-sandboxes-features",
+      "url": "https://roost.guide/agent-sandboxes/features/#main",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-lists-awesome-sandboxes",
+      "url": "https://www.awesome-lists.com/awesome-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "capterra-sandbox-software",
+      "url": "https://www.capterra.com/sandbox-software/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.fyi/#main",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-guides-how-to-compare-sandbox-providers",
+      "url": "https://agentsandboxes.fyi/guides/how-to-compare-sandbox-providers",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#main",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-benchmark",
+      "url": "https://comparesandboxes.com/benchmark/",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#what-are-you-actually-choosing-between",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#how-to-evaluate-an-ai-agent-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies",
+      "url": "https://www.ycombinator.com/companies",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-ai",
+      "url": "https://www.ycombinator.com/companies/ai",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-saas",
+      "url": "https://www.ycombinator.com/companies/saas",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-gitlab",
+      "url": "https://www.ycombinator.com/companies/gitlab",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-ai-sandboxes",
+      "url": "https://awesome.com/ai-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "blog-ai-libraries-landscape",
+      "url": "https://blog.com/ai-libraries-landscape",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=24084758",
+      "mode": "scrape"
+    },
+    {
+      "id": "showhn-ai-sandboxes",
+      "url": "https://showhn.com/ai-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-froog",
+      "url": "https://roost.guide/providers/froog/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-lizard",
+      "url": "https://roost.guide/providers/lizard/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-instabox",
+      "url": "https://roost.guide/providers/instabox/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-zode",
+      "url": "https://roost.guide/providers/zode/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-munito",
+      "url": "https://roost.guide/providers/munito/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-maritime",
+      "url": "https://roost.guide/providers/maritime/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-dory",
+      "url": "https://roost.guide/providers/dory/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-koyeb",
+      "url": "https://roost.guide/providers/koyeb/",
+      "mode": "scrape"
+    },
+    {
+      "id": "roost-providers-celesto",
+      "url": "https://roost.guide/providers/celesto/",
+      "mode": "scrape"
+    },
+    {
+      "id": "producthunt-search",
+      "url": "https://www.producthunt.com/search?q=sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-guides-common-mistakes-and-questions",
+      "url": "https://agentsandboxes.fyi/guides/common-mistakes-and-questions",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-guides-sandbox-providers-for-global-agen",
+      "url": "https://agentsandboxes.fyi/guides/sandbox-providers-for-global-agent-teams",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-ai-agent-sandboxes",
+      "url": "https://comparesandboxes.com/ai-agent-sandboxes/",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-enterprise-sandboxes",
+      "url": "https://comparesandboxes.com/enterprise-sandboxes/",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-regulatory-sandboxes",
+      "url": "https://comparesandboxes.com/regulatory-sandboxes/",
+      "mode": "scrape"
+    },
+    {
+      "id": "computesdk",
+      "url": "https://www.computesdk.com/",
+      "mode": "scrape"
+    },
+    {
+      "id": "vibekit",
+      "url": "https://www.vibekit.sh/",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#which-sandbox-should-i-use-for-ai-agents",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#open-source-and-self-hosted-agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#frequently-asked-questions",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#agent-sandboxes-on-fly-io",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#state-between-turns",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#the-network-boundary",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#timers-and-the-cost-shape",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#the-isolation-primitive",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-aiops",
+      "url": "https://www.ycombinator.com/companies/aiops",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-api",
+      "url": "https://www.ycombinator.com/companies/api",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-monetization",
+      "url": "https://www.ycombinator.com/companies/monetization",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-blog",
+      "url": "https://www.ycombinator.com/blog",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-insurtech",
+      "url": "https://www.ycombinator.com/companies/insurtech",
+      "mode": "scrape"
+    },
+    {
+      "id": "engine",
+      "url": "https://engine.build/",
+      "mode": "scrape"
+    },
+    {
+      "id": "showhn-category-sandboxes",
+      "url": "https://www.showhn.com/category/sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "hackernoon-tagged-sandbox",
+      "url": "https://www.hackernoon.com/tagged/sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-blaxel",
+      "url": "https://agentsandboxes.org/sandboxes/blaxel/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-cloudflare-sandbox",
+      "url": "https://agentsandboxes.org/sandboxes/cloudflare-sandbox/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-daytona",
+      "url": "https://agentsandboxes.org/sandboxes/daytona/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-docker-cloud-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/docker-cloud-sandboxes/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-e2b",
+      "url": "https://agentsandboxes.org/sandboxes/e2b/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-hopx",
+      "url": "https://agentsandboxes.org/sandboxes/hopx/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-instavm",
+      "url": "https://agentsandboxes.org/sandboxes/instavm/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-isorun",
+      "url": "https://agentsandboxes.org/sandboxes/isorun/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-vercel-sandbox",
+      "url": "https://agentsandboxes.org/sandboxes/vercel-sandbox/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-agentbay",
+      "url": "https://agentsandboxes.org/sandboxes/agentbay/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-aws-agentcore",
+      "url": "https://agentsandboxes.org/sandboxes/aws-agentcore/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-digitalocean-harness-runtime",
+      "url": "https://agentsandboxes.org/sandboxes/digitalocean-harness-runtime/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-google-code-execution",
+      "url": "https://agentsandboxes.org/sandboxes/google-code-execution/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-claude-managed-agents",
+      "url": "https://agentsandboxes.org/sandboxes/claude-managed-agents/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-kasm-workspaces",
+      "url": "https://agentsandboxes.org/sandboxes/kasm-workspaces/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes-smolvm",
+      "url": "https://agentsandboxes.org/sandboxes/smolvm/",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-newsletter",
+      "url": "https://comparesandboxes.com/newsletter/",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-integrations",
+      "url": "https://www.ycombinator.com/companies/integrations",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=46065997",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=46797895",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=50054620",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=47324461",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=47741064",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=49082676",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=50137043",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=47877726",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=47882601",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=48461287",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=49891008",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=49239751",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=46595393",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=47663147",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=48835097",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=47301085",
+      "mode": "scrape"
+    },
+    {
+      "id": "upstash-blog-best-sandbox-providers-for-ai-agent",
+      "url": "https://upstash.com/blog/best-sandbox-providers-for-ai-agents",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-tizkovatereza-awesome-ai-sandboxes",
+      "url": "https://github.com/tizkovatereza/awesome-ai-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "engine-lab-agent-sandboxes",
+      "url": "https://engine.build/lab/agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "aiagentsdirectory",
+      "url": "https://aiagentsdirectory.com/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agenticindex-best-production-ready-ai-agents",
+      "url": "https://agenticindex.io/best/production-ready-ai-agents",
+      "mode": "scrape"
+    },
+    {
+      "id": "sandbox-ai-agents-html",
+      "url": "https://sandbox-ai.tech/agents.html",
+      "mode": "scrape"
+    },
+    {
+      "id": "langchain-resources-best-agent-sandboxes",
+      "url": "https://www.langchain.com/resources/best-agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "composio-content-best-ai-code-sandboxes",
+      "url": "https://composio.dev/content/best-ai-code-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "mastra-articles-best-ai-agent-sandbox-platforms",
+      "url": "https://mastra.ai/articles/best-ai-agent-sandbox-platforms",
+      "mode": "scrape"
+    },
+    {
+      "id": "gist-wincent-2752d8d97727577050c043e4ff9e386e",
+      "url": "https://gist.github.com/wincent/2752d8d97727577050c043e4ff9e386e",
+      "mode": "scrape"
+    },
+    {
+      "id": "reddit-r-ai-agents-comments-1sh2x4p-i-compared-",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1sh2x4p/i_compared_sandbox_options_for_ai_agents_heres_my/",
+      "mode": "scrape"
+    },
+    {
+      "id": "blaxel-blog-code-execution-sandboxes-for-ai-age",
+      "url": "https://blaxel.ai/blog/code-execution-sandboxes-for-ai-agents",
+      "mode": "scrape"
+    },
+    {
+      "id": "northflank-blog-best-sandbox-runners",
+      "url": "https://northflank.com/blog/best-sandbox-runners",
+      "mode": "scrape"
+    },
+    {
+      "id": "augmentcode-guides-agent-execution-sandbox",
+      "url": "https://www.augmentcode.com/guides/agent-execution-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "reddit-r-langchain-comments-1sh7cuj-i-compared-",
+      "url": "https://www.reddit.com/r/LangChain/comments/1sh7cuj/i_compared_sandbox_options_for_ai_agents_heres_my/",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-dloss-awesome-agent-sandboxes",
+      "url": "https://github.com/dloss/awesome-agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-fishman-awesome-agent-sandbox",
+      "url": "https://github.com/fishman/awesome-agent-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-arjan-awesome-agent-sandboxes-blob-main-",
+      "url": "https://github.com/arjan/awesome-agent-sandboxes/blob/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-restyler-awesome-sandbox",
+      "url": "https://github.com/restyler/awesome-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-webcoyote-awesome-ai-sandbox",
+      "url": "https://github.com/webcoyote/awesome-AI-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-shenli-awesome-agent-infra",
+      "url": "https://github.com/shenli/awesome-agent-infra",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-zackzikaixiao-awesome-agent-environments",
+      "url": "https://github.com/ZackZikaiXiao/Awesome-Agent-Environments",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-picrew-awesome-agent-harness-blob-main-r",
+      "url": "https://github.com/Picrew/awesome-agent-harness/blob/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-ar9av-awesome-agent-control-plane-blob-m",
+      "url": "https://github.com/Ar9av/awesome-agent-control-plane/blob/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-mattolson-agent-sandbox",
+      "url": "https://github.com/mattolson/agent-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-rivet-dev-agents",
+      "url": "https://github.com/rivet-dev/agents",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-kajogo777-the-agent-sandbox-taxonomy",
+      "url": "https://github.com/kajogo777/the-agent-sandbox-taxonomy",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-topics-opensandbox",
+      "url": "https://github.com/topics/opensandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-topics-ai-sandboxes",
+      "url": "https://github.com/topics/ai-sandboxes?l=rust",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-substratusai-sandboxai",
+      "url": "https://github.com/substratusai/sandboxai",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-superradcompany-microsandbox-mcp",
+      "url": "https://github.com/superradcompany/microsandbox-mcp",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-mark3labs-msbd",
+      "url": "https://github.com/mark3labs/msbd",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-superradcompany-skills",
+      "url": "https://github.com/superradcompany/skills",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-different-ai-differently-blob-main-docs-",
+      "url": "https://github.com/different-ai/differently/blob/main/docs/providers/microsandbox.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-ya-luotao-microsandbox-rb",
+      "url": "https://github.com/ya-luotao/microsandbox-rb",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-opensandbox-group-opensandbox-blob-main-",
+      "url": "https://github.com/opensandbox-group/OpenSandbox/blob/main/docs/examples/index.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-opensandbox-group-opensandbox-discussion",
+      "url": "https://github.com/opensandbox-group/OpenSandbox/discussions/391",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-opensandbox-group-opensandbox-blob-main-",
+      "url": "https://github.com/opensandbox-group/OpenSandbox/blob/main/AGENTS.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-opensandbox-group-opensandbox",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "skypilot-blog-skypilot-llm-sandbox",
+      "url": "https://skypilot.ai/blog/skypilot-llm-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "agenta-blog-best-open-source-ai-agent-platforms",
+      "url": "https://agenta.ai/blog/best-open-source-ai-agent-platforms",
+      "mode": "scrape"
+    },
+    {
+      "id": "northflank-blog-self-hosted-ai-sandboxes",
+      "url": "https://northflank.com/blog/self-hosted-ai-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "dev-thedailyagent-top-5-code-sandboxes-for-a",
+      "url": "https://dev.to/thedailyagent/top-5-code-sandboxes-for-ai-agents-in-2026-58id",
+      "mode": "scrape"
+    },
+    {
+      "id": "vitehub-docs-agents-sandboxes",
+      "url": "https://vitehub.dev/docs/agents/sandboxes",
+      "mode": "scrape"
+    }
+  ]
+}

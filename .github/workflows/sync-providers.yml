@@ -1,0 +1,17 @@
+name: Sync provider inventory
+
+on:
+  schedule:
+    # Daily 11:00 Asia/Kolkata (IST, UTC+5:30) → 05:30 UTC
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: sync-providers
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    uses: ./.github/workflows/sync-providers-run.yml
+    secrets:
+      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}

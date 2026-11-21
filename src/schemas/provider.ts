@@ -1,11 +1,48 @@
 import { z } from "zod";
 import { providerHostKey } from "@/lib/dedupe-providers";
+import { sandboxCapabilitySchema } from "@/schemas/sandbox-capabilities";
+import { isolationTechnologySchema } from "@/schemas/isolation-technologies";
+import { providerDocLinkSchema } from "@/schemas/provider-docs";
 
 export const websiteStatusSchema = z.enum([
   "ok",
   "broken",
   "redirect",
   "blocked",
+]);
+
+export const offeringTypeSchema = z.enum([
+  "hosted",
+  "oss",
+  "hybrid",
+  "stealth",
+  "unknown",
+]);
+
+export const availabilitySchema = z.enum([
+  "public",
+  "private-beta",
+  "self-hosted",
+  "stealth",
+  "waitlist",
+  "unknown",
+]);
+
+export const launchStageSchema = z.enum([
+  "ga",
+  "beta",
+  "alpha",
+  "pre-launch",
+  "unknown",
+]);
+
+/** Whether the product is still an agent sandbox offering (re-verified on sync). */
+export const providerStatusSchema = z.enum([
+  "active",
+  "inactive",
+  "pivoted",
+  "shutdown",
+  "unknown",
 ]);
 
 export const websiteCheckSchema = z
@@ -32,8 +69,29 @@ export const sandboxProviderSchema = z.object({
   logo_url: z.url().optional(),
   display_name: z.string().min(1).optional(),
   discovery: z.array(z.string()).optional(),
+  /** Human-readable isolation labels (synced from isolation_technologies + legacy text). */
   isolation: z.array(z.string()).optional(),
+  /** Canonical isolation primitive IDs (Firecrawl extract / reconcile). */
+  isolation_technologies: z
+    .array(isolationTechnologySchema)
+    .optional(),
   funding: z.array(z.string()).optional(),
+  offering_type: offeringTypeSchema.optional(),
+  availability: availabilitySchema.optional(),
+  launch_stage: launchStageSchema.optional(),
+  /** Environments offered: linux, microvm, browser, macOS, CI runners, etc. */
+  sandbox_capabilities: z.array(sandboxCapabilitySchema).optional(),
+  /** Official docs, pricing, API, and other reference URLs. */
+  docs: z.array(providerDocLinkSchema).optional(),
+  provider_status: providerStatusSchema.optional(),
+  last_verified_at: z.string().optional(),
+  reconciliation: z
+    .object({
+      corrected_from: z.string().optional(),
+      note: z.string().optional(),
+      is_agent_sandbox: z.boolean().optional(),
+    })
+    .optional(),
 });
 
 export const sandboxProvidersSchema = z

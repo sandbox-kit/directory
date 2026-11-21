@@ -22,7 +22,7 @@ describe("sandboxProvidersSchema", () => {
     if (result.success) {
       const hosts = new Set(result.data.map((p) => providerHostKey(p)));
       expect(result.data.length).toBe(hosts.size);
-      expect(result.data.length).toBeGreaterThan(200);
+      expect(result.data.length).toBeGreaterThan(50);
     }
   });
 

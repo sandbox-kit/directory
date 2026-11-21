@@ -1,0 +1,56 @@
+{
+  "updatedAt": "2026-11-21T19:32:33.938Z",
+  "providers": [
+    {
+      "name": "Modal",
+      "website": "https://modal.com",
+      "sources": [
+        "mention:site:news.ycombinator.com browser use sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "hosted",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux",
+        "container"
+      ],
+      "isolation_technologies": [
+        "docker"
+      ],
+      "logo_url": "https://news.ycombinator.com/y18.svg",
+      "docs": [
+        {
+          "description": "Official platform information",
+          "link": "https://modal.com"
+        }
+      ]
+    },
+    {
+      "name": "Render",
+      "website": "https://render.com",
+      "sources": [
+        "mention:site:news.ycombinator.com browser use sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "hosted",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux"
+      ],
+      "isolation_technologies": [
+        "docker"
+      ],
+      "logo_url": "https://news.ycombinator.com/y18.svg",
+      "docs": [
+        {
+          "description": "Official platform information",
+          "link": "https://render.com"
+        }
+      ]
+    }
+  ]
+}

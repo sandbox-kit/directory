@@ -1,0 +1,1 @@
+export { DOCS_EXTRACT_HINT } from "@/schemas/provider-docs";

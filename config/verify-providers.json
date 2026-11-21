@@ -1,0 +1,6 @@
+{
+  "httpConcurrency": 8,
+  "maxFirecrawlReconcilePerRun": 25,
+  "staleVerificationDays": 14,
+  "alwaysReconcileNewDomains": true
+}

@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-11-21T19:20:19.339Z",
+  "total": 169,
+  "would_keep": 126,
+  "would_drop": 43,
+  "drop_by_reason": {
+    "qualify": 43,
+    "listed": 0
+  },
+  "kept_without_firecrawl_source": 120,
+  "incomplete_field_counts": {
+    "offering_type": 126,
+    "sandbox_capabilities": 88,
+    "isolation_technologies": 7,
+    "docs": 43,
+    "pricing_doc": 22
+  },
+  "dropped_sample": [
+    {
+      "slug": "agent-37",
+      "name": "Agent 37",
+      "website": "https://www.agent37.com/cloud",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "agentcomputer-agentcomputer",
+      "name": "AgentComputer",
+      "website": "https://www.agentcomputer.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "amika-rigs",
+      "name": "Amika Rigs",
+      "website": "https://www.amika.dev",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "arker",
+      "name": "Arker",
+      "website": "https://arker.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "aws-sandbox",
+      "name": "AWS Sandbox",
+      "website": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "azure-container-apps-dynamic-sessions",
+      "name": "Azure Container Apps Dynamic Sessions",
+      "website": "https://azure.microsoft.com/en-us/products/container-apps",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "boxd",
+      "name": "boxd",
+      "website": "https://boxd.sh",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "brimble",
+      "name": "Brimble",
+      "website": "https://brimble.io",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "cloudflare-sandboxes",
+      "name": "Cloudflare Sandboxes",
+      "website": "https://sandbox.cloudflare.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "coasty-machines",
+      "name": "Coasty Machines",
+      "website": "https://coasty.ai/platform/",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "createos",
+      "name": "CreateOS",
+      "website": "https://createos.sh",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "cubesandbox",
+      "name": "CubeSandbox",
+      "website": "https://cubesandbox.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "dedalus-machines",
+      "name": "Dedalus Machines",
+      "website": "https://dedaluslabs.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "dexto",
+      "name": "Dexto",
+      "website": "https://dexto.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "hugging-face-sandboxes",
+      "name": "Hugging Face Sandboxes",
+      "website": "https://huggingface.co/docs/huggingface_hub/main/en/guides/sandbox",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "instabox",
+      "name": "InstaBox",
+      "website": "https://instabox.sh",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "isle",
+      "name": "Isle",
+      "website": "https://www.tryisle.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "jilebi",
+      "name": "jilebi",
+      "website": "https://jilebi.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "kedge-workspaces",
+      "name": "Kedge Workspaces",
+      "website": "https://kedge.dev",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "machine0",
+      "name": "Machine0",
+      "website": "https://machine0.io",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "microsandbox",
+      "name": "Microsandbox",
+      "website": "https://microsandbox.dev",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "mosaic-sandbox",
+      "name": "Mosaic Sandbox",
+      "website": "https://sandbox.mosaicos.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "nodus-compute",
+      "name": "Nodus Compute",
+      "website": "https://nodus-compute.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "omnirun",
+      "name": "OmniRun",
+      "website": "https://omnirun.io",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "openpond",
+      "name": "OpenPond",
+      "website": "https://openpond.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "pandastack",
+      "name": "pandastack",
+      "website": "https://www.pandastack.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "show-hn-paperpod",
+      "name": "PaperPod",
+      "website": "https://www.paperpod.dev",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "ppio",
+      "name": "PPIO",
+      "website": "https://ppio.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "rivet-agentos",
+      "name": "Rivet agentOS",
+      "website": "https://rivet.dev/agentos",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "runloop",
+      "name": "Runloop",
+      "website": "https://runloop.ai",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "runta-runtimes",
+      "name": "Runta Runtimes",
+      "website": "https://runta.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "sailboxes",
+      "name": "Sailboxes",
+      "website": "https://www.sailresearch.com/sailboxes",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "sandbox-as-a-service",
+      "name": "Sandbox as a Service",
+      "website": "https://sandbox-as-a-service.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "shardflux",
+      "name": "ShardFlux",
+      "website": "https://shardflux.dev",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "shellbox-dev",
+      "name": "shellbox.dev",
+      "website": "https://shellbox.dev",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "smol-machines",
+      "name": "smol machines",
+      "website": "https://smolmachines.com",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "stateset-sandboxes",
+      "name": "StateSet Sandboxes",
+      "website": "https://sandbox.stateset.app",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "show-hn-agent-sandboxes-with-gpus-from-0-20-hr",
+      "name": "Tama",
+      "website": "https://tama.computer",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "tangle-sandboxes",
+      "name": "Tangle Sandboxes",
+      "website": "https://www.tangle.tools",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    },
+    {
+      "slug": "tenki-sandbox-tenki",
+      "name": "Tenki Sandbox",
+      "website": "https://tenki.cloud/products/sandbox",
+      "reason": "qualify",
+      "would_qualify_raw": false
+    }
+  ]
+}

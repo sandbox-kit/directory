@@ -1,4 +1,6 @@
 import type { SandboxProvider } from "@/types/provider";
+import { SANDBOX_CAPABILITY_LABELS } from "@/schemas/sandbox-capabilities";
+import { ISOLATION_TECHNOLOGY_LABELS } from "@/schemas/isolation-technologies";
 
 function norm(s: string): string {
   return s.toLowerCase().trim();
@@ -23,8 +25,15 @@ export function filterProviders(
         p.category_guess ?? "",
         ...(p.discovery ?? []),
         ...(p.isolation ?? []),
+        ...(p.sandbox_capabilities ?? []).map(
+          (c) => SANDBOX_CAPABILITY_LABELS[c],
+        ),
+        ...(p.isolation_technologies ?? []).map(
+          (id) => ISOLATION_TECHNOLOGY_LABELS[id],
+        ),
         ...(p.funding ?? []),
         ...(p.sources ?? []),
+        ...(p.docs ?? []).flatMap((d) => [d.description, d.link]),
       ].join(" "),
     );
     return tokens.every((t) => haystack.includes(t));

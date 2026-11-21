@@ -1,4 +1,5 @@
 import { dedupeProvidersByHost } from "@/lib/dedupe-providers";
+import { enrichProviders } from "@/lib/enrich-providers";
 import type { SandboxProvider } from "@/types/provider";
 
 export const PROVIDERS_URL = "/agent-sandbox-providers.json";
@@ -46,5 +47,5 @@ export async function loadProviders(
     );
   }
 
-  return dedupeProvidersByHost(json);
+  return enrichProviders(dedupeProvidersByHost(json));
 }

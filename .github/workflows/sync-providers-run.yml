@@ -1,0 +1,53 @@
+# Reusable job: secrets are declared for Actions schema / IDE validation.
+on:
+  workflow_call:
+    secrets:
+      FIRECRAWL_API_KEY:
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Discover new Firecrawl source pages
+        run: npm run discover:sources
+
+      - name: Extract providers from sources
+        run: npm run sync:providers
+
+      - name: Validate inventory (Zod)
+        run: npm run validate:providers
+
+      - name: Open pull request (no auto-merge)
+        uses: peter-evans/create-pull-request@v8.1.3
+        with:
+          commit-message: "chore(data): discover sources and sync providers"
+          branch: chore/data-sync-providers
+          title: "chore(data): sync provider inventory"
+          body: |
+            Automated provider sync (discover:sources → sync:providers → validate:providers).
+
+            Review inventory diff, then merge manually.
+          add-paths: |
+            config/firecrawl-sources.json
+            config/discovered-sources.json
+            config/discovered-provider-mentions.json
+            public/agent-sandbox-providers.json

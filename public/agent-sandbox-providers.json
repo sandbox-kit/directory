@@ -1,244 +1,5 @@
 [
   {
-    "slug": "agent-browser-sandbox",
-    "name": "Agent Browser",
-    "website": "https://agent-browser.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:agent sandbox",
-      "npm:daytona sandbox",
-      "npm:modal sandbox",
-      "npm:microvm sandbox agent",
-      "npm:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://agent-browser.dev",
-      "checked_at": "2026-11-17T19:01:38.149785+00:00",
-      "http_status": 200,
-      "final_url": "https://agent-browser.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agent-browser.dev&sz=128",
-    "display_name": "Agent Browser",
-    "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Firecracker microVM",
-      "Remote browser"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "agentsh-secure-sandbox",
-    "name": "AgentSH",
-    "website": "https://www.agentsh.org/secure-sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:daytona sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.agentsh.org/secure-sandbox",
-      "checked_at": "2026-11-17T19:01:36.984328+00:00",
-      "http_status": 200,
-      "final_url": "https://www.agentsh.org/secure-sandbox/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agentsh.org&sz=128",
-    "display_name": "AgentSH",
-    "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "agentskit-sandbox",
-    "name": "AgentsKit",
-    "website": "https://www.agentskit.io/docs/reference/packages/sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:e2b code-interpreter",
-      "npm:@e2b/code-interpreter"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.agentskit.io/docs/reference/packages/sandbox",
-      "checked_at": "2026-11-17T19:01:34.548872+00:00",
-      "http_status": 200,
-      "final_url": "https://www.agentskit.io/docs/reference/packages/sandbox",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agentskit.io&sz=128",
-    "display_name": "AgentsKit",
-    "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "agimon-ai-po-sandbox",
-    "name": "Agimon",
-    "website": "https://agimon.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:microvm sandbox agent"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://agimon.ai",
-      "checked_at": "2026-11-17T19:01:35.172098+00:00",
-      "http_status": 200,
-      "final_url": "https://agimon.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agimon.ai&sz=128",
-    "display_name": "Agimon",
-    "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "mokalabs-sandbox",
-    "name": "Mokalabs",
-    "website": "https://mokalabs.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://mokalabs.dev",
-      "checked_at": "2026-11-17T19:01:36.619206+00:00",
-      "http_status": 200,
-      "final_url": "https://mokalabs.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=mokalabs.dev&sz=128",
-    "display_name": "Mokalabs",
-    "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "opencoredev-sandbox-sdk",
-    "name": "Sandbox Sdk",
-    "website": "https://sandbox-sdk.app",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:e2b code-interpreter",
-      "npm:daytona sandbox",
-      "github:e2b sandbox",
-      "github-topic:code-interpreter",
-      "github:railway sandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sandbox-sdk.app",
-      "checked_at": "2026-11-17T19:01:37.364032+00:00",
-      "http_status": 200,
-      "final_url": "https://sandbox-sdk.app",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandbox-sdk.app&sz=128",
-    "display_name": "Sandbox Sdk",
-    "discovery": [
-      "npm",
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "sixb-sandboxes-vercel",
-    "name": "Sixb",
-    "website": "https://sixb.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:microvm sandbox agent"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sixb.ai",
-      "checked_at": "2026-11-17T19:01:39.341412+00:00",
-      "http_status": 200,
-      "final_url": "https://sixb.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sixb.ai&sz=128",
-    "display_name": "Sixb",
-    "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "tangle-network-sandbox",
-    "name": "Docs",
-    "website": "https://docs.tangle.tools/sandbox/sdk-typescript",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "npm:agent sandbox",
-      "npm:daytona sandbox",
-      "npm:modal sandbox",
-      "npm:microvm sandbox agent",
-      "npm:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.tangle.tools/sandbox/sdk-typescript",
-      "checked_at": "2026-11-17T19:01:32.519017+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.tangle.tools/sandbox/sdk-typescript",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.tangle.tools&sz=128",
-    "display_name": "Docs",
-    "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
     "slug": "agent-37",
     "name": "Agent 37",
     "website": "https://www.agent37.com/cloud",
@@ -380,120 +141,21 @@
     "funding": []
   },
   {
-    "slug": "agentcomputer",
+    "slug": "agentcomputer-agentcomputer",
     "name": "AgentComputer",
-    "website": "https://agentcomputer.com",
+    "website": "https://www.agentcomputer.ai",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "hosted"
+      "InfraForAgents"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://agentcomputer.com",
-      "checked_at": "2026-11-17T19:01:36.760954+00:00",
-      "http_status": 200,
-      "final_url": "https://agentcomputer.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agentcomputer.com&sz=128",
+    "logo_url": "https://www.google.com/s2/favicons?domain=agentcomputer.ai&sz=128",
     "display_name": "AgentComputer",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "agentfs",
-    "name": "AgentFS",
-    "website": "https://docs.turso.tech/agentfs",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.turso.tech/agentfs",
-      "checked_at": "2026-11-17T19:01:31.671747+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.turso.tech/agentfs/introduction",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.turso.tech&sz=128",
-    "display_name": "AgentFS",
     "discovery": [
-      "Awesome list",
-      "roost.guide"
+      "InfraForAgents"
     ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "agents-sandbox",
-    "name": "agents-sandbox",
-    "website": "https://inoio.github.io/agents-sandbox",
-    "profile": null,
-    "category_guess": "Local sandboxes for coding agents",
-    "sources": [
-      "github:ai agent sandbox microvm",
-      "github:coding agent sandbox",
-      "github:microsandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://inoio.github.io/agents-sandbox",
-      "checked_at": "2026-11-17T19:01:31.456084+00:00",
-      "http_status": 200,
-      "final_url": "https://inoio.github.io/agents-sandbox/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=inoio.github.io&sz=128",
-    "display_name": "agents-sandbox",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Local isolation",
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "agentsphere",
-    "name": "AgentSphere",
-    "website": "https://www.agentsphere.run",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-arjan",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.agentsphere.run",
-      "checked_at": "2026-11-17T19:01:36.744621+00:00",
-      "http_status": 200,
-      "final_url": "https://www.agentsphere.run",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agentsphere.run&sz=128",
-    "display_name": "AgentSphere",
-    "discovery": [
-      "Awesome list",
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
+    "isolation": [],
     "funding": []
   },
   {
@@ -521,67 +183,6 @@
     ],
     "isolation": [
       "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "ailoy",
-    "name": "ailoy",
-    "website": "https://ailoy.co",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost-map",
-      "github:ai agent sandbox microvm",
-      "github:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://ailoy.co",
-      "checked_at": "2026-11-17T19:01:32.757709+00:00",
-      "http_status": 200,
-      "final_url": "https://ailoy.co",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ailoy.co&sz=128",
-    "display_name": "ailoy",
-    "discovery": [
-      "roost.guide",
-      "GitHub"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "ainclave",
-    "name": "ainclave",
-    "website": "https://ainclave.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://ainclave.com",
-      "checked_at": "2026-11-17T19:01:31.455281+00:00",
-      "http_status": 200,
-      "final_url": "https://www.ainclave.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ainclave.com&sz=128",
-    "display_name": "ainclave",
-    "discovery": [
-      "Awesome list",
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
     ],
     "funding": []
   },
@@ -650,34 +251,6 @@
     "funding": []
   },
   {
-    "slug": "anthropic-code-execution",
-    "name": "Claude code execution tool",
-    "website": "https://anthropic.com",
-    "profile": null,
-    "category_guess": "Cloud provider code execution",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://anthropic.com",
-      "checked_at": "2026-11-17T19:01:32.407817+00:00",
-      "http_status": 200,
-      "final_url": "https://www.anthropic.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
-    "display_name": "Claude code execution tool",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Cloud-managed execution"
-    ],
-    "funding": []
-  },
-  {
     "slug": "apify-ai-code-sandbox",
     "name": "Apify Ai Code Sandbox",
     "website": "https://apify.com",
@@ -704,71 +277,6 @@
       "Sandbox runtime"
     ],
     "funding": []
-  },
-  {
-    "slug": "arcbox",
-    "name": "arcbox",
-    "website": "https://arcbox.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost-map",
-      "github:agent sandbox",
-      "github:ai agent sandbox microvm",
-      "github:firecracker agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://arcbox.dev",
-      "checked_at": "2026-11-17T19:01:35.892857+00:00",
-      "http_status": 200,
-      "final_url": "https://arcbox.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=arcbox.dev&sz=128",
-    "display_name": "arcbox",
-    "discovery": [
-      "roost.guide",
-      "GitHub"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "archal",
-    "name": "Archal",
-    "website": "https://www.archal.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Summer 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.archal.ai",
-      "checked_at": "2026-11-17T19:01:31.981545+00:00",
-      "http_status": 200,
-      "final_url": "https://archal.ai/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=archal.ai&sz=128",
-    "display_name": "Archal",
-    "discovery": [
-      "Y Combinator (Summer 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Summer 2026)",
-      "Y Combinator"
-    ]
   },
   {
     "slug": "archil",
@@ -807,72 +315,6 @@
     "funding": []
   },
   {
-    "slug": "ardent",
-    "name": "Ardent",
-    "website": "https://tryardent.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Spring 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://tryardent.com",
-      "checked_at": "2026-11-17T19:01:37.231872+00:00",
-      "http_status": 200,
-      "final_url": "https://www.tryardent.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=tryardent.com&sz=128",
-    "display_name": "Ardent",
-    "discovery": [
-      "Y Combinator (Spring 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Spring 2026)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "arga-labs",
-    "name": "Arga Labs",
-    "website": "https://www.argalabs.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Spring 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.argalabs.com",
-      "checked_at": "2026-11-17T19:01:31.455824+00:00",
-      "http_status": 200,
-      "final_url": "https://www.argalabs.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=argalabs.com&sz=128",
-    "display_name": "Arga Labs",
-    "discovery": [
-      "Y Combinator (Spring 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Spring 2026)",
-      "Y Combinator"
-    ]
-  },
-  {
     "slug": "arker",
     "name": "Arker",
     "website": "https://arker.ai",
@@ -880,7 +322,8 @@
     "category_guess": "Other / verify category",
     "sources": [
       "hosted",
-      "url-fix"
+      "url-fix",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -896,57 +339,6 @@
     "discovery": [],
     "isolation": [
       "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "aws-bedrock-agentcore",
-    "name": "AWS Bedrock AgentCore",
-    "website": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/code-interpreter-tool.html",
-    "profile": "https://agentsandboxes.org/sandboxes/aws-agentcore/",
-    "category_guess": "Compute platforms with sandboxes",
-    "sources": [
-      "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/code-interpreter-tool.html",
-      "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/code-interpreter-resource-session-management.html",
-      "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-how-it-works.html",
-      "https://aws.amazon.com/bedrock/agentcore/pricing/",
-      "https://aws.amazon.com/bedrock/agentcore/faqs/",
-      "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-persistent-filesystems.html",
-      "https://aws.amazon.com/privacy/",
-      "https://docs.aws.amazon.com/lambda/latest/dg/lambda-microvms-guide.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-how-it-works.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-launching.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-images.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-networking.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-integrations-claude-managed-agents.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html",
-      "https://aws.amazon.com/lambda/pricing/",
-      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-nitro-sandboxes.html",
-      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nitro-sandboxes-run-firecracker.html",
-      "https://docs.aws.amazon.com/eks/latest/userguide/sandboxing.html",
-      "https://aws.amazon.com/blogs/compute/nitro-sandboxes-hardware-isolation-for-every-eks-pod-ecs-task-and-ec2-workload/",
-      "https://aws.amazon.com/blogs/containers/aws-nitro-sandboxes-hardware-enforced-workload-isolation-on-amazon-eks/",
-      "roost.guide",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/code-interpreter-tool.html",
-      "checked_at": "2026-11-17T19:01:33.962911+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/code-interpreter-tool.html",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.aws.amazon.com&sz=128",
-    "display_name": "AWS Bedrock AgentCore",
-    "discovery": [
-      "Curated index",
-      "roost.guide"
-    ],
-    "isolation": [
-      "Firecracker microVM",
-      "AWS Nitro"
     ],
     "funding": []
   },
@@ -1063,7 +455,8 @@
       "github:mcp sandbox execution",
       "InfraForAgents",
       "langchain-docs",
-      "github-topic:ai-sandbox"
+      "github-topic:ai-sandbox",
+      "firecrawl:langchain-docs"
     ],
     "extra": true,
     "website_status": "ok",
@@ -1087,36 +480,6 @@
       "Shared code runner"
     ],
     "funding": []
-  },
-  {
-    "slug": "baseten",
-    "name": "Baseten",
-    "website": "https://www.baseten.co",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "producthunt"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.baseten.co",
-      "checked_at": "2026-11-17T19:01:34.956245+00:00",
-      "http_status": 200,
-      "final_url": "https://www.baseten.co",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=baseten.co&sz=128",
-    "display_name": "Baseten",
-    "discovery": [
-      "Product Hunt"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Product Hunt launch"
-    ]
   },
   {
     "slug": "baseten-sandboxes",
@@ -1275,11 +638,6 @@
     "sources": [
       "awesome-arjan",
       "roost-map",
-      "url-fix",
-      "url-fix",
-      "url-fix",
-      "url-fix",
-      "url-fix",
       "url-fix"
     ],
     "extra": true,
@@ -1349,39 +707,6 @@
     ]
   },
   {
-    "slug": "boxcompute",
-    "name": "BoxCompute",
-    "website": "https://boxcompute.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-arjan",
-      "roost.guide",
-      "roost-map",
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://boxcompute.ai",
-      "checked_at": "2026-11-17T19:01:33.431396+00:00",
-      "http_status": 200,
-      "final_url": "https://boxcompute.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=boxcompute.ai&sz=128",
-    "display_name": "BoxCompute",
-    "discovery": [
-      "Awesome list",
-      "roost.guide",
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "boxd",
     "name": "boxd",
     "website": "https://boxd.sh",
@@ -1423,102 +748,6 @@
     "funding": []
   },
   {
-    "slug": "boxes-dev",
-    "name": "boxes.dev",
-    "website": "https://boxes.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map",
-      "producthunt"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://boxes.dev",
-      "checked_at": "2026-11-17T19:01:38.685510+00:00",
-      "http_status": 200,
-      "final_url": "https://boxes.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=boxes.dev&sz=128",
-    "display_name": "boxes.dev",
-    "discovery": [
-      "roost.guide",
-      "Product Hunt"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Product Hunt launch"
-    ]
-  },
-  {
-    "slug": "boxlite-cloud",
-    "name": "BoxLite Cloud",
-    "website": "https://boxlite.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map",
-      "github:agent sandbox",
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://boxlite.ai",
-      "checked_at": "2026-11-17T19:01:36.283589+00:00",
-      "http_status": 200,
-      "final_url": "https://boxlite.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=boxlite.ai&sz=128",
-    "display_name": "BoxLite Cloud",
-    "discovery": [
-      "roost.guide",
-      "GitHub",
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "brig",
-    "name": "brig",
-    "website": "https://brig.sh",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost-map",
-      "github:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://brig.sh",
-      "checked_at": "2026-11-17T19:01:36.443576+00:00",
-      "http_status": 200,
-      "final_url": "https://www.brig.sh/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=brig.sh&sz=128",
-    "display_name": "brig",
-    "discovery": [
-      "roost.guide",
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "brimble",
     "name": "Brimble",
     "website": "https://brimble.io",
@@ -1541,34 +770,6 @@
     "display_name": "Brimble",
     "discovery": [
       "InfraForAgents"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "briq",
-    "name": "Briq",
-    "website": "https://briq.cloud",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "langchain-docs"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://briq.cloud",
-      "checked_at": "2026-11-17T19:01:39.262851+00:00",
-      "http_status": 200,
-      "final_url": "https://briq.cloud",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=briq.cloud&sz=128",
-    "display_name": "Briq",
-    "discovery": [
-      "LangChain"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -1608,34 +809,6 @@
     "isolation": [
       "Remote browser",
       "Virtual desktop"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "browser-use-sandboxes",
-    "name": "Browser Use Sandboxes",
-    "website": "https://docs.browser-use.com/customize/sandbox/quickstart",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-arjan"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.browser-use.com/customize/sandbox/quickstart",
-      "checked_at": "2026-11-17T19:01:32.286249+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.browser-use.com/open-source/legacy/0.x/sandbox/quickstart",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.browser-use.com&sz=128",
-    "display_name": "Browser Use Sandboxes",
-    "discovery": [
-      "Awesome list"
-    ],
-    "isolation": [
-      "Remote browser"
     ],
     "funding": []
   },
@@ -1752,151 +925,6 @@
     "funding": []
   },
   {
-    "slug": "bunny-sandbox",
-    "name": "Bunny Sandbox",
-    "website": "https://bunny.net",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://bunny.net",
-      "checked_at": "2026-11-17T19:01:36.584896+00:00",
-      "http_status": 200,
-      "final_url": "https://bunny.net",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=bunny.net&sz=128",
-    "display_name": "Bunny Sandbox",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "butter",
-    "name": "Butter",
-    "website": "https://butter.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Winter 2025",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://butter.dev",
-      "checked_at": "2026-11-17T19:01:32.287240+00:00",
-      "http_status": 200,
-      "final_url": "https://www.butter.dev/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=butter.dev&sz=128",
-    "display_name": "Butter",
-    "discovery": [
-      "Y Combinator (Winter 2025)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Winter 2025)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "caged",
-    "name": "Caged",
-    "website": "https://caged.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://caged.dev",
-      "checked_at": "2026-11-17T19:01:36.653937+00:00",
-      "http_status": 200,
-      "final_url": "https://caged.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=caged.dev&sz=128",
-    "display_name": "Caged",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "capy",
-    "name": "Capy",
-    "website": "https://capy.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hosted"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://capy.ai",
-      "checked_at": "2026-11-17T19:01:34.905870+00:00",
-      "http_status": 200,
-      "final_url": "https://capy.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=capy.ai&sz=128",
-    "display_name": "Capy",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "castari",
-    "name": "Castari",
-    "website": "https://castari.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://castari.com",
-      "checked_at": "2026-11-17T19:01:39.149312+00:00",
-      "http_status": 200,
-      "final_url": "https://www.castari.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=castari.com&sz=128",
-    "display_name": "Castari",
-    "discovery": [
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator"
-    ]
-  },
-  {
     "slug": "celesto-smolvm",
     "name": "Celesto (SmolVM)",
     "website": "https://celesto.ai",
@@ -1973,39 +1001,6 @@
     "funding": []
   },
   {
-    "slug": "click",
-    "name": "Click",
-    "website": "https://www.useclick.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Summer 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.useclick.ai",
-      "checked_at": "2026-11-17T19:01:34.588349+00:00",
-      "http_status": 200,
-      "final_url": "https://useclick.ai/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=useclick.ai&sz=128",
-    "display_name": "Click",
-    "discovery": [
-      "Y Combinator (Summer 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Summer 2026)",
-      "Y Combinator"
-    ]
-  },
-  {
     "slug": "cloudflare-sandbox-sdk",
     "name": "Cloudflare Sandbox",
     "website": "https://developers.cloudflare.com/sandbox",
@@ -2065,63 +1060,21 @@
     ]
   },
   {
-    "slug": "cloudish",
-    "name": "Cloudish",
-    "website": "https://cloudish.ai",
+    "slug": "cloudflare-sandboxes",
+    "name": "Cloudflare Sandboxes",
+    "website": "https://sandbox.cloudflare.com",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "awesome-fhiltscher",
-      "roost-map"
+      "InfraForAgents"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://cloudish.ai",
-      "checked_at": "2026-11-17T19:01:38.860793+00:00",
-      "http_status": 200,
-      "final_url": "https://www.cloudish.ai/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=cloudish.ai&sz=128",
-    "display_name": "Cloudish",
+    "logo_url": "https://www.google.com/s2/favicons?domain=sandbox.cloudflare.com&sz=128",
+    "display_name": "Cloudflare Sandboxes",
     "discovery": [
-      "Awesome list",
-      "roost.guide"
+      "InfraForAgents"
     ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "clusy",
-    "name": "Clusy",
-    "website": "https://www.clusy.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.clusy.io",
-      "checked_at": "2026-11-17T19:01:32.910580+00:00",
-      "http_status": 200,
-      "final_url": "https://www.clusy.io",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=clusy.io&sz=128",
-    "display_name": "Clusy",
-    "discovery": [
-      "Awesome list",
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
+    "isolation": [],
     "funding": []
   },
   {
@@ -2132,7 +1085,8 @@
     "category_guess": "Other / verify category",
     "sources": [
       "hosted",
-      "url-fix"
+      "url-fix",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -2148,39 +1102,6 @@
     "discovery": [],
     "isolation": [
       "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "cocoonstack",
-    "name": "cocoonstack",
-    "website": "https://cocoonstack.github.io/sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost-map",
-      "github:ai agent sandbox microvm",
-      "github:e2b sandbox",
-      "github-topic:agent-sandbox",
-      "github-topic:ai-sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://cocoonstack.github.io/sandbox",
-      "checked_at": "2026-11-17T19:01:39.171218+00:00",
-      "http_status": 200,
-      "final_url": "https://cocoonstack.github.io/sandbox/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=cocoonstack.github.io&sz=128",
-    "display_name": "cocoonstack",
-    "discovery": [
-      "roost.guide",
-      "GitHub"
-    ],
-    "isolation": [
-      "Firecracker microVM"
     ],
     "funding": []
   },
@@ -2257,39 +1178,6 @@
     "funding": []
   },
   {
-    "slug": "codesandbox-sdk",
-    "name": "CodeSandbox SDK",
-    "website": "https://codesandbox.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher",
-      "awesome-comparesandboxes",
-      "agentsandboxes.fyi",
-      "sandboxindex.dev"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://codesandbox.io",
-      "checked_at": "2026-11-17T19:01:31.455510+00:00",
-      "http_status": 200,
-      "final_url": "https://codesandbox.io",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=codesandbox.io&sz=128",
-    "display_name": "CodeSandbox SDK",
-    "discovery": [
-      "Awesome list",
-      "agentsandboxes.org",
-      "sandboxindex.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "codex-cli-sandboxing",
     "name": "Codex CLI sandboxing",
     "website": "https://learn.chatgpt.com/docs/sandboxing",
@@ -2322,65 +1210,6 @@
     "funding": []
   },
   {
-    "slug": "cognitora",
-    "name": "Cognitora",
-    "website": "https://inference.cognitora.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-arjan",
-      "roost-map",
-      "hn:show_hn:AI sandbox",
-      "hn:show_hn:firecracker sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://inference.cognitora.dev",
-      "checked_at": "2026-11-17T19:01:36.860427+00:00",
-      "http_status": 200,
-      "final_url": "https://inference.cognitora.dev/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=inference.cognitora.dev&sz=128",
-    "display_name": "Cognitora",
-    "discovery": [
-      "Awesome list",
-      "roost.guide",
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "collimate",
-    "name": "Collimate",
-    "website": "https://collimate.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hosted"
-    ],
-    "extra": true,
-    "website_status": "blocked",
-    "website_check": {
-      "input_url": "https://collimate.com",
-      "checked_at": "2026-11-17T19:01:37.317375+00:00",
-      "http_status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=collimate.com&sz=128",
-    "display_name": "Collimate",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "collimate-sandboxes",
     "name": "Collimate Sandboxes",
     "website": "https://collimate.ai",
@@ -2404,36 +1233,6 @@
     "discovery": [
       "InfraForAgents",
       "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "containarium",
-    "name": "Containarium",
-    "website": "https://containarium.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github-topic:agent-sandbox",
-      "github-topic:agent-runtime",
-      "web"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://containarium.dev",
-      "checked_at": "2026-11-17T19:01:31.455401+00:00",
-      "http_status": 200,
-      "final_url": "https://containarium.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=containarium.dev&sz=128",
-    "display_name": "Containarium",
-    "discovery": [
-      "GitHub"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -2473,63 +1272,6 @@
     "isolation": [
       "MicroVM",
       "Container sandbox"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "corevelos",
-    "name": "Corevelos",
-    "website": "https://corevelos.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "web",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://corevelos.com",
-      "checked_at": "2026-11-17T19:01:36.988479+00:00",
-      "http_status": 200,
-      "final_url": "https://corevelos.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=corevelos.com&sz=128",
-    "display_name": "Corevelos",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "coreweave-sandboxes",
-    "name": "Coreweave Sandboxes",
-    "website": "https://coreweave.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://coreweave.com",
-      "checked_at": "2026-11-17T19:01:37.813476+00:00",
-      "http_status": 200,
-      "final_url": "https://coreweave.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=coreweave.com&sz=128",
-    "display_name": "Coreweave Sandboxes",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
     ],
     "funding": []
   },
@@ -2751,6 +1493,26 @@
     ]
   },
   {
+    "slug": "declaw-sandboxes",
+    "name": "Declaw Sandboxes",
+    "website": "https://declaw.ai",
+    "profile": null,
+    "category_guess": "Discovered",
+    "sources": [
+      "InfraForAgents",
+      "awesome-fhiltscher"
+    ],
+    "extra": true,
+    "logo_url": "https://www.google.com/s2/favicons?domain=declaw.ai&sz=128",
+    "display_name": "Declaw Sandboxes",
+    "discovery": [
+      "InfraForAgents",
+      "awesome-list"
+    ],
+    "isolation": [],
+    "funding": []
+  },
+  {
     "slug": "dedalus-machines",
     "name": "Dedalus Machines",
     "website": "https://dedaluslabs.ai",
@@ -2808,11 +1570,6 @@
       "https://deno.com/deploy/pricing",
       "InfraForAgents",
       "boxyard",
-      "url-fix",
-      "url-fix",
-      "url-fix",
-      "url-fix",
-      "url-fix",
       "url-fix"
     ],
     "extra": true,
@@ -2835,6 +1592,24 @@
       "Firecracker / microVM",
       "Cloud sandbox API"
     ],
+    "funding": []
+  },
+  {
+    "slug": "deno-sandboxes",
+    "name": "Deno Sandboxes",
+    "website": "https://docs.deno.com/sandboxes",
+    "profile": null,
+    "category_guess": "Discovered",
+    "sources": [
+      "awesome-arjan"
+    ],
+    "extra": true,
+    "logo_url": "https://www.google.com/s2/favicons?domain=docs.deno.com&sz=128",
+    "display_name": "Deno Sandboxes",
+    "discovery": [
+      "awesome-list"
+    ],
+    "isolation": [],
     "funding": []
   },
   {
@@ -2883,30 +1658,33 @@
     ]
   },
   {
-    "slug": "devsandbox",
-    "name": "devsandbox",
-    "website": "https://zekker6.github.io/devsandbox",
-    "profile": null,
+    "slug": "openai-code-interpreter-amp-hosted-shell",
+    "name": "Developers",
+    "website": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
+    "profile": "https://agentsandboxes.org/sandboxes/openai-code-interpreter/",
     "category_guess": "Other / verify category",
     "sources": [
-      "github:ai agent sandbox microvm"
+      "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
+      "https://developers.openai.com/api/docs/guides/tools-shell",
+      "https://developers.openai.com/api/docs/pricing",
+      "https://openai.com/policies/terms-of-use/"
     ],
     "extra": true,
     "website_status": "ok",
     "website_check": {
-      "input_url": "https://zekker6.github.io/devsandbox",
-      "checked_at": "2026-11-17T19:01:36.904883+00:00",
+      "input_url": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
+      "checked_at": "2026-11-17T19:01:35.312483+00:00",
       "http_status": 200,
-      "final_url": "https://zekker6.github.io/devsandbox/",
+      "final_url": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
       "method": "HEAD"
     },
-    "logo_url": "https://www.google.com/s2/favicons?domain=zekker6.github.io&sz=128",
-    "display_name": "devsandbox",
+    "logo_url": "https://www.google.com/s2/favicons?domain=developers.openai.com&sz=128",
+    "display_name": "Developers",
     "discovery": [
-      "GitHub"
+      "Curated index"
     ],
     "isolation": [
-      "Firecracker microVM"
+      "Sandbox runtime"
     ],
     "funding": []
   },
@@ -2973,34 +1751,6 @@
     ],
     "isolation": [
       "Cloud-managed execution"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "digitalocean-microvms",
-    "name": "Digitalocean Microvms",
-    "website": "https://docs.digitalocean.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.digitalocean.com",
-      "checked_at": "2026-11-17T19:01:33.135293+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.digitalocean.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.digitalocean.com&sz=128",
-    "display_name": "Digitalocean Microvms",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Firecracker microVM"
     ],
     "funding": []
   },
@@ -3110,6 +1860,41 @@
     "funding": []
   },
   {
+    "slug": "google-agent-platform-code-execution",
+    "name": "Docs",
+    "website": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
+    "profile": "https://agentsandboxes.org/sandboxes/google-code-execution/",
+    "category_guess": "Other / verify category",
+    "sources": [
+      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
+      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox",
+      "https://cloud.google.com/products/gemini-enterprise-agent-platform/pricing",
+      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale",
+      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-quickstart",
+      "https://policies.google.com/terms",
+      "boxyard"
+    ],
+    "extra": true,
+    "website_status": "ok",
+    "website_check": {
+      "input_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
+      "checked_at": "2026-11-17T19:01:35.556463+00:00",
+      "http_status": 200,
+      "final_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
+      "method": "HEAD"
+    },
+    "logo_url": "https://www.google.com/s2/favicons?domain=docs.cloud.google.com&sz=128",
+    "display_name": "Docs",
+    "discovery": [
+      "Curated index",
+      "boxyard.dev"
+    ],
+    "isolation": [
+      "Sandbox runtime"
+    ],
+    "funding": []
+  },
+  {
     "slug": "e2b",
     "name": "E2B",
     "website": "https://e2b.dev",
@@ -3144,7 +1929,8 @@
       "github:agent computer sandbox",
       "langchain-docs",
       "producthunt",
-      "github-topic:code-interpreter"
+      "github-topic:code-interpreter",
+      "firecrawl:langchain-docs"
     ],
     "extra": true,
     "website_status": "ok",
@@ -3179,64 +1965,6 @@
       "Insight Partners",
       "Y Combinator (S23)"
     ]
-  },
-  {
-    "slug": "ephemeral-sandbox",
-    "name": "ephemeral-sandbox",
-    "website": "https://ephemeral-sandbox.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:coding agent sandbox",
-      "github-topic:agent-sandbox",
-      "github-topic:ai-sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://ephemeral-sandbox.com",
-      "checked_at": "2026-11-17T19:01:36.051762+00:00",
-      "http_status": 200,
-      "final_url": "https://ephemeral-sandbox.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ephemeral-sandbox.com&sz=128",
-    "display_name": "ephemeral-sandbox",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "eqvps-sandboxes",
-    "name": "Eqvps Sandboxes",
-    "website": "https://eqvps.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://eqvps.com",
-      "checked_at": "2026-11-17T19:01:37.125538+00:00",
-      "http_status": 200,
-      "final_url": "https://eqvps.com/en",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=eqvps.com&sz=128",
-    "display_name": "Eqvps Sandboxes",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
   },
   {
     "slug": "exe-dev",
@@ -3283,121 +2011,6 @@
       "Firecracker microVM"
     ],
     "funding": []
-  },
-  {
-    "slug": "fca-regulatory-digital-sandbox",
-    "name": "FCA Regulatory & Digital Sandbox",
-    "website": "https://www.fca.org.uk/firms/innovation/regulatory-sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-comparesandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.fca.org.uk/firms/innovation/regulatory-sandbox",
-      "checked_at": "2026-11-17T19:01:34.533473+00:00",
-      "http_status": 200,
-      "final_url": "https://www.fca.org.uk/firms/innovation/regulatory-sandbox",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=fca.org.uk&sz=128",
-    "display_name": "FCA Regulatory & Digital Sandbox",
-    "discovery": [
-      "Awesome list"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "firecracker-microvm-per-sandbox",
-    "name": "Docs",
-    "website": "https://docs.createos.sh/Sandbox/SDK/Explanation/VM-Sandboxes",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.createos.sh/Sandbox/SDK/Explanation/VM-Sandboxes",
-      "checked_at": "2026-11-17T19:01:39.460380+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.createos.sh/Sandbox/SDK/Explanation/VM-Sandboxes/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.createos.sh&sz=128",
-    "display_name": "Docs",
-    "discovery": [
-      "Awesome list"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "fissionplane",
-    "name": "FissionPlane",
-    "website": "https://fissionplane.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "web"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://fissionplane.dev",
-      "checked_at": "2026-11-17T19:01:35.030495+00:00",
-      "http_status": 200,
-      "final_url": "https://fissionplane.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=fissionplane.dev&sz=128",
-    "display_name": "FissionPlane",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "flashdrive",
-    "name": "FlashDrive",
-    "website": "https://flashdrive.space",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Fall 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://flashdrive.space",
-      "checked_at": "2026-11-17T19:01:31.822519+00:00",
-      "http_status": 200,
-      "final_url": "https://flashdrive.space",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=flashdrive.space&sz=128",
-    "display_name": "FlashDrive",
-    "discovery": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ]
   },
   {
     "slug": "fly-io-sprites",
@@ -3515,35 +2128,6 @@
     ]
   },
   {
-    "slug": "froog",
-    "name": "froog",
-    "website": "https://froog.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://froog.ai",
-      "checked_at": "2026-11-17T19:01:34.517086+00:00",
-      "http_status": 200,
-      "final_url": "https://froog.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=froog.ai&sz=128",
-    "display_name": "froog",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "gemini-api-code-execution",
     "name": "Gemini API code execution",
     "website": "https://aistudio.google.com/docs/code-execution",
@@ -3567,34 +2151,6 @@
     "display_name": "Gemini API code execution",
     "discovery": [
       "Curated index"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "giant-swarm-agent-platform",
-    "name": "Giant Swarm Agent Platform",
-    "website": "https://www.giantswarm.io/agent-platform",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.giantswarm.io/agent-platform",
-      "checked_at": "2026-11-17T19:01:35.074303+00:00",
-      "http_status": 200,
-      "final_url": "https://www.giantswarm.io/agent-platform/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=giantswarm.io&sz=128",
-    "display_name": "Giant Swarm Agent Platform",
-    "discovery": [
-      "Awesome list"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -3671,163 +2227,22 @@
     "funding": []
   },
   {
-    "slug": "gondolin",
-    "name": "Gondolin",
-    "website": "https://earendil-works.github.io/gondolin",
+    "slug": "google-agent-platform-sandbox",
+    "name": "Google Agent Platform Sandbox",
+    "website": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "roost-map",
-      "github:agent sandbox"
+      "InfraForAgents"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://earendil-works.github.io/gondolin",
-      "checked_at": "2026-11-17T19:01:39.055760+00:00",
-      "http_status": 200,
-      "final_url": "https://earendil-works.github.io/gondolin/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=earendil-works.github.io&sz=128",
-    "display_name": "Gondolin",
+    "logo_url": "https://www.google.com/s2/favicons?domain=cloud.google.com&sz=128",
+    "display_name": "Google Agent Platform Sandbox",
     "discovery": [
-      "roost.guide",
-      "GitHub"
+      "InfraForAgents"
     ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
+    "isolation": [],
     "funding": []
-  },
-  {
-    "slug": "google-agent-platform-code-execution",
-    "name": "Docs",
-    "website": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
-    "profile": "https://agentsandboxes.org/sandboxes/google-code-execution/",
-    "category_guess": "Other / verify category",
-    "sources": [
-      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
-      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox",
-      "https://cloud.google.com/products/gemini-enterprise-agent-platform/pricing",
-      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale",
-      "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-quickstart",
-      "https://policies.google.com/terms",
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
-      "checked_at": "2026-11-17T19:01:35.556463+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.cloud.google.com&sz=128",
-    "display_name": "Docs",
-    "discovery": [
-      "Curated index",
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "greenscreens-sandbox-proxy",
-    "name": "greenscreens-sandbox-proxy",
-    "website": "http://www.greenscreens.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:sandbox-as-a-service"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "http://www.greenscreens.io",
-      "checked_at": "2026-11-17T19:01:31.456438+00:00",
-      "http_status": 200,
-      "final_url": "https://www.greenscreens.io/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=greenscreens.io&sz=128",
-    "display_name": "greenscreens-sandbox-proxy",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "harnessrouter",
-    "name": "HarnessRouter",
-    "website": "https://harnessrouter.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Summer 2023",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://harnessrouter.ai",
-      "checked_at": "2026-11-17T19:01:38.535752+00:00",
-      "http_status": 200,
-      "final_url": "https://harnessrouter.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=harnessrouter.ai&sz=128",
-    "display_name": "HarnessRouter",
-    "discovery": [
-      "Y Combinator (Summer 2023)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Summer 2023)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "herdr",
-    "name": "herdr",
-    "website": "https://herdr.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Fall 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://herdr.dev",
-      "checked_at": "2026-11-17T19:01:37.819522+00:00",
-      "http_status": 200,
-      "final_url": "https://herdr.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=herdr.dev&sz=128",
-    "display_name": "herdr",
-    "discovery": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ]
   },
   {
     "slug": "hitl-agent-with-sandbox",
@@ -3900,6 +2315,26 @@
     "funding": [
       "Y Combinator (W24)"
     ]
+  },
+  {
+    "slug": "hugging-face-sandboxes",
+    "name": "Hugging Face Sandboxes",
+    "website": "https://huggingface.co/docs/huggingface_hub/main/en/guides/sandbox",
+    "profile": null,
+    "category_guess": "Discovered",
+    "sources": [
+      "InfraForAgents",
+      "awesome-arjan"
+    ],
+    "extra": true,
+    "logo_url": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
+    "display_name": "Hugging Face Sandboxes",
+    "discovery": [
+      "InfraForAgents",
+      "awesome-list"
+    ],
+    "isolation": [],
+    "funding": []
   },
   {
     "slug": "hyperbeam",
@@ -4124,32 +2559,6 @@
     "funding": []
   },
   {
-    "slug": "isorun",
-    "name": "Isorun",
-    "website": "https://isorun.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hosted"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://isorun.com",
-      "checked_at": "2026-11-17T19:01:35.895821+00:00",
-      "http_status": 200,
-      "final_url": "https://www.isorun.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=isorun.com&sz=128",
-    "display_name": "Isorun",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "isorun-sandboxes",
     "name": "Isorun Sandboxes",
     "website": "https://isorun.ai",
@@ -4172,34 +2581,6 @@
     "display_name": "Isorun Sandboxes",
     "discovery": [
       "InfraForAgents",
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "ix",
-    "name": "Ix",
-    "website": "https://ix.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://ix.dev",
-      "checked_at": "2026-11-17T19:01:39.381521+00:00",
-      "http_status": 200,
-      "final_url": "https://ix.dev/blaze/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ix.dev&sz=128",
-    "display_name": "Ix",
-    "discovery": [
       "boxyard.dev"
     ],
     "isolation": [
@@ -4243,6 +2624,24 @@
     "funding": []
   },
   {
+    "slug": "jilebi",
+    "name": "jilebi",
+    "website": "https://jilebi.ai",
+    "profile": null,
+    "category_guess": "Discovered",
+    "sources": [
+      "InfraForAgents"
+    ],
+    "extra": true,
+    "logo_url": "https://www.google.com/s2/favicons?domain=jilebi.ai&sz=128",
+    "display_name": "jilebi",
+    "discovery": [
+      "InfraForAgents"
+    ],
+    "isolation": [],
+    "funding": []
+  },
+  {
     "slug": "judge0",
     "name": "Judge0",
     "website": "https://judge0.com",
@@ -4276,60 +2675,6 @@
     ],
     "isolation": [
       "Shared code runner"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "kalahari",
-    "name": "Kalahari",
-    "website": "https://amlalabs.com/kalahari",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://amlalabs.com/kalahari",
-      "checked_at": "2026-11-17T19:01:36.201865+00:00",
-      "http_status": 200,
-      "final_url": "https://amlalabs.com/kalahari/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=amlalabs.com&sz=128",
-    "display_name": "Kalahari",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "karinja",
-    "name": "Karinja",
-    "website": "https://karinja.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "blog"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://karinja.ai",
-      "checked_at": "2026-11-17T19:01:35.927806+00:00",
-      "http_status": 200,
-      "final_url": "https://karinja.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=karinja.ai&sz=128",
-    "display_name": "Karinja",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
     ],
     "funding": []
   },
@@ -4436,68 +2781,6 @@
     ]
   },
   {
-    "slug": "koda-sandbox",
-    "name": "koda-sandbox",
-    "website": "https://lijunzh.github.io/koda",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "crates.io:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://lijunzh.github.io/koda",
-      "checked_at": "2026-11-17T19:01:32.836330+00:00",
-      "http_status": 200,
-      "final_url": "https://lijunzh.github.io/koda/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=lijunzh.github.io&sz=128",
-    "display_name": "koda-sandbox",
-    "discovery": [
-      "Package registry"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "kosa8",
-    "name": "kosa8",
-    "website": "https://kosa8.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-arjan",
-      "roost-map",
-      "langchain-docs",
-      "github-topic:ai-sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://kosa8.com",
-      "checked_at": "2026-11-17T19:01:37.728267+00:00",
-      "http_status": 200,
-      "final_url": "https://kosa8.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=kosa8.com&sz=128",
-    "display_name": "kosa8",
-    "discovery": [
-      "Awesome list",
-      "roost.guide",
-      "LangChain",
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "koyeb-sandboxes",
     "name": "Koyeb Sandboxes",
     "website": "https://www.koyeb.com/pricing",
@@ -4538,55 +2821,26 @@
     "funding": []
   },
   {
-    "slug": "krova",
-    "name": "Krova",
-    "website": "https://krova.cloud",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://krova.cloud",
-      "checked_at": "2026-11-17T19:01:32.670012+00:00",
-      "http_status": 200,
-      "final_url": "https://krova.cloud",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=krova.cloud&sz=128",
-    "display_name": "Krova",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "bitkaio",
-    "name": "BitKaio",
-    "website": "https://bitkaio.com",
-    "profile": null,
+    "slug": "kubernetes-agent-sandbox",
+    "name": "Kubernetes Agent Sandbox",
+    "website": "https://agent-sandbox.sigs.k8s.io/",
+    "profile": "https://agentsandboxes.org/sandboxes/gke-agent-sandbox/",
     "category_guess": "Compute platforms with sandboxes",
     "sources": [
-      "langchain-docs"
+      "https://github.com/kubernetes-sigs/agent-sandbox",
+      "https://agent-sandbox.sigs.k8s.io",
+      "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/machine-learning/agent-sandbox",
+      "agentsandboxes.org",
+      "manual:name-audit",
+      "InfraForAgents"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://bitkaio.com",
-      "checked_at": "2026-11-17T19:01:34.796552+00:00",
-      "http_status": 200,
-      "final_url": "https://bitkaio.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=bitkaio.com&sz=128",
-    "display_name": "BitKaio",
+    "logo_url": "https://www.google.com/s2/favicons?domain=agent-sandbox.sigs.k8s.io&sz=128",
+    "display_name": "Kubernetes Agent Sandbox",
     "discovery": [
-      "LangChain"
+      "Curated index",
+      "agentsandboxes.org",
+      "Manual curation"
     ],
     "isolation": [
       "MicroVM",
@@ -4742,38 +2996,6 @@
     "funding": []
   },
   {
-    "slug": "limrun",
-    "name": "Limrun",
-    "website": "https://limrun.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Spring 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://limrun.com",
-      "checked_at": "2026-11-17T19:01:32.220069+00:00",
-      "http_status": 200,
-      "final_url": "https://limrun.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=limrun.com&sz=128",
-    "display_name": "Limrun",
-    "discovery": [
-      "Y Combinator (Spring 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Spring 2026)"
-    ]
-  },
-  {
     "slug": "lizard-sandboxes",
     "name": "Lizard Sandboxes",
     "website": "https://lizard.build/sandboxes",
@@ -4816,34 +3038,6 @@
     "funding": []
   },
   {
-    "slug": "llm-in-sandbox",
-    "name": "llm-in-sandbox",
-    "website": "https://arxiv.org/abs/2601.16206",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:agent computer sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://arxiv.org/abs/2601.16206",
-      "checked_at": "2026-11-17T19:01:33.097357+00:00",
-      "http_status": 200,
-      "final_url": "https://arxiv.org/abs/2601.16206",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128",
-    "display_name": "llm-in-sandbox",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "llm-sandbox",
     "name": "LLM Sandbox",
     "website": "https://vndee.github.io/llm-sandbox",
@@ -4873,6 +3067,86 @@
     "funding": []
   },
   {
+    "slug": "llm-in-sandbox",
+    "name": "llm-in-sandbox",
+    "website": "https://arxiv.org/abs/2601.16206",
+    "profile": null,
+    "category_guess": "Other / verify category",
+    "sources": [
+      "github:agent computer sandbox"
+    ],
+    "extra": true,
+    "website_status": "ok",
+    "website_check": {
+      "input_url": "https://arxiv.org/abs/2601.16206",
+      "checked_at": "2026-11-17T19:01:33.097357+00:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2601.16206",
+      "method": "HEAD"
+    },
+    "logo_url": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128",
+    "display_name": "llm-in-sandbox",
+    "discovery": [
+      "GitHub"
+    ],
+    "isolation": [
+      "Sandbox runtime"
+    ],
+    "funding": []
+  },
+  {
+    "slug": "tenki-sandbox",
+    "name": "Luxor Sandbox",
+    "website": "https://luxor.ai/products/sandbox",
+    "profile": "https://agentsandboxes.org/sandboxes/tenki-sandbox/",
+    "category_guess": "Hosted sandbox platforms",
+    "sources": [
+      "https://tenki.cloud/products/sandbox",
+      "https://tenki.cloud/docs/sandbox/quickstart",
+      "https://tenki.cloud/docs/sandbox/sessions",
+      "https://tenki.cloud/pricing",
+      "https://tenki.cloud/company/security",
+      "https://tenki.cloud/company/about.md",
+      "https://tenki.cloud/docs/sandbox/concepts.md",
+      "https://github.com/LuxorLabs",
+      "awesome-arjan",
+      "roost.guide",
+      "roost-map",
+      "npm:microvm sandbox agent",
+      "InfraForAgents",
+      "boxyard",
+      "producthunt"
+    ],
+    "extra": true,
+    "website_status": "ok",
+    "website_check": {
+      "input_url": "https://luxor.ai/products/sandbox",
+      "checked_at": "2026-11-17T19:01:32.634043+00:00",
+      "http_status": 200,
+      "final_url": "https://luxor.ai/products/sandbox",
+      "method": "HEAD"
+    },
+    "logo_url": "https://www.google.com/s2/favicons?domain=luxor.ai&sz=128",
+    "display_name": "Luxor Sandbox",
+    "discovery": [
+      "Curated index",
+      "Awesome list",
+      "roost.guide",
+      "npm",
+      "InfraForAgents",
+      "boxyard.dev",
+      "Product Hunt"
+    ],
+    "isolation": [
+      "Firecracker / microVM",
+      "Cloud sandbox API",
+      "Firecracker microVM"
+    ],
+    "funding": [
+      "Product Hunt launch"
+    ]
+  },
+  {
     "slug": "machine0",
     "name": "Machine0",
     "website": "https://machine0.io",
@@ -4894,67 +3168,6 @@
     "display_name": "Machine0",
     "discovery": [
       "InfraForAgents"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "maritime",
-    "name": "Maritime",
-    "website": "https://maritime.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map",
-      "producthunt"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://maritime.dev",
-      "checked_at": "2026-11-17T19:01:37.180228+00:00",
-      "http_status": 200,
-      "final_url": "https://maritime.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=maritime.dev&sz=128",
-    "display_name": "Maritime",
-    "discovery": [
-      "roost.guide",
-      "Product Hunt"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Product Hunt launch"
-    ]
-  },
-  {
-    "slug": "mas-fintech-regulatory-sandbox",
-    "name": "MAS FinTech Regulatory Sandbox",
-    "website": "https://www.mas.gov.sg/development/fintech/regulatory-sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-comparesandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.mas.gov.sg/development/fintech/regulatory-sandbox",
-      "checked_at": "2026-11-17T19:01:38.300548+00:00",
-      "http_status": 200,
-      "final_url": "https://www.mas.gov.sg/development/fintech/regulatory-sandbox",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=mas.gov.sg&sz=128",
-    "display_name": "MAS FinTech Regulatory Sandbox",
-    "discovery": [
-      "Awesome list"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -5193,40 +3406,6 @@
     ]
   },
   {
-    "slug": "morph",
-    "name": "Morph Cloud",
-    "website": "https://morphllm.com",
-    "profile": null,
-    "category_guess": "Persistent VMs",
-    "sources": [
-      "awesome-comparesandboxes",
-      "agentsandboxes.fyi",
-      "boxyard",
-      "sandboxindex.dev"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://morphllm.com",
-      "checked_at": "2026-11-17T19:01:39.466936+00:00",
-      "http_status": 200,
-      "final_url": "https://www.morphllm.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=morphllm.com&sz=128",
-    "display_name": "Morph Cloud",
-    "discovery": [
-      "Awesome list",
-      "agentsandboxes.org",
-      "boxyard.dev",
-      "sandboxindex.dev"
-    ],
-    "isolation": [
-      "Persistent VM"
-    ],
-    "funding": []
-  },
-  {
     "slug": "morph-cloud",
     "name": "Morph Cloud",
     "website": "https://cloud.morph.so",
@@ -5294,35 +3473,6 @@
     "funding": []
   },
   {
-    "slug": "munito-ai",
-    "name": "Munito AI",
-    "website": "https://munito.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://munito.ai",
-      "checked_at": "2026-11-17T19:01:33.419446+00:00",
-      "http_status": 200,
-      "final_url": "https://munito.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=munito.ai&sz=128",
-    "display_name": "Munito AI",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "namespace",
     "name": "Namespace",
     "website": "https://namespace.so",
@@ -5364,63 +3514,6 @@
     "funding": []
   },
   {
-    "slug": "nanite",
-    "name": "Nanite",
-    "website": "https://nanite.run",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://nanite.run",
-      "checked_at": "2026-11-17T19:01:31.751353+00:00",
-      "http_status": 200,
-      "final_url": "https://nanite.run",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=nanite.run&sz=128",
-    "display_name": "Nanite",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "nayaone",
-    "name": "NayaOne",
-    "website": "https://nayaone.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-comparesandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://nayaone.com",
-      "checked_at": "2026-11-17T19:01:34.461499+00:00",
-      "http_status": 200,
-      "final_url": "https://nayaone.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=nayaone.com&sz=128",
-    "display_name": "NayaOne",
-    "discovery": [
-      "Awesome list"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "nebius-token-factory-sandboxes",
     "name": "Nebius Token Factory Sandboxes",
     "website": "https://tokenfactory.nebius.com/sandboxes/about",
@@ -5435,8 +3528,8 @@
       "input_url": "https://tokenfactory.nebius.com/sandboxes/about",
       "checked_at": "2026-11-17T19:01:36.210683+00:00",
       "http_status": 403,
-      "error": "HTTP 403",
-      "method": "GET"
+      "method": "GET",
+      "error": "HTTP 403"
     },
     "logo_url": "https://www.google.com/s2/favicons?domain=tokenfactory.nebius.com&sz=128",
     "display_name": "Nebius Token Factory Sandboxes",
@@ -5449,64 +3542,21 @@
     "funding": []
   },
   {
-    "slug": "nehemiah",
-    "name": "Nehemiah",
-    "website": "https://boringcomputers.com",
+    "slug": "networking-and-persistence",
+    "name": "networking and persistence",
+    "website": "https://kvcache-ai.github.io/AgentENV/latest/concepts/sandboxes.html",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "roost-map",
-      "github:ai agent sandbox microvm",
-      "github:firecracker agent sandbox",
-      "github:coding agent sandbox",
-      "github:agent computer sandbox"
+      "awesome-fhiltscher"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://boringcomputers.com",
-      "checked_at": "2026-11-17T19:01:38.102874+00:00",
-      "http_status": 200,
-      "final_url": "https://boringcomputers.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=boringcomputers.com&sz=128",
-    "display_name": "Nehemiah",
+    "logo_url": "https://www.google.com/s2/favicons?domain=kvcache-ai.github.io&sz=128",
+    "display_name": "networking and persistence",
     "discovery": [
-      "roost.guide",
-      "GitHub"
+      "awesome-list"
     ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "nexctf-sandbox",
-    "name": "nexctf-sandbox",
-    "website": "https://nexctf.dev/plugins/sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:microsandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://nexctf.dev/plugins/sandbox",
-      "checked_at": "2026-11-17T19:01:31.643991+00:00",
-      "http_status": 200,
-      "final_url": "https://nexctf.dev/plugins/sandbox/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=nexctf.dev&sz=128",
-    "display_name": "nexctf-sandbox",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
+    "isolation": [],
     "funding": []
   },
   {
@@ -5534,34 +3584,6 @@
     "discovery": [
       "roost.guide",
       "InfraForAgents"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "nomac",
-    "name": "NoMac",
-    "website": "https://nomac.app",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "langchain-docs"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://nomac.app",
-      "checked_at": "2026-11-17T19:01:32.891238+00:00",
-      "http_status": 200,
-      "final_url": "https://nomac.app",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=nomac.app&sz=128",
-    "display_name": "NoMac",
-    "discovery": [
-      "LangChain"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -5852,36 +3874,6 @@
     "funding": []
   },
   {
-    "slug": "onlinecompiler-io",
-    "name": "OnlineCompiler.io",
-    "website": "https://onlinecompiler.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://onlinecompiler.io",
-      "checked_at": "2026-11-17T19:01:32.368621+00:00",
-      "http_status": 200,
-      "final_url": "https://onlinecompiler.io",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=onlinecompiler.io&sz=128",
-    "display_name": "OnlineCompiler.io",
-    "discovery": [
-      "Awesome list",
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "openai-code-interpreter",
     "name": "OpenAI Code Interpreter &amp; Hosted Shell",
     "website": "https://openai.com",
@@ -5906,37 +3898,6 @@
     ],
     "isolation": [
       "Cloud-managed execution"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "openai-code-interpreter-amp-hosted-shell",
-    "name": "Developers",
-    "website": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
-    "profile": "https://agentsandboxes.org/sandboxes/openai-code-interpreter/",
-    "category_guess": "Other / verify category",
-    "sources": [
-      "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
-      "https://developers.openai.com/api/docs/guides/tools-shell",
-      "https://developers.openai.com/api/docs/pricing",
-      "https://openai.com/policies/terms-of-use/"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
-      "checked_at": "2026-11-17T19:01:35.312483+00:00",
-      "http_status": 200,
-      "final_url": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=developers.openai.com&sz=128",
-    "display_name": "Developers",
-    "discovery": [
-      "Curated index"
-    ],
-    "isolation": [
-      "Sandbox runtime"
     ],
     "funding": []
   },
@@ -6021,7 +3982,8 @@
     "category_guess": "Other / verify category",
     "sources": [
       "hosted",
-      "url-fix"
+      "url-fix",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -6077,95 +4039,6 @@
     ]
   },
   {
-    "slug": "openscale",
-    "name": "OpenScale",
-    "website": "https://openscale.so",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Summer 2022",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://openscale.so",
-      "checked_at": "2026-11-17T19:01:32.608941+00:00",
-      "http_status": 200,
-      "final_url": "https://openscale.so",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=openscale.so&sz=128",
-    "display_name": "OpenScale",
-    "discovery": [
-      "Y Combinator (Summer 2022)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Summer 2022)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "openshell",
-    "name": "OpenShell",
-    "website": "https://docs.nvidia.com/openshell/latest",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "langchain-docs"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.nvidia.com/openshell/latest",
-      "checked_at": "2026-11-17T19:01:37.046208+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.nvidia.com/openshell/about/overview",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.nvidia.com&sz=128",
-    "display_name": "OpenShell",
-    "discovery": [
-      "LangChain"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "opsen",
-    "name": "Opsen",
-    "website": "https://opsen.dev/docs",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "langchain-docs"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://opsen.dev/docs",
-      "checked_at": "2026-11-17T19:01:33.693524+00:00",
-      "http_status": 200,
-      "final_url": "https://opsen.dev/docs",
-      "method": "GET"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=opsen.dev&sz=128",
-    "display_name": "Opsen",
-    "discovery": [
-      "LangChain"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "orgo",
     "name": "Orgo",
     "website": "https://www.orgo.ai",
@@ -6206,32 +4079,6 @@
     "funding": []
   },
   {
-    "slug": "orkestr",
-    "name": "Orkestr",
-    "website": "https://orkestr.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hosted"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://orkestr.io",
-      "checked_at": "2026-11-17T19:01:38.736425+00:00",
-      "http_status": 200,
-      "final_url": "https://www.orkestr.io/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=orkestr.io&sz=128",
-    "display_name": "Orkestr",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "orkestr-sandboxes",
     "name": "Orkestr Sandboxes",
     "website": "https://orkestr.eu/sandboxes",
@@ -6253,63 +4100,6 @@
     "display_name": "Orkestr Sandboxes",
     "discovery": [
       "InfraForAgents"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "ostra",
-    "name": "Ostra",
-    "website": "https://ostra.run",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://ostra.run",
-      "checked_at": "2026-11-17T19:01:33.574621+00:00",
-      "http_status": 200,
-      "final_url": "https://ostra.run",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ostra.run&sz=128",
-    "display_name": "Ostra",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "own-kernel-vm-not-a-container",
-    "name": "Docs",
-    "website": "https://docs.workpaper.co/how-it-works",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://docs.workpaper.co/how-it-works",
-      "checked_at": "2026-11-17T19:01:37.147498+00:00",
-      "http_status": 200,
-      "final_url": "https://docs.workpaper.co/how-it-works",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=docs.workpaper.co&sz=128",
-    "display_name": "Docs",
-    "discovery": [
-      "Awesome list"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -6383,218 +4173,6 @@
     "funding": []
   },
   {
-    "slug": "party",
-    "name": "Party",
-    "website": "https://party.build",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Summer 2024",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://party.build",
-      "checked_at": "2026-11-17T19:01:32.797442+00:00",
-      "http_status": 200,
-      "final_url": "https://party.build",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=party.build&sz=128",
-    "display_name": "Party",
-    "discovery": [
-      "Y Combinator (Summer 2024)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Summer 2024)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "paypal",
-    "name": "PayPal",
-    "website": "https://developer.paypal.com/tools/sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-comparesandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://developer.paypal.com/tools/sandbox",
-      "checked_at": "2026-11-17T19:01:36.879154+00:00",
-      "http_status": 200,
-      "final_url": "https://developer.paypal.com/sandbox-testing/overview",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=developer.paypal.com&sz=128",
-    "display_name": "PayPal",
-    "discovery": [
-      "Awesome list"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "pctx-py-sandbox",
-    "name": "pctx-py-sandbox",
-    "website": "https://portofcontext.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:llm code execution sandbox",
-      "github:coding agent sandbox",
-      "github:mcp sandbox execution"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://portofcontext.com",
-      "checked_at": "2026-11-17T19:01:31.657828+00:00",
-      "http_status": 200,
-      "final_url": "https://portofcontext.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=portofcontext.com&sz=128",
-    "display_name": "pctx-py-sandbox",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "piston",
-    "name": "Piston",
-    "website": "https://piston.readthedocs.io",
-    "profile": null,
-    "category_guess": "Code execution APIs",
-    "sources": [
-      "agentsandboxes.fyi"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://piston.readthedocs.io",
-      "checked_at": "2026-11-17T19:01:32.743427+00:00",
-      "http_status": 200,
-      "final_url": "https://piston.readthedocs.io/en/latest/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=piston.readthedocs.io&sz=128",
-    "display_name": "Piston",
-    "discovery": [
-      "agentsandboxes.org"
-    ],
-    "isolation": [
-      "Shared code runner"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "plaid-sandbox",
-    "name": "Plaid Sandbox",
-    "website": "https://plaid.com/docs/sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-comparesandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://plaid.com/docs/sandbox",
-      "checked_at": "2026-11-17T19:01:32.033338+00:00",
-      "http_status": 200,
-      "final_url": "https://plaid.com/docs/sandbox/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=plaid.com&sz=128",
-    "display_name": "Plaid Sandbox",
-    "discovery": [
-      "Awesome list"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "playgent",
-    "name": "Playgent",
-    "website": "https://useplaygent.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Summer 2025",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://useplaygent.com",
-      "checked_at": "2026-11-17T19:01:33.939413+00:00",
-      "http_status": 200,
-      "final_url": "https://www.useplaygent.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=useplaygent.com&sz=128",
-    "display_name": "Playgent",
-    "discovery": [
-      "Y Combinator (Summer 2025)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Summer 2025)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "pocketenv",
-    "name": "pocketenv",
-    "website": "https://pocketenv.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github",
-      "roost-map",
-      "github:firecracker agent sandbox",
-      "github:e2b sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://pocketenv.io",
-      "checked_at": "2026-11-17T19:01:31.989858+00:00",
-      "http_status": 200,
-      "final_url": "https://pocketenv.io",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=pocketenv.io&sz=128",
-    "display_name": "pocketenv",
-    "discovery": [
-      "roost.guide",
-      "GitHub"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
     "slug": "ppio",
     "name": "PPIO",
     "website": "https://ppio.com",
@@ -6602,7 +4180,8 @@
     "category_guess": "Other / verify category",
     "sources": [
       "hosted",
-      "url-fix"
+      "url-fix",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -6658,34 +4237,21 @@
     "funding": []
   },
   {
-    "slug": "prized-sandboxes",
-    "name": "Prized Sandboxes",
-    "website": "https://prized.dev",
+    "slug": "prizedsandbox",
+    "name": "PrizedSandbox",
+    "website": "https://prized.dev/docs/sandboxes-langchain?utm_source=langchain&utm_medium=listing&utm_campaign=lw-sdk",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "web",
-      "boxyard",
-      "langchain-docs"
+      "firecrawl:langchain-docs"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://prized.dev",
-      "checked_at": "2026-11-17T19:01:37.576638+00:00",
-      "http_status": 200,
-      "final_url": "https://prized.dev",
-      "method": "HEAD"
-    },
     "logo_url": "https://www.google.com/s2/favicons?domain=prized.dev&sz=128",
-    "display_name": "Prized Sandboxes",
+    "display_name": "PrizedSandbox",
     "discovery": [
-      "boxyard.dev",
-      "LangChain"
+      "langchain-docs"
     ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
+    "isolation": [],
     "funding": []
   },
   {
@@ -6719,35 +4285,6 @@
     "isolation": [
       "Self-hosted runtime",
       "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "python-sandbox",
-    "name": "Onyx",
-    "website": "https://www.onyx.app",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:llm code execution sandbox",
-      "github-topic:code-interpreter"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.onyx.app",
-      "checked_at": "2026-11-17T19:01:32.150679+00:00",
-      "http_status": 200,
-      "final_url": "https://onyx.app/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=onyx.app&sz=128",
-    "display_name": "Onyx",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
     ],
     "funding": []
   },
@@ -6817,35 +4354,6 @@
     "funding": []
   },
   {
-    "slug": "quivvo",
-    "name": "Quivvo",
-    "website": "https://tryquivvo.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://tryquivvo.com",
-      "checked_at": "2026-11-17T19:01:35.140829+00:00",
-      "http_status": 200,
-      "final_url": "https://tryquivvo.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=tryquivvo.com&sz=128",
-    "display_name": "Quivvo",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "railway-sandboxes",
     "name": "Railway Sandboxes",
     "website": "https://docs.railway.com/sandboxes.md",
@@ -6878,37 +4386,22 @@
     "funding": []
   },
   {
-    "slug": "reason-machines",
-    "name": "Reason Machines",
-    "website": "https://reasonmachines.com",
+    "slug": "railway-sandboxes-railway",
+    "name": "Railway Sandboxes",
+    "website": "https://railway.com/sandboxes",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "yc:Fall 2026",
-      "yc"
+      "InfraForAgents"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://reasonmachines.com",
-      "checked_at": "2026-11-17T19:01:34.354772+00:00",
-      "http_status": 200,
-      "final_url": "https://reasonmachines.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=reasonmachines.com&sz=128",
-    "display_name": "Reason Machines",
+    "logo_url": "https://www.google.com/s2/favicons?domain=railway.com&sz=128",
+    "display_name": "Railway Sandboxes",
     "discovery": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
+      "InfraForAgents"
     ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ]
+    "isolation": [],
+    "funding": []
   },
   {
     "slug": "render-sandboxes",
@@ -6934,67 +4427,6 @@
     "display_name": "Render Sandboxes",
     "discovery": [
       "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "replicas",
-    "name": "Replicas",
-    "website": "https://replicas.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Spring 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://replicas.dev",
-      "checked_at": "2026-11-17T19:01:37.654424+00:00",
-      "http_status": 200,
-      "final_url": "https://replicas.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=replicas.dev&sz=128",
-    "display_name": "Replicas",
-    "discovery": [
-      "Y Combinator (Spring 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Spring 2026)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "replit",
-    "name": "Replit",
-    "website": "https://replit.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://replit.com",
-      "checked_at": "2026-11-17T19:01:31.456751+00:00",
-      "http_status": 200,
-      "final_url": "https://replit.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
-    "display_name": "Replit",
-    "discovery": [
-      "Awesome list"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -7041,7 +4473,11 @@
     "sources": [
       "langchain-docs",
       "github-topic:code-interpreter",
-      "github:ai agent sandbox microvm"
+      "github:ai agent sandbox microvm",
+      "InfraForAgents",
+      "awesome-arjan",
+      "awesome-fhiltscher",
+      "awesome-comparesandboxes"
     ],
     "extra": true,
     "website_status": "ok",
@@ -7171,39 +4607,6 @@
     "funding": []
   },
   {
-    "slug": "rystic",
-    "name": "Rystic",
-    "website": "https://rystic.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Fall 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://rystic.ai",
-      "checked_at": "2026-11-17T19:01:34.513680+00:00",
-      "http_status": 200,
-      "final_url": "https://www.rystic.ai/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=rystic.ai&sz=128",
-    "display_name": "Rystic",
-    "discovery": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ]
-  },
-  {
     "slug": "sailboxes",
     "name": "Sailboxes",
     "website": "https://www.sailresearch.com/sailboxes",
@@ -7262,31 +4665,31 @@
     "funding": []
   },
   {
-    "slug": "codecapsules-sandbox",
-    "name": "Code Capsules",
-    "website": "https://codecapsules.io/sandbox",
+    "slug": "show-hn-sandbox-ai",
+    "name": "Sandbox AI",
+    "website": "https://capakit.com",
     "profile": null,
     "category_guess": "Other / verify category",
     "sources": [
-      "github:ai agent sandbox microvm",
-      "github:llm code execution sandbox"
+      "hn:show_hn:AI sandbox",
+      "hn:show_hn:mcp sandbox"
     ],
     "extra": true,
     "website_status": "ok",
     "website_check": {
-      "input_url": "https://codecapsules.io/sandbox",
-      "checked_at": "2026-11-17T19:01:36.765807+00:00",
+      "input_url": "https://capakit.com",
+      "checked_at": "2026-11-17T19:01:34.417921+00:00",
       "http_status": 200,
-      "final_url": "https://www.codecapsules.io/sandbox/",
+      "final_url": "https://capakit.com",
       "method": "HEAD"
     },
-    "logo_url": "https://www.google.com/s2/favicons?domain=codecapsules.io&sz=128",
-    "display_name": "Code Capsules",
+    "logo_url": "https://www.google.com/s2/favicons?domain=capakit.com&sz=128",
+    "display_name": "Sandbox AI",
     "discovery": [
-      "GitHub"
+      "Hacker News"
     ],
     "isolation": [
-      "Firecracker microVM"
+      "Sandbox runtime"
     ],
     "funding": []
   },
@@ -7385,81 +4788,27 @@
     "funding": []
   },
   {
-    "slug": "sandboxapi",
-    "name": "SandboxAPI",
-    "website": "https://sandboxapi.dev",
-    "profile": null,
-    "category_guess": "gVisor code execution API (RapidAPI)",
-    "sources": [
-      "Web"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sandboxapi.dev",
-      "checked_at": "2026-11-17T19:01:32.960860+00:00",
-      "http_status": 200,
-      "final_url": "https://sandboxapi.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandboxapi.dev&sz=128",
-    "display_name": "SandboxAPI",
-    "discovery": [],
-    "isolation": [
-      "gVisor"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "sandboxconstructionsite",
-    "name": "sandboxconstructionsite",
-    "website": "https://sandboxconstruction.site",
+    "slug": "show-hn-serverless-code-execution-but-for-ai-agents",
+    "name": "Sandboxed AI",
+    "website": "https://sandboxed.ai",
     "profile": null,
     "category_guess": "Other / verify category",
     "sources": [
-      "npm:agent sandbox"
+      "hn:show_hn:code execution sandbox"
     ],
     "extra": true,
     "website_status": "ok",
     "website_check": {
-      "input_url": "https://sandboxconstruction.site",
-      "checked_at": "2026-11-17T19:01:36.088065+00:00",
+      "input_url": "https://sandboxed.ai",
+      "checked_at": "2026-11-17T19:01:33.838942+00:00",
       "http_status": 200,
-      "final_url": "https://sandboxconstruction.site",
+      "final_url": "https://www.sandboxed.ai/",
       "method": "HEAD"
     },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandboxconstruction.site&sz=128",
-    "display_name": "sandboxconstructionsite",
+    "logo_url": "https://www.google.com/s2/favicons?domain=sandboxed.ai&sz=128",
+    "display_name": "Sandboxed AI",
     "discovery": [
-      "npm"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "sandboxd",
-    "name": "sandboxd",
-    "website": "https://sandboxd.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sandboxd.io",
-      "checked_at": "2026-11-17T19:01:37.298502+00:00",
-      "http_status": 200,
-      "final_url": "https://sandboxd.io",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandboxd.io&sz=128",
-    "display_name": "sandboxd",
-    "discovery": [
-      "GitHub"
+      "Hacker News"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -7495,358 +4844,6 @@
     "funding": []
   },
   {
-    "slug": "sandboxmaxxing",
-    "name": "sandboxmaxxing",
-    "website": "https://sandboxmaxxing.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:ai agent sandbox microvm"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sandboxmaxxing.com",
-      "checked_at": "2026-11-17T19:01:32.766085+00:00",
-      "http_status": 200,
-      "final_url": "https://sandboxmaxxing.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandboxmaxxing.com&sz=128",
-    "display_name": "sandboxmaxxing",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "sandboxmcp",
-    "name": "SandboxMCP",
-    "website": "https://mcpaisuite.com/libraries/sandboxmcp",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "github:llm code execution sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://mcpaisuite.com/libraries/sandboxmcp",
-      "checked_at": "2026-11-17T19:01:33.016548+00:00",
-      "http_status": 200,
-      "final_url": "https://mcpaisuite.com/libraries/sandboxmcp",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=mcpaisuite.com&sz=128",
-    "display_name": "SandboxMCP",
-    "discovery": [
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "sap-api-sandbox",
-    "name": "SAP API sandbox",
-    "website": "https://api.sap.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-comparesandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://api.sap.com",
-      "checked_at": "2026-11-17T19:01:37.476983+00:00",
-      "http_status": 200,
-      "final_url": "https://api.sap.com",
-      "method": "GET"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=api.sap.com&sz=128",
-    "display_name": "SAP API sandbox",
-    "discovery": [
-      "Awesome list"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "swe-rex",
-    "name": "SWE-ReX",
-    "website": "https://github.com/SWE-agent/SWE-ReX",
-    "profile": "https://agentsandboxes.org/sandboxes/swe-rex/",
-    "category_guess": "Open-source runtimes to self-host",
-    "sources": [
-      "https://github.com/SWE-agent/SWE-ReX",
-      "https://swe-rex.com/latest/",
-      "https://swe-rex.com/latest/architecture/",
-      "https://swe-rex.com/latest/api/deployments/docker/",
-      "https://swe-rex.com/latest/usage/",
-      "awesome-arjan",
-      "awesome-fhiltscher",
-      "github",
-      "roost-map",
-      "npm:agent sandbox",
-      "npm:e2b code-interpreter",
-      "npm:daytona sandbox",
-      "npm:modal sandbox",
-      "npm:@e2b/code-interpreter",
-      "npm:microvm sandbox agent",
-      "npm:mcp sandbox",
-      "github:agent sandbox",
-      "github:ai agent sandbox microvm",
-      "github:firecracker agent sandbox",
-      "github:llm code execution sandbox",
-      "github:e2b sandbox",
-      "https://github.com/inoio/agents-sandbox",
-      "https://github.com/inoio/agents-sandbox/blob/main/docs/get-started.md",
-      "https://inoio.de/impressum/",
-      "https://github.com/agent-infra/sandbox",
-      "https://sandbox.agent-infra.com/",
-      "https://github.com/agent-infra",
-      "https://dev.to/bytedanceoss/introducing-aio-sandbox-all-in-one-sandbox-environment-for-ai-agents-18k0",
-      "https://docs.volcengine.com/docs/6662/1851199",
-      "https://help.aliyun.com/en/model-studio/sandbox-best-practice-aio",
-      "https://github.com/anthropics/sandbox-runtime",
-      "https://www.anthropic.com/legal/privacy",
-      "https://github.com/apple/container",
-      "https://github.com/apple/container/blob/main/docs/technical-overview.md",
-      "https://github.com/apple/container/releases",
-      "https://github.com/apple/containerization",
-      "https://github.com/apple/container/blob/main/docs/command-reference.md",
-      "https://www.apple.com/contact/",
-      "https://github.com/abshkbh/arrakis",
-      "https://github.com/abshkbh/arrakis/releases",
-      "https://github.com/boxlite-ai/boxlite",
-      "https://boxlite.ai",
-      "https://docs.boxlite.ai",
-      "https://docs.boxlite.ai/architecture/index.md",
-      "https://docs.boxlite.ai/architecture/security.md",
-      "https://docs.boxlite.ai/getting-started/installation.md",
-      "https://docs.boxlite.ai/manage-sandbox/snapshots.md",
-      "https://docs.boxlite.ai/faq.md",
-      "https://github.com/TencentCloud/CubeSandbox",
-      "https://cubesandbox.com",
-      "https://cubesandbox.com/guide/quickstart",
-      "https://github.com/TencentCloud/CubeSandbox/releases",
-      "https://www.tencent.com/en-us/about.html",
-      "https://github.com/netblue30/firejail",
-      "https://firejail.wordpress.com",
-      "https://github.com/netblue30/firejail/releases",
-      "https://github.com/netblue30/firejail/blob/master/README.md",
-      "https://github.com/netblue30/firejail/blob/master/SECURITY.md",
-      "https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/sandbox.md",
-      "https://github.com/google-gemini/gemini-cli",
-      "https://policies.google.com/terms",
-      "https://github.com/kubernetes-sigs/agent-sandbox",
-      "https://agent-sandbox.sigs.k8s.io",
-      "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/machine-learning/agent-sandbox",
-      "https://github.com/kubernetes-sigs/agent-sandbox/releases",
-      "https://github.com/jupyter-server/kernel_gateway",
-      "https://jupyter-kernel-gateway.readthedocs.io/en/latest/",
-      "https://jupyter-kernel-gateway.readthedocs.io/en/latest/config-options.html",
-      "https://jupyter-kernel-gateway.readthedocs.io/en/latest/websocket-mode.html",
-      "https://pypi.org/project/jupyter-kernel-gateway/",
-      "https://github.com/jupyter-server/enterprise_gateway",
-      "https://jupyter-enterprise-gateway.readthedocs.io/en/latest/",
-      "https://jupyter-enterprise-gateway.readthedocs.io/en/latest/operators/deploy-kubernetes.html",
-      "https://github.com/vercel-labs/just-bash",
-      "https://github.com/vercel-labs/just-bash/blob/main/packages/just-bash/README.md",
-      "https://github.com/vercel-labs/just-bash/blob/main/THREAT_MODEL.md",
-      "https://vercel.com/legal/modern-slavery-act",
-      "https://github.com/langchain-ai/langchain-sandbox",
-      "https://www.langchain.com/about",
-      "https://github.com/vndee/llm-sandbox",
-      "https://vndee.github.io/llm-sandbox/",
-      "https://github.com/superradcompany/microsandbox",
-      "https://docs.microsandbox.dev",
-      "https://microsandbox.dev",
-      "https://microsandbox.dev/pricing",
-      "https://github.com/superradcompany/microsandbox/releases",
-      "https://github.com/google/nsjail",
-      "https://github.com/google/nsjail/blob/master/README.md",
-      "https://nsjail.dev",
-      "https://github.com/google/nsjail/releases",
-      "https://github.com/google/nsjail/releases/tag/3.5",
-      "https://github.com/google/nsjail/releases/tag/3.6",
-      "https://github.com/NVIDIA/OpenShell",
-      "https://docs.nvidia.com/openshell/latest/index.html",
-      "https://docs.nvidia.com/openshell/latest/about/architecture",
-      "https://docs.nvidia.com/openshell/latest/about/how-it-works",
-      "https://docs.nvidia.com/openshell/latest/extensibility/isolation-backends",
-      "https://docs.nvidia.com/openshell/latest/how-it-works/sandboxes/runtimes",
-      "https://docs.nvidia.com/openshell/how-it-works/sandboxes/overview",
-      "https://www.nvidia.com/en-us/contact/",
-      "https://github.com/opensandbox-group/OpenSandbox",
-      "https://open-sandbox.ai/",
-      "https://github.com/alibaba/OpenSandbox",
-      "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
-      "https://github.com/opensandbox-group/OpenSandbox/blob/main/docs/community/release-verification.md",
-      "https://github.com/opensandbox-group/OpenSandbox/issues/2463",
-      "https://open-sandbox.ai/architecture/",
-      "https://open-sandbox.ai/guides/secure-container",
-      "https://github.com/perplexityai/SPACE",
-      "https://space.docs.perplexity.ai/",
-      "https://github.com/perplexityai/SPACE/blob/main/docs/installation.md",
-      "https://github.com/perplexityai/SPACE/blob/main/docs/architecture.md",
-      "https://www.perplexity.ai/hub/legal/terms-of-service",
-      "https://github.com/engineer-man/piston",
-      "https://raw.githubusercontent.com/engineer-man/piston/master/readme.md",
-      "github:coding agent sandbox",
-      "github:mcp sandbox execution",
-      "agentsandboxes.fyi",
-      "hn:show_hn:agent sandbox",
-      "hn:show_hn:AI sandbox",
-      "hn:show_hn:code execution sandbox",
-      "hn:show_hn:microvm agent",
-      "hn:show_hn:firecracker sandbox",
-      "hn:show_hn:coding agent sandbox",
-      "hn:show_hn:mcp sandbox",
-      "InfraForAgents",
-      "crates.io:agent sandbox",
-      "crates.io:sandbox ai agent",
-      "crates.io:coding agent sandbox",
-      "github:opensandbox alibaba",
-      "github:firecracker sandbox api",
-      "github:agent computer sandbox",
-      "github-topic:agent-sandbox",
-      "github-topic:ai-sandbox",
-      "github-topic:firecracker-sandbox",
-      "github-topic:llm-sandbox",
-      "github-topic:agent-runtime",
-      "github-topic:code-interpreter",
-      "github:microsandbox",
-      "github:sandbox-as-a-service",
-      "github:langsmith sandbox",
-      "github:railway sandboxes"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://github.com/SWE-agent/SWE-ReX",
-      "checked_at": "2026-11-17T19:01:34.811539+00:00",
-      "http_status": 200,
-      "final_url": "https://github.com/SWE-agent/SWE-ReX",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
-    "display_name": "SWE-ReX",
-    "discovery": [
-      "Curated index",
-      "Awesome list",
-      "roost.guide",
-      "npm",
-      "GitHub",
-      "agentsandboxes.org",
-      "Hacker News",
-      "InfraForAgents",
-      "Package registry"
-    ],
-    "isolation": [
-      "Self-hosted runtime",
-      "Firecracker microVM",
-      "Docker containers"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "se3-labs",
-    "name": "SE3 Labs",
-    "website": "https://se3labs.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Fall 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://se3labs.ai",
-      "checked_at": "2026-11-17T19:01:33.153512+00:00",
-      "http_status": 200,
-      "final_url": "https://se3labs.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=se3labs.ai&sz=128",
-    "display_name": "SE3 Labs",
-    "discovery": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "sendblue-sandboxes",
-    "name": "Sendblue Sandboxes",
-    "website": "https://sendblue.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sendblue.com",
-      "checked_at": "2026-11-17T19:01:31.947487+00:00",
-      "http_status": 200,
-      "final_url": "https://www.sendblue.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sendblue.com&sz=128",
-    "display_name": "Sendblue Sandboxes",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "sf-compute-sandboxes",
-    "name": "Sf Compute Sandboxes",
-    "website": "https://autoresearch.sfcompute.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://autoresearch.sfcompute.com",
-      "checked_at": "2026-11-17T19:01:34.660225+00:00",
-      "http_status": 200,
-      "final_url": "https://autoresearch.sfcompute.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=autoresearch.sfcompute.com&sz=128",
-    "display_name": "Sf Compute Sandboxes",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "shardflux",
     "name": "ShardFlux",
     "website": "https://shardflux.dev",
@@ -7854,7 +4851,8 @@
     "category_guess": "Other / verify category",
     "sources": [
       "hosted",
-      "url-fix"
+      "url-fix",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -7906,922 +4904,6 @@
     "funding": []
   },
   {
-    "slug": "show-hn-agent-mcp-studio",
-    "name": "Agent MCP Studio",
-    "website": "https://www.agentmcp.studio",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.agentmcp.studio",
-      "checked_at": "2026-11-17T19:01:34.219360+00:00",
-      "http_status": 200,
-      "final_url": "https://www.agentmcp.studio",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=agentmcp.studio&sz=128",
-    "display_name": "Agent MCP Studio",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-agent-sandboxes-with-gpus-from-0-20-hr",
-    "name": "Tama",
-    "website": "https://tama.computer",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "InfraForAgents",
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://tama.computer",
-      "checked_at": "2026-11-17T19:01:36.163332+00:00",
-      "http_status": 200,
-      "final_url": "https://tama.computer",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=tama.computer&sz=128",
-    "display_name": "Tama",
-    "discovery": [
-      "Hacker News",
-      "InfraForAgents",
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-ai-sandbox-based-on-fep-now-online",
-    "name": "AIC AI Lab",
-    "website": "https://aic-ai-lab.site/login",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:AI sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://aic-ai-lab.site/login",
-      "checked_at": "2026-11-17T19:01:38.633362+00:00",
-      "http_status": 200,
-      "final_url": "https://aic-ai-lab.site/login",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=aic-ai-lab.site&sz=128",
-    "display_name": "AIC AI Lab",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-airlock-which-sandboxes-ai-agents-is-available-on-the-mac-app-store",
-    "name": "Airlock",
-    "website": "https://airlock.sorrel.systems",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:AI sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://airlock.sorrel.systems",
-      "checked_at": "2026-11-17T19:01:36.776071+00:00",
-      "http_status": 200,
-      "final_url": "https://airlock.sorrel.systems",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=airlock.sorrel.systems&sz=128",
-    "display_name": "Airlock",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-ash-an-agent-sandbox-for-mac",
-    "name": "Ash",
-    "website": "https://ashell.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "hn:show_hn:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://ashell.dev",
-      "checked_at": "2026-11-17T19:01:35.734696+00:00",
-      "http_status": 200,
-      "final_url": "https://ashell.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ashell.dev&sz=128",
-    "display_name": "Ash",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-ax",
-    "name": "Ax",
-    "website": "https://www.ax-check.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "hn:show_hn:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.ax-check.com",
-      "checked_at": "2026-11-17T19:01:34.441348+00:00",
-      "http_status": 200,
-      "final_url": "https://www.ax-check.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ax-check.com&sz=128",
-    "display_name": "Ax",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-bhatti",
-    "name": "Bhatti",
-    "website": "https://bhatti.sh",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:firecracker sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://bhatti.sh",
-      "checked_at": "2026-11-17T19:01:34.180550+00:00",
-      "http_status": 200,
-      "final_url": "https://bhatti.sh",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=bhatti.sh&sz=128",
-    "display_name": "Bhatti",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-cyqle",
-    "name": "Cyqle",
-    "website": "https://cyqle.in",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "hn:show_hn:AI sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://cyqle.in",
-      "checked_at": "2026-11-17T19:01:38.248386+00:00",
-      "http_status": 200,
-      "final_url": "https://cyqle.in",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=cyqle.in&sz=128",
-    "display_name": "Cyqle",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-droneship",
-    "name": "Droneship",
-    "website": "https://droneship.run",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://droneship.run",
-      "checked_at": "2026-11-17T19:01:32.035183+00:00",
-      "http_status": 200,
-      "final_url": "https://droneship.run",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=droneship.run&sz=128",
-    "display_name": "Droneship",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-endo-familiar-an-o",
-    "name": "Endo Familiar",
-    "website": "https://dcfoundation.io/containing-ai-agents-the-endo-familiar-demo",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://dcfoundation.io/containing-ai-agents-the-endo-familiar-demo",
-      "checked_at": "2026-11-17T19:01:31.456597+00:00",
-      "http_status": 200,
-      "final_url": "https://dcfoundation.io/containing-ai-agents-the-endo-familiar-demo/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=dcfoundation.io&sz=128",
-    "display_name": "Endo Familiar",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-guardiagent",
-    "name": "GuardiAgent",
-    "website": "https://www.guardiagent.com/developers",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.guardiagent.com/developers",
-      "checked_at": "2026-11-17T19:01:38.148067+00:00",
-      "http_status": 200,
-      "final_url": "https://www.guardiagent.com/developers",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=guardiagent.com&sz=128",
-    "display_name": "GuardiAgent",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-multitui",
-    "name": "Multitui",
-    "website": "https://multitui.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://multitui.com",
-      "checked_at": "2026-11-17T19:01:32.715450+00:00",
-      "http_status": 200,
-      "final_url": "https://multitui.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=multitui.com&sz=128",
-    "display_name": "Multitui",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-new-hypervisor-for-secure-sandboxing-replaces-firecracker",
-    "name": "New",
-    "website": "https://vieews.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:firecracker sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://vieews.com",
-      "checked_at": "2026-11-17T19:01:36.954102+00:00",
-      "http_status": 200,
-      "final_url": "https://www.vieews.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=vieews.com&sz=128",
-    "display_name": "New",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-open-session-the-open",
-    "name": "Open Session",
-    "website": "https://www.opensession.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.opensession.com",
-      "checked_at": "2026-11-17T19:01:32.366515+00:00",
-      "http_status": 200,
-      "final_url": "https://www.opensession.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=opensession.com&sz=128",
-    "display_name": "Open Session",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-openlegion",
-    "name": "OpenLegion",
-    "website": "https://www.openlegion.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:microvm agent"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.openlegion.ai",
-      "checked_at": "2026-11-17T19:01:38.270125+00:00",
-      "http_status": 200,
-      "final_url": "https://www.openlegion.ai/en",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=openlegion.ai&sz=128",
-    "display_name": "OpenLegion",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-pi-pod",
-    "name": "Pi pod",
-    "website": "https://pipod.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "hn:show_hn:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://pipod.dev",
-      "checked_at": "2026-11-17T19:01:31.456171+00:00",
-      "http_status": 200,
-      "final_url": "https://pipod.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=pipod.dev&sz=128",
-    "display_name": "Pi pod",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-portal-spc-f25",
-    "name": "Portal",
-    "website": "https://www.makeportals.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.makeportals.com",
-      "checked_at": "2026-11-17T19:01:31.455699+00:00",
-      "http_status": 200,
-      "final_url": "https://www.makeportals.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=makeportals.com&sz=128",
-    "display_name": "Portal",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-rtrvr-ai",
-    "name": "Rtrvr",
-    "website": "https://www.rtrvr.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.rtrvr.ai",
-      "checked_at": "2026-11-17T19:01:37.816915+00:00",
-      "http_status": 200,
-      "final_url": "https://rtrvr.ai/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=rtrvr.ai&sz=128",
-    "display_name": "Rtrvr",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-run-ai-coding-agents-in-real-local-sandboxes-not-git-worktrees",
-    "name": "SuperHQ",
-    "website": "https://superhq.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:microvm agent",
-      "hn:show_hn:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://superhq.ai",
-      "checked_at": "2026-11-17T19:01:35.827328+00:00",
-      "http_status": 200,
-      "final_url": "https://superhq.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=superhq.ai&sz=128",
-    "display_name": "SuperHQ",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-sanbox-batteries-included-sandboxes-for-ai-agents",
-    "name": "Sanbox",
-    "website": "https://sanbox.cloud",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:microvm agent"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sanbox.cloud",
-      "checked_at": "2026-11-17T19:01:36.156420+00:00",
-      "http_status": 200,
-      "final_url": "https://sanbox.cloud",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sanbox.cloud&sz=128",
-    "display_name": "Sanbox",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-sandbox-ai",
-    "name": "Sandbox AI",
-    "website": "https://capakit.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:AI sandbox",
-      "hn:show_hn:mcp sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://capakit.com",
-      "checked_at": "2026-11-17T19:01:34.417921+00:00",
-      "http_status": 200,
-      "final_url": "https://capakit.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=capakit.com&sz=128",
-    "display_name": "Sandbox AI",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-sandbox-ai-agents-with-full-macos",
-    "name": "GhostVM",
-    "website": "https://ghostvm.org",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:AI sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://ghostvm.org",
-      "checked_at": "2026-11-17T19:01:31.643727+00:00",
-      "http_status": 200,
-      "final_url": "https://ghostvm.org",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ghostvm.org&sz=128",
-    "display_name": "GhostVM",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-sandkiln",
-    "name": "Sandkiln",
-    "website": "https://sandkiln.vercel.app",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:firecracker sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sandkiln.vercel.app",
-      "checked_at": "2026-11-17T19:01:34.805943+00:00",
-      "http_status": 200,
-      "final_url": "https://sandkiln.vercel.app",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandkiln.vercel.app&sz=128",
-    "display_name": "Sandkiln",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-serverless-code-execution-but-for-ai-agents",
-    "name": "Sandboxed AI",
-    "website": "https://sandboxed.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:code execution sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sandboxed.ai",
-      "checked_at": "2026-11-17T19:01:33.838942+00:00",
-      "http_status": 200,
-      "final_url": "https://www.sandboxed.ai/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandboxed.ai&sz=128",
-    "display_name": "Sandboxed AI",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-silos",
-    "name": "Silos",
-    "website": "https://siloslabs.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "github-topic:agent-sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://siloslabs.com",
-      "checked_at": "2026-11-17T19:01:37.670823+00:00",
-      "http_status": 200,
-      "final_url": "https://siloslabs.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=siloslabs.com&sz=128",
-    "display_name": "Silos",
-    "discovery": [
-      "Hacker News",
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-spens-sandboxed-observable-coding-agents",
-    "name": "Spens sandboxed",
-    "website": "https://spens.refwd.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://spens.refwd.ai",
-      "checked_at": "2026-11-17T19:01:38.058306+00:00",
-      "http_status": 200,
-      "final_url": "https://spens.refwd.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=spens.refwd.ai&sz=128",
-    "display_name": "Spens sandboxed",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-supapool",
-    "name": "Supapool",
-    "website": "https://supapool.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:microvm agent"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://supapool.io",
-      "checked_at": "2026-11-17T19:01:36.656153+00:00",
-      "http_status": 200,
-      "final_url": "https://supapool.io",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=supapool.io&sz=128",
-    "display_name": "Supapool",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-userland-local-agent-sandbox-with-real",
-    "name": "Greywall",
-    "website": "https://greywall.io",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "github:coding agent sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://greywall.io",
-      "checked_at": "2026-11-17T19:01:33.573988+00:00",
-      "http_status": 200,
-      "final_url": "https://greywall.io",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=greywall.io&sz=128",
-    "display_name": "Greywall",
-    "discovery": [
-      "Hacker News",
-      "GitHub"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-veris",
-    "name": "Veris",
-    "website": "https://veris.ai/sandbox",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:agent sandbox",
-      "hn:show_hn:AI sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://veris.ai/sandbox",
-      "checked_at": "2026-11-17T19:01:33.923302+00:00",
-      "http_status": 200,
-      "final_url": "https://veris.ai/solutions/training-and-loops",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=veris.ai&sz=128",
-    "display_name": "Veris",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "show-hn-worldos",
-    "name": "WorldOS",
-    "website": "https://worldos.cc",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hn:show_hn:AI sandbox"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://worldos.cc",
-      "checked_at": "2026-11-17T19:01:33.085277+00:00",
-      "http_status": 200,
-      "final_url": "https://worldos.cc",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=worldos.cc&sz=128",
-    "display_name": "WorldOS",
-    "discovery": [
-      "Hacker News"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "shuru",
-    "name": "shuru",
-    "website": "http://shuru.run",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost-map",
-      "github:agent sandbox",
-      "github:ai agent sandbox microvm",
-      "hn:show_hn:AI sandbox",
-      "hn:show_hn:code execution sandbox",
-      "hn:show_hn:microvm agent"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "http://shuru.run",
-      "checked_at": "2026-11-17T19:01:31.644090+00:00",
-      "http_status": 200,
-      "final_url": "http://shuru.run",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=shuru.run&sz=128",
-    "display_name": "shuru",
-    "discovery": [
-      "roost.guide",
-      "GitHub",
-      "Hacker News"
-    ],
-    "isolation": [
-      "Firecracker microVM"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "simular-box",
-    "name": "Simular Box",
-    "website": "https://box.simular.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hosted"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://box.simular.ai",
-      "checked_at": "2026-11-17T19:01:35.141434+00:00",
-      "http_status": 200,
-      "final_url": "https://box.simular.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=box.simular.ai&sz=128",
-    "display_name": "Simular Box",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "smol-machines",
     "name": "smol machines",
     "website": "https://smolmachines.com",
@@ -8862,7 +4944,8 @@
     "category_guess": "Other / verify category",
     "sources": [
       "hosted",
-      "url-fix"
+      "url-fix",
+      "InfraForAgents"
     ],
     "extra": true,
     "website_status": "ok",
@@ -8882,37 +4965,32 @@
     "funding": []
   },
   {
-    "slug": "sparkles",
-    "name": "Sparkles",
-    "website": "https://sparkles.dev",
+    "slug": "show-hn-spens-sandboxed-observable-coding-agents",
+    "name": "Spens sandboxed",
+    "website": "https://spens.refwd.ai",
     "profile": null,
     "category_guess": "Other / verify category",
     "sources": [
-      "yc:Winter 2026",
-      "yc"
+      "hn:show_hn:coding agent sandbox"
     ],
     "extra": true,
     "website_status": "ok",
     "website_check": {
-      "input_url": "https://sparkles.dev",
-      "checked_at": "2026-11-17T19:01:34.354946+00:00",
+      "input_url": "https://spens.refwd.ai",
+      "checked_at": "2026-11-17T19:01:38.058306+00:00",
       "http_status": 200,
-      "final_url": "https://sparkles.dev",
+      "final_url": "https://spens.refwd.ai",
       "method": "HEAD"
     },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sparkles.dev&sz=128",
-    "display_name": "Sparkles",
+    "logo_url": "https://www.google.com/s2/favicons?domain=spens.refwd.ai&sz=128",
+    "display_name": "Spens sandboxed",
     "discovery": [
-      "Y Combinator (Winter 2026)",
-      "Y Combinator"
+      "Hacker News"
     ],
     "isolation": [
       "Sandbox runtime"
     ],
-    "funding": [
-      "Y Combinator (Winter 2026)",
-      "Y Combinator"
-    ]
+    "funding": []
   },
   {
     "slug": "sphere-engine",
@@ -8979,62 +5057,6 @@
     "discovery": [
       "Curated index"
     ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "stackmachine",
-    "name": "StackMachine",
-    "website": "https://stackmachine.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://stackmachine.com",
-      "checked_at": "2026-11-17T19:01:38.340323+00:00",
-      "http_status": 200,
-      "final_url": "https://www.stackmachine.com/",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=stackmachine.com&sz=128",
-    "display_name": "StackMachine",
-    "discovery": [
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "stateset",
-    "name": "StateSet",
-    "website": "https://stateset.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "hosted"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://stateset.com",
-      "checked_at": "2026-11-17T19:01:35.008680+00:00",
-      "http_status": 200,
-      "final_url": "https://stateset.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=stateset.com&sz=128",
-    "display_name": "StateSet",
-    "discovery": [],
     "isolation": [
       "Sandbox runtime"
     ],
@@ -9196,26 +5218,230 @@
     ]
   },
   {
-    "slug": "tangle",
-    "name": "Tangle",
-    "website": "https://tangle.so",
+    "slug": "superservesandbox",
+    "name": "SuperserveSandbox",
+    "website": "https://docs.superserve.ai/introduction",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "hosted"
+      "firecrawl:langchain-docs"
+    ],
+    "extra": true,
+    "logo_url": "https://www.google.com/s2/favicons?domain=docs.superserve.ai&sz=128",
+    "display_name": "SuperserveSandbox",
+    "discovery": [
+      "langchain-docs"
+    ],
+    "isolation": [],
+    "funding": []
+  },
+  {
+    "slug": "swe-rex",
+    "name": "SWE-ReX",
+    "website": "https://github.com/SWE-agent/SWE-ReX",
+    "profile": "https://agentsandboxes.org/sandboxes/swe-rex/",
+    "category_guess": "Open-source runtimes to self-host",
+    "sources": [
+      "https://github.com/SWE-agent/SWE-ReX",
+      "https://swe-rex.com/latest/",
+      "https://swe-rex.com/latest/architecture/",
+      "https://swe-rex.com/latest/api/deployments/docker/",
+      "https://swe-rex.com/latest/usage/",
+      "awesome-arjan",
+      "awesome-fhiltscher",
+      "github",
+      "roost-map",
+      "npm:agent sandbox",
+      "npm:e2b code-interpreter",
+      "npm:daytona sandbox",
+      "npm:modal sandbox",
+      "npm:@e2b/code-interpreter",
+      "npm:microvm sandbox agent",
+      "npm:mcp sandbox",
+      "github:agent sandbox",
+      "github:ai agent sandbox microvm",
+      "github:firecracker agent sandbox",
+      "github:llm code execution sandbox",
+      "github:e2b sandbox",
+      "https://github.com/inoio/agents-sandbox",
+      "https://github.com/inoio/agents-sandbox/blob/main/docs/get-started.md",
+      "https://inoio.de/impressum/",
+      "https://github.com/agent-infra/sandbox",
+      "https://sandbox.agent-infra.com/",
+      "https://github.com/agent-infra",
+      "https://dev.to/bytedanceoss/introducing-aio-sandbox-all-in-one-sandbox-environment-for-ai-agents-18k0",
+      "https://docs.volcengine.com/docs/6662/1851199",
+      "https://help.aliyun.com/en/model-studio/sandbox-best-practice-aio",
+      "https://github.com/anthropics/sandbox-runtime",
+      "https://www.anthropic.com/legal/privacy",
+      "https://github.com/apple/container",
+      "https://github.com/apple/container/blob/main/docs/technical-overview.md",
+      "https://github.com/apple/container/releases",
+      "https://github.com/apple/containerization",
+      "https://github.com/apple/container/blob/main/docs/command-reference.md",
+      "https://www.apple.com/contact/",
+      "https://github.com/abshkbh/arrakis",
+      "https://github.com/abshkbh/arrakis/releases",
+      "https://github.com/boxlite-ai/boxlite",
+      "https://boxlite.ai",
+      "https://docs.boxlite.ai",
+      "https://docs.boxlite.ai/architecture/index.md",
+      "https://docs.boxlite.ai/architecture/security.md",
+      "https://docs.boxlite.ai/getting-started/installation.md",
+      "https://docs.boxlite.ai/manage-sandbox/snapshots.md",
+      "https://docs.boxlite.ai/faq.md",
+      "https://github.com/TencentCloud/CubeSandbox",
+      "https://cubesandbox.com",
+      "https://cubesandbox.com/guide/quickstart",
+      "https://github.com/TencentCloud/CubeSandbox/releases",
+      "https://www.tencent.com/en-us/about.html",
+      "https://github.com/netblue30/firejail",
+      "https://firejail.wordpress.com",
+      "https://github.com/netblue30/firejail/releases",
+      "https://github.com/netblue30/firejail/blob/master/README.md",
+      "https://github.com/netblue30/firejail/blob/master/SECURITY.md",
+      "https://github.com/google-gemini/gemini-cli/blob/main/docs/cli/sandbox.md",
+      "https://github.com/google-gemini/gemini-cli",
+      "https://policies.google.com/terms",
+      "https://github.com/kubernetes-sigs/agent-sandbox",
+      "https://agent-sandbox.sigs.k8s.io",
+      "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/machine-learning/agent-sandbox",
+      "https://github.com/kubernetes-sigs/agent-sandbox/releases",
+      "https://github.com/jupyter-server/kernel_gateway",
+      "https://jupyter-kernel-gateway.readthedocs.io/en/latest/",
+      "https://jupyter-kernel-gateway.readthedocs.io/en/latest/config-options.html",
+      "https://jupyter-kernel-gateway.readthedocs.io/en/latest/websocket-mode.html",
+      "https://pypi.org/project/jupyter-kernel-gateway/",
+      "https://github.com/jupyter-server/enterprise_gateway",
+      "https://jupyter-enterprise-gateway.readthedocs.io/en/latest/",
+      "https://jupyter-enterprise-gateway.readthedocs.io/en/latest/operators/deploy-kubernetes.html",
+      "https://github.com/vercel-labs/just-bash",
+      "https://github.com/vercel-labs/just-bash/blob/main/packages/just-bash/README.md",
+      "https://github.com/vercel-labs/just-bash/blob/main/THREAT_MODEL.md",
+      "https://vercel.com/legal/modern-slavery-act",
+      "https://github.com/langchain-ai/langchain-sandbox",
+      "https://www.langchain.com/about",
+      "https://github.com/vndee/llm-sandbox",
+      "https://vndee.github.io/llm-sandbox/",
+      "https://github.com/superradcompany/microsandbox",
+      "https://docs.microsandbox.dev",
+      "https://microsandbox.dev",
+      "https://microsandbox.dev/pricing",
+      "https://github.com/superradcompany/microsandbox/releases",
+      "https://github.com/google/nsjail",
+      "https://github.com/google/nsjail/blob/master/README.md",
+      "https://nsjail.dev",
+      "https://github.com/google/nsjail/releases",
+      "https://github.com/google/nsjail/releases/tag/3.5",
+      "https://github.com/google/nsjail/releases/tag/3.6",
+      "https://github.com/NVIDIA/OpenShell",
+      "https://docs.nvidia.com/openshell/latest/index.html",
+      "https://docs.nvidia.com/openshell/latest/about/architecture",
+      "https://docs.nvidia.com/openshell/latest/about/how-it-works",
+      "https://docs.nvidia.com/openshell/latest/extensibility/isolation-backends",
+      "https://docs.nvidia.com/openshell/latest/how-it-works/sandboxes/runtimes",
+      "https://docs.nvidia.com/openshell/how-it-works/sandboxes/overview",
+      "https://www.nvidia.com/en-us/contact/",
+      "https://github.com/opensandbox-group/OpenSandbox",
+      "https://open-sandbox.ai/",
+      "https://github.com/alibaba/OpenSandbox",
+      "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
+      "https://github.com/opensandbox-group/OpenSandbox/blob/main/docs/community/release-verification.md",
+      "https://github.com/opensandbox-group/OpenSandbox/issues/2463",
+      "https://open-sandbox.ai/architecture/",
+      "https://open-sandbox.ai/guides/secure-container",
+      "https://github.com/perplexityai/SPACE",
+      "https://space.docs.perplexity.ai/",
+      "https://github.com/perplexityai/SPACE/blob/main/docs/installation.md",
+      "https://github.com/perplexityai/SPACE/blob/main/docs/architecture.md",
+      "https://www.perplexity.ai/hub/legal/terms-of-service",
+      "https://github.com/engineer-man/piston",
+      "https://raw.githubusercontent.com/engineer-man/piston/master/readme.md",
+      "github:coding agent sandbox",
+      "github:mcp sandbox execution",
+      "agentsandboxes.fyi",
+      "hn:show_hn:agent sandbox",
+      "hn:show_hn:AI sandbox",
+      "hn:show_hn:code execution sandbox",
+      "hn:show_hn:microvm agent",
+      "hn:show_hn:firecracker sandbox",
+      "hn:show_hn:coding agent sandbox",
+      "hn:show_hn:mcp sandbox",
+      "InfraForAgents",
+      "crates.io:agent sandbox",
+      "crates.io:sandbox ai agent",
+      "crates.io:coding agent sandbox",
+      "github:opensandbox alibaba",
+      "github:firecracker sandbox api",
+      "github:agent computer sandbox",
+      "github-topic:agent-sandbox",
+      "github-topic:ai-sandbox",
+      "github-topic:firecracker-sandbox",
+      "github-topic:llm-sandbox",
+      "github-topic:agent-runtime",
+      "github-topic:code-interpreter",
+      "github:microsandbox",
+      "github:sandbox-as-a-service",
+      "github:langsmith sandbox",
+      "github:railway sandboxes",
+      "firecrawl:langchain-docs"
     ],
     "extra": true,
     "website_status": "ok",
     "website_check": {
-      "input_url": "https://tangle.so",
-      "checked_at": "2026-11-17T19:01:38.513132+00:00",
+      "input_url": "https://github.com/SWE-agent/SWE-ReX",
+      "checked_at": "2026-11-17T19:01:34.811539+00:00",
       "http_status": 200,
-      "final_url": "https://tangle.so",
+      "final_url": "https://github.com/SWE-agent/SWE-ReX",
       "method": "HEAD"
     },
-    "logo_url": "https://www.google.com/s2/favicons?domain=tangle.so&sz=128",
-    "display_name": "Tangle",
-    "discovery": [],
+    "logo_url": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "display_name": "SWE-ReX",
+    "discovery": [
+      "Curated index",
+      "Awesome list",
+      "roost.guide",
+      "npm",
+      "GitHub",
+      "agentsandboxes.org",
+      "Hacker News",
+      "InfraForAgents",
+      "Package registry"
+    ],
+    "isolation": [
+      "Self-hosted runtime",
+      "Firecracker microVM",
+      "Docker containers"
+    ],
+    "funding": []
+  },
+  {
+    "slug": "show-hn-agent-sandboxes-with-gpus-from-0-20-hr",
+    "name": "Tama",
+    "website": "https://tama.computer",
+    "profile": null,
+    "category_guess": "Other / verify category",
+    "sources": [
+      "hn:show_hn:agent sandbox",
+      "InfraForAgents",
+      "boxyard"
+    ],
+    "extra": true,
+    "website_status": "ok",
+    "website_check": {
+      "input_url": "https://tama.computer",
+      "checked_at": "2026-11-17T19:01:36.163332+00:00",
+      "http_status": 200,
+      "final_url": "https://tama.computer",
+      "method": "HEAD"
+    },
+    "logo_url": "https://www.google.com/s2/favicons?domain=tama.computer&sz=128",
+    "display_name": "Tama",
+    "discovery": [
+      "Hacker News",
+      "InfraForAgents",
+      "boxyard.dev"
+    ],
     "isolation": [
       "Sandbox runtime"
     ],
@@ -9313,56 +5539,24 @@
     "funding": []
   },
   {
-    "slug": "tenki-sandbox",
-    "name": "Luxor Sandbox",
-    "website": "https://luxor.ai/products/sandbox",
-    "profile": "https://agentsandboxes.org/sandboxes/tenki-sandbox/",
-    "category_guess": "Hosted sandbox platforms",
+    "slug": "tenki-sandbox-tenki",
+    "name": "Tenki Sandbox",
+    "website": "https://tenki.cloud/products/sandbox",
+    "profile": null,
+    "category_guess": "Discovered",
     "sources": [
-      "https://tenki.cloud/products/sandbox",
-      "https://tenki.cloud/docs/sandbox/quickstart",
-      "https://tenki.cloud/docs/sandbox/sessions",
-      "https://tenki.cloud/pricing",
-      "https://tenki.cloud/company/security",
-      "https://tenki.cloud/company/about.md",
-      "https://tenki.cloud/docs/sandbox/concepts.md",
-      "https://github.com/LuxorLabs",
-      "awesome-arjan",
-      "roost.guide",
-      "roost-map",
-      "npm:microvm sandbox agent",
       "InfraForAgents",
-      "boxyard",
-      "producthunt"
+      "awesome-arjan"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://luxor.ai/products/sandbox",
-      "checked_at": "2026-11-17T19:01:32.634043+00:00",
-      "http_status": 200,
-      "final_url": "https://luxor.ai/products/sandbox",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=luxor.ai&sz=128",
-    "display_name": "Luxor Sandbox",
+    "logo_url": "https://www.google.com/s2/favicons?domain=tenki.cloud&sz=128",
+    "display_name": "Tenki Sandbox",
     "discovery": [
-      "Curated index",
-      "Awesome list",
-      "roost.guide",
-      "npm",
       "InfraForAgents",
-      "boxyard.dev",
-      "Product Hunt"
+      "awesome-list"
     ],
-    "isolation": [
-      "Firecracker / microVM",
-      "Cloud sandbox API",
-      "Firecracker microVM"
-    ],
-    "funding": [
-      "Product Hunt launch"
-    ]
+    "isolation": [],
+    "funding": []
   },
   {
     "slug": "tensorlake-sandboxes",
@@ -9412,102 +5606,6 @@
     "funding": []
   },
   {
-    "slug": "terrarium",
-    "name": "terrarium",
-    "website": "https://terrarium.sh",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://terrarium.sh",
-      "checked_at": "2026-11-17T19:01:31.455920+00:00",
-      "http_status": 200,
-      "final_url": "https://terrarium.sh",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=terrarium.sh&sz=128",
-    "display_name": "terrarium",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "the-company-company",
-    "name": "The Company Company",
-    "website": "https://www.thecompany.company",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Fall 2026",
-      "yc"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.thecompany.company",
-      "checked_at": "2026-11-17T19:01:38.045924+00:00",
-      "http_status": 200,
-      "final_url": "https://www.thecompany.company",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=thecompany.company&sz=128",
-    "display_name": "The Company Company",
-    "discovery": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Fall 2026)",
-      "Y Combinator"
-    ]
-  },
-  {
-    "slug": "thunder-compute",
-    "name": "Thunder Compute",
-    "website": "https://www.thundercompute.com",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "yc:Summer 2024",
-      "yc",
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.thundercompute.com",
-      "checked_at": "2026-11-17T19:01:33.962593+00:00",
-      "http_status": 200,
-      "final_url": "https://www.thundercompute.com",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=thundercompute.com&sz=128",
-    "display_name": "Thunder Compute",
-    "discovery": [
-      "Y Combinator (Summer 2024)",
-      "Y Combinator",
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": [
-      "Y Combinator (Summer 2024)",
-      "Y Combinator"
-    ]
-  },
-  {
     "slug": "together-code-sandbox",
     "name": "Together Code Sandbox",
     "website": "https://www.together.ai/code-sandbox",
@@ -9552,29 +5650,21 @@
     "funding": []
   },
   {
-    "slug": "ucloud-sandbox",
+    "slug": "ucloud-sandbox-astraflow",
     "name": "UCloud Sandbox",
-    "website": "https://www.ucloud.cn",
+    "website": "https://astraflow.ucloud.cn",
     "profile": null,
-    "category_guess": "Other / verify category",
+    "category_guess": "Discovered",
     "sources": [
-      "hosted"
+      "InfraForAgents"
     ],
     "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://www.ucloud.cn",
-      "checked_at": "2026-11-17T19:01:35.071100+00:00",
-      "http_status": 200,
-      "final_url": "https://www.ucloud.cn",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=ucloud.cn&sz=128",
+    "logo_url": "https://www.google.com/s2/favicons?domain=astraflow.ucloud.cn&sz=128",
     "display_name": "UCloud Sandbox",
-    "discovery": [],
-    "isolation": [
-      "Sandbox runtime"
+    "discovery": [
+      "InfraForAgents"
     ],
+    "isolation": [],
     "funding": []
   },
   {
@@ -9720,7 +5810,8 @@
       "InfraForAgents",
       "sandboxindex.dev",
       "langchain-docs",
-      "producthunt"
+      "producthunt",
+      "firecrawl:langchain-docs"
     ],
     "extra": true,
     "website_status": "ok",
@@ -9753,27 +5844,28 @@
     ]
   },
   {
-    "slug": "vers",
-    "name": "Vers",
-    "website": "https://vers.sh",
+    "slug": "show-hn-veris",
+    "name": "Veris",
+    "website": "https://veris.ai/sandbox",
     "profile": null,
     "category_guess": "Other / verify category",
     "sources": [
-      "boxyard"
+      "hn:show_hn:agent sandbox",
+      "hn:show_hn:AI sandbox"
     ],
     "extra": true,
     "website_status": "ok",
     "website_check": {
-      "input_url": "https://vers.sh",
-      "checked_at": "2026-11-17T19:01:35.118798+00:00",
+      "input_url": "https://veris.ai/sandbox",
+      "checked_at": "2026-11-17T19:01:33.923302+00:00",
       "http_status": 200,
-      "final_url": "https://vers.sh",
+      "final_url": "https://veris.ai/solutions/training-and-loops",
       "method": "HEAD"
     },
-    "logo_url": "https://www.google.com/s2/favicons?domain=vers.sh&sz=128",
-    "display_name": "Vers",
+    "logo_url": "https://www.google.com/s2/favicons?domain=veris.ai&sz=128",
+    "display_name": "Veris",
     "discovery": [
-      "boxyard.dev"
+      "Hacker News"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -9831,34 +5923,6 @@
     "display_name": "Volcengine veFaaS",
     "discovery": [
       "InfraForAgents"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "wbx",
-    "name": "WBX Sandbox",
-    "website": "https://sandbox.wbx.cz",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "langchain-docs"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://sandbox.wbx.cz",
-      "checked_at": "2026-11-17T19:01:35.344213+00:00",
-      "http_status": 200,
-      "final_url": "https://sandbox.wbx.cz",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=sandbox.wbx.cz&sz=128",
-    "display_name": "WBX Sandbox",
-    "discovery": [
-      "LangChain"
     ],
     "isolation": [
       "Sandbox runtime"
@@ -9940,36 +6004,6 @@
     "funding": []
   },
   {
-    "slug": "workpaper",
-    "name": "Workpaper",
-    "website": "https://workpaper.co",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "awesome-fhiltscher",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://workpaper.co",
-      "checked_at": "2026-11-17T19:01:33.841403+00:00",
-      "http_status": 200,
-      "final_url": "https://workpaper.co",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=workpaper.co&sz=128",
-    "display_name": "Workpaper",
-    "discovery": [
-      "Awesome list",
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
     "slug": "yepcode-run",
     "name": "YepCode Run",
     "website": "https://yepcode.io",
@@ -9979,11 +6013,6 @@
       "awesome-arjan",
       "hn:show_hn:code execution sandbox",
       "InfraForAgents",
-      "url-fix",
-      "url-fix",
-      "url-fix",
-      "url-fix",
-      "url-fix",
       "url-fix"
     ],
     "extra": true,
@@ -10003,164 +6032,6 @@
       "InfraForAgents"
     ],
     "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "zipbox",
-    "name": "Zipbox",
-    "website": "https://zipbox.ai",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "boxyard"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://zipbox.ai",
-      "checked_at": "2026-11-17T19:01:34.949962+00:00",
-      "http_status": 200,
-      "final_url": "https://zipbox.ai",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=zipbox.ai&sz=128",
-    "display_name": "Zipbox",
-    "discovery": [
-      "boxyard.dev"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "zode",
-    "name": "Zode",
-    "website": "https://zode.dev",
-    "profile": null,
-    "category_guess": "Other / verify category",
-    "sources": [
-      "roost.guide",
-      "roost-map"
-    ],
-    "extra": true,
-    "website_status": "ok",
-    "website_check": {
-      "input_url": "https://zode.dev",
-      "checked_at": "2026-11-17T19:01:36.360040+00:00",
-      "http_status": 200,
-      "final_url": "https://zode.dev",
-      "method": "HEAD"
-    },
-    "logo_url": "https://www.google.com/s2/favicons?domain=zode.dev&sz=128",
-    "display_name": "Zode",
-    "discovery": [
-      "roost.guide"
-    ],
-    "isolation": [
-      "Sandbox runtime"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "kubernetes-agent-sandbox",
-    "name": "Kubernetes Agent Sandbox",
-    "website": "https://agent-sandbox.sigs.k8s.io/",
-    "profile": "https://agentsandboxes.org/sandboxes/gke-agent-sandbox/",
-    "category_guess": "Compute platforms with sandboxes",
-    "sources": [
-      "https://github.com/kubernetes-sigs/agent-sandbox",
-      "https://agent-sandbox.sigs.k8s.io",
-      "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/machine-learning/agent-sandbox",
-      "agentsandboxes.org",
-      "manual:name-audit"
-    ],
-    "extra": true,
-    "display_name": "Kubernetes Agent Sandbox",
-    "discovery": [
-      "Curated index",
-      "agentsandboxes.org",
-      "Manual curation"
-    ],
-    "isolation": [
-      "MicroVM",
-      "Container sandbox"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "aws-lambda-microvms",
-    "name": "AWS Lambda MicroVMs",
-    "website": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-microvms-guide.html",
-    "profile": null,
-    "category_guess": "Compute platforms with sandboxes",
-    "sources": [
-      "https://docs.aws.amazon.com/lambda/latest/dg/lambda-microvms-guide.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-how-it-works.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-launching.html",
-      "https://docs.aws.amazon.com/lambda/latest/dg/microvms-integrations-claude-managed-agents.html",
-      "https://aws.amazon.com/lambda/pricing/",
-      "manual:curation"
-    ],
-    "extra": true,
-    "display_name": "AWS Lambda MicroVMs",
-    "discovery": [
-      "Manual curation"
-    ],
-    "isolation": [
-      "Firecracker microVM",
-      "AWS Nitro"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "aws-nitro-sandboxes",
-    "name": "AWS Nitro Sandboxes",
-    "website": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-nitro-sandboxes.html",
-    "profile": null,
-    "category_guess": "Compute platforms with sandboxes",
-    "sources": [
-      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-ec2-nitro-sandboxes.html",
-      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/nitro-sandboxes-run-firecracker.html",
-      "https://docs.aws.amazon.com/eks/latest/userguide/sandboxing.html",
-      "https://aws.amazon.com/blogs/compute/nitro-sandboxes-hardware-isolation-for-every-eks-pod-ecs-task-and-ec2-workload/",
-      "https://github.com/firecracker-microvm/firecracker/blob/main/docs/nitro-sandboxes/README.md",
-      "https://github.com/aws-samples/sample-eks-nitro-sandbox",
-      "manual:curation"
-    ],
-    "extra": true,
-    "display_name": "AWS Nitro Sandboxes",
-    "discovery": [
-      "Manual curation"
-    ],
-    "isolation": [
-      "Firecracker microVM",
-      "AWS Nitro"
-    ],
-    "funding": []
-  },
-  {
-    "slug": "chainguard-workspaces",
-    "name": "Chainguard Workspaces",
-    "website": "https://www.chainguard.dev/docs/chainguard/workspaces",
-    "profile": null,
-    "category_guess": "Compute platforms with sandboxes",
-    "sources": [
-      "https://www.chainguard.dev/products/workspaces",
-      "https://www.chainguard.dev/docs/chainguard/workspaces",
-      "https://www.chainguard.dev/docs/chainguard/workspaces/credentials",
-      "https://www.chainguard.dev/unchained/introducing-chainguard-workspaces",
-      "manual:curation"
-    ],
-    "extra": true,
-    "display_name": "Chainguard Workspaces",
-    "discovery": [
-      "Manual curation"
-    ],
-    "isolation": [
-      "Firecracker microVM",
       "Sandbox runtime"
     ],
     "funding": []

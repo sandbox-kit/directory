@@ -4,6 +4,8 @@ import type { SandboxProvider } from "@/types/provider";
 /** First path segment(s) scope uniqueness for multi-product doc sites. */
 const DOC_HOST_SCOPE_DEPTH: Record<string, number> = {
   "docs.aws.amazon.com": 1,
+  /** One row per org/repo (OSS sandboxes). */
+  "github.com": 2,
 };
 
 function scopedHostKey(url: string, host: string): string {
@@ -30,7 +32,7 @@ export function providerHostKey(provider: SandboxProvider): string {
   return scopedHostKey(url, host);
 }
 
-function entryRank(provider: SandboxProvider): number {
+export function providerRowRank(provider: SandboxProvider): number {
   const status = provider.website_status ?? "";
   const statusScore =
     status === "ok"
@@ -55,7 +57,7 @@ export function dedupeProvidersByHost(
     const key = providerHostKey(provider);
     if (!key) continue;
     const prev = byHost.get(key);
-    if (!prev || entryRank(provider) > entryRank(prev)) {
+    if (!prev || providerRowRank(provider) > providerRowRank(prev)) {
       byHost.set(key, provider);
     }
   }

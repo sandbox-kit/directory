@@ -34,6 +34,18 @@ describe("dedupeProvidersByHost", () => {
     expect(key).toBe("vendor.io");
   });
 
+  it("scopes GitHub repos by org/repo", () => {
+    const a = providerHostKey(
+      base({ website: "https://github.com/org-a/sandbox-runtime" }),
+    );
+    const b = providerHostKey(
+      base({ website: "https://github.com/org-b/microsandbox" }),
+    );
+    expect(a).toBe("github.com/org-a/sandbox-runtime");
+    expect(b).toBe("github.com/org-b/microsandbox");
+    expect(a).not.toBe(b);
+  });
+
   it("scopes AWS docs by product path", () => {
     const lambda = providerHostKey(
       base({

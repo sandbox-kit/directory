@@ -28,4 +28,4 @@ Provider records live in [`public/agent-sandbox-providers.json`](public/agent-sa
 
 ## For developers
 
-To run the app locally, change the inventory, or work on the scrapers, see **[setup.md](./setup.md)**.
+To run the app locally, refresh the inventory, or configure scheduled sync, see **[setup.md](./setup.md)**.

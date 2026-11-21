@@ -17,7 +17,8 @@ description: >-
 
 ## Data
 
-- Canonical inventory: `public/agent-sandbox-providers.json` (Python scripts write here; no duplicate at repo root)
+- Canonical inventory: `public/agent-sandbox-providers.json`
+- Firecrawl pipeline: `npm run discover:sources` → `npm run sync:providers`; code in `scripts/pipeline/`
 - App loads via `fetch("/agent-sandbox-providers.json")` — served by Vite from `public/`
 - Do **not** import the full JSON into the client bundle
 
@@ -65,8 +66,6 @@ src/
 | `frontend-design`               | Visual polish                      |
 | `accessibility` / `performance` | Web quality audits                 |
 
-Add or update: `npx skills add <pkg@skill> -y --agent cursor --copy` then `npm run skills:sync` (skills CLI defaults to `.agents/`; sync moves copies here). Do not use `.agents/` in this repo.
-
 ## Commands
 
 ```bash
@@ -76,4 +75,4 @@ npm run lint
 npm run build
 ```
 
-After updating inventory from Python scripts, run `npm run validate:providers` (or `npm run dev`, which runs it on predev).
+After updating inventory, run `npm run validate:providers` (or `npm run dev`, which runs it on predev).

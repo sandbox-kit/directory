@@ -10,6 +10,7 @@ React 19, React Router 7 (route loaders), Tailwind CSS 4 (`@tailwindcss/vite`), 
 
 ```bash
 npm install
+npm run audit:providers   # dry-run keep/drop report
 npm run dev          # Zod-checks inventory, then Vite
 npm run lint
 npm run build
@@ -20,59 +21,45 @@ npm test
 
 ## Provider inventory
 
-| Artifact                                                                     | Role                                      |
-| ---------------------------------------------------------------------------- | ----------------------------------------- |
-| [`public/agent-sandbox-providers.json`](public/agent-sandbox-providers.json) | **Canonical data** for the UI and scripts |
+| Artifact                                                                               | Role                                                   |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [`public/agent-sandbox-providers.json`](public/agent-sandbox-providers.json)           | **Canonical data** for the UI                          |
+| [`config/firecrawl-sources.json`](config/firecrawl-sources.json)                       | Active pages used to **extract vendors**               |
+| [`config/source-discovery.json`](config/source-discovery.json)                         | Search queries + hub pages to **find new source URLs** |
+| [`config/discovered-sources.json`](config/discovered-sources.json)                     | Registry of candidate source pages (scores, status)    |
+| [`config/discovered-provider-mentions.json`](config/discovered-provider-mentions.json) | Vendors from HN/X/blogs (mention search deep extract)  |
 
-Regenerate and maintain:
-
-```bash
-python3 scripts/scrape_agentsandboxes.py   # cache under scripts/.agentsandboxes-scrape.json
-python3 scripts/discover_providers.py      # merge discoveries → public/agent-sandbox-providers.json
-python3 scripts/validate_websites.py        # HTTP-check, dedupe, logos, enrich
-npm run resolve:logos                       # one logo_url per row (fast UI)
-npm run audit:providers                     # drop non-sandboxes / bad URLs
-python3 scripts/enrich_providers.py         # metadata refresh without re-crawling
-npm run validate:providers                  # Zod gate (predev / prebuild)
-npm run verify:names                        # title vs website audit
-python3 scripts/verify_provider_names.py --fix   # apply curated name/slug fixes + enrich
-```
-
-Discovery pulls from agentsandboxes.org, [InfraForAgents](https://infraforagents.com/api/v1/products.json), [sandboxindex.dev](https://sandboxindex.dev), [LangChain sandbox integrations](https://docs.langchain.com/oss/python/integrations/sandboxes), Product Hunt, Y Combinator (Algolia), Hacker News Show HN, [agentsandboxes.fyi](https://agentsandboxes.fyi), [boxyard.dev](https://boxyard.dev), PyPI, crates.io, GitHub topics, awesome lists, roost.guide, npm, and GitHub search.
-
-## Cursor agent skills
-
-Project and community skills live under `.cursor/skills/` (synced via `npm run skills:sync`).
-
-| Skill                                       | Focus                  |
-| ------------------------------------------- | ---------------------- |
-| `sandbox-directory-react`                   | This app’s conventions |
-| `vercel-react-best-practices`               | React 19 performance   |
-| `vercel-composition-patterns`               | Component composition  |
-| `react-router`                              | React Router 7         |
-| `tailwindcss`                               | Tailwind v4            |
-| `vite` / `vitest`                           | Build and tests        |
-| `web-design-guidelines` / `frontend-design` | UI review and design   |
-| `accessibility` / `performance`             | Quality checks         |
-
-Install more from [skills.sh](https://skills.sh/):
+Refresh locally:
 
 ```bash
-npx skills add <owner/repo@skill> -y --agent cursor --copy
-npm run skills:sync
+cp .env.example .env   # FIRECRAWL_API_KEY required
+npm run discover:sources   # find new list/index pages → may update firecrawl-sources.json
+npm run sync:providers     # extract vendors into agent-sandbox-providers.json
 ```
 
-Find skills: `npx skills find <query>`.
+Pipeline code lives under **`scripts/pipeline/`** (typed Firecrawl client, provider extract, source discovery).
+
+**Discover sources** (`discover:sources`): Firecrawl **search** (HN, GitHub, blogs, directories, YC, …) + **hub extract** on meta-lists → scores candidates → auto-promotes high-confidence URLs into `firecrawl-sources.json`. Also runs **mention search** (`mentionSearchQueries` in `source-discovery.json`): top hits from HN launches, X/Twitter, and “we use E2B/Modal/…” blogs are scraped for named vendors → `discovered-provider-mentions.json`.
+
+**Sync providers** (`sync:providers`): for each entry in `firecrawl-sources.json`, Firecrawl **scrape** or **crawl** + extract `providers[]`, **plus** merged rows from `discovered-provider-mentions.json` → qualify vendors, write inventory. Run `discover:sources` before sync in CI so mentions are fresh.
+
+Extraction includes **hosted, OSS/self-hosted, hybrid, stealth/waitlist** sandboxes. Optional fields: `offering_type`, `availability`, `launch_stage`, `sandbox_capabilities`, `isolation_technologies`, `isolation` (display labels), `logo_url`, `docs` (`{ description, link }[]` for docs entry, pricing, API). Taxonomies: `config/capability-taxonomy.md`, `config/isolation-taxonomy.md`, `config/provider-docs.md`. Filtering in `scripts/pipeline/providers/qualify.ts` still drops catalogs and bare runtime docs.
+
+**Verification** (every `sync:providers`): HTTP check all URLs; Firecrawl reconcile (broken URLs, host redirects, stale rows, new domains) to fix `website`, confirm still an agent sandbox, refresh `offering_type` / `availability` / `launch_stage` when still active, and drop `pivoted` / `shutdown` entries. After verify, **collapse** merges rows that now share the same host (rebrand / canonical URL). Limits in `config/verify-providers.json`.
+
+### Scheduled sync (no backend)
+
+[`.github/workflows/sync-providers.yml`](./.github/workflows/sync-providers.yml) (calls `sync-providers-run.yml`) runs **daily** at **11:00 IST** (05:30 UTC, `cron: 30 5 * * *`) and on **`workflow_dispatch`**. Set repository secret **`FIRECRAWL_API_KEY`**. The job runs `discover:sources` → `sync:providers` → `validate:providers`, then **opens a PR** on branch `chore/data-sync-providers` (updates the same PR if one is still open). It does **not** merge to `main`; you review and merge manually. If nothing changed, no PR is created.
 
 ## Key paths
 
-| Area            | Location                  |
-| --------------- | ------------------------- |
-| Routes / pages  | `src/routes/`             |
-| UI components   | `src/components/`         |
-| Site constants  | `src/lib/site.ts`         |
-| Zod schema      | `src/schemas/provider.ts` |
-| Python pipeline | `scripts/`                |
+| Area           | Location                                                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Routes / pages | `src/routes/`                                                                                                                  |
+| UI components  | `src/components/`                                                                                                              |
+| Site constants | `src/lib/site.ts`                                                                                                              |
+| Zod schema     | `src/schemas/provider.ts`                                                                                                      |
+| Sync pipeline  | `scripts/discover-sources.ts`, `scripts/sync-providers.ts`, `scripts/pipeline/` (imports use `@/` via `tsconfig.scripts.json`) |
 
 Production site config: `SITE_ORIGIN` and GitHub URLs in `src/lib/site.ts`.
 
