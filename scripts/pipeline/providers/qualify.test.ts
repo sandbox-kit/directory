@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { keepInventoryRow, qualifiesAgentSandbox } from "./qualify.ts";
+import {
+  filterMergedForInventory,
+  inventoryIdentity,
+  keepInventoryRow,
+  qualifiesAgentSandbox,
+} from "./qualify.ts";
+import type { SandboxProvider } from "@/schemas/provider";
 
 describe("qualifiesAgentSandbox", () => {
   it("accepts known sandbox vendors", () => {
@@ -123,5 +129,38 @@ describe("keepInventoryRow", () => {
         sources: ["web"],
       }),
     ).toBe(true);
+  });
+});
+
+describe("filterMergedForInventory", () => {
+  const priorRow: SandboxProvider = {
+    slug: "runloop",
+    name: "Runloop",
+    website: "https://runloop.ai",
+    sources: ["InfraForAgents"],
+  };
+  const prior = inventoryIdentity([priorRow]);
+
+  it("retains grandfathered rows that fail keepInventoryRow", () => {
+    const { kept, droppedNew } = filterMergedForInventory([priorRow], prior);
+    expect(kept).toHaveLength(1);
+    expect(kept[0]?.slug).toBe("runloop");
+    expect(droppedNew).toBe(0);
+  });
+
+  it("prunes only new rows that fail keepInventoryRow", () => {
+    const noise: SandboxProvider = {
+      slug: "boxyard-catalog",
+      name: "Boxyard",
+      website: "https://boxyard.dev/providers",
+      sources: ["firecrawl:manual"],
+    };
+    const { kept, droppedNew } = filterMergedForInventory(
+      [priorRow, noise],
+      prior,
+    );
+    expect(droppedNew).toBe(1);
+    expect(kept).toHaveLength(1);
+    expect(kept[0]?.slug).toBe("runloop");
   });
 });

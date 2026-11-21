@@ -13,7 +13,10 @@ import { readJsonFile, writeJsonFile } from "./pipeline/io/json.ts";
 import { enrichProviders } from "./pipeline/providers/enrich.ts";
 import { extractProvidersFromAllSources } from "./pipeline/providers/extract-from-sources.ts";
 import { mergeDiscoveries } from "./pipeline/providers/merge.ts";
-import { keepInventoryRow } from "./pipeline/providers/qualify.ts";
+import {
+  filterMergedForInventory,
+  inventoryIdentity,
+} from "./pipeline/providers/qualify.ts";
 import type {
   FirecrawlSourcesFile,
   ProviderDiscoveryRow,
@@ -63,6 +66,7 @@ async function main(): Promise<void> {
   );
 
   const existing = loadExisting();
+  const priorInventory = inventoryIdentity(existing);
   const fromSources = await extractProvidersFromAllSources(client, sources);
   const fromMentions = loadMentionDiscoveries();
   const discoveries = [...fromSources, ...fromMentions];
@@ -71,10 +75,14 @@ async function main(): Promise<void> {
   );
 
   const { merged, added, addedKeys } = mergeDiscoveries(existing, discoveries);
-  const pruned = merged.filter(keepInventoryRow);
-  const dropped = merged.length - pruned.length;
-  if (dropped > 0) {
-    console.log(`pruned ${dropped} non-vendor rows`);
+  const { kept: pruned, droppedNew } = filterMergedForInventory(
+    merged,
+    priorInventory,
+  );
+  if (droppedNew > 0) {
+    console.log(
+      `pruned ${droppedNew} new non-vendor rows (inventory retained)`,
+    );
   }
 
   const enriched = enrichProviders(pruned);
@@ -86,6 +94,7 @@ async function main(): Promise<void> {
     enriched,
     verifyConfig,
     new Set(addedKeys),
+    priorInventory,
   );
   console.log(
     `verify: HTTP ${verify.httpChecked}, Firecrawl ${verify.firecrawlReconciled}, removed inactive/pivoted ${verify.removedInactive}`,

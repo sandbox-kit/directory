@@ -1,3 +1,5 @@
+import { providerHostKey } from "@/lib/dedupe-providers";
+import type { SandboxProvider } from "@/schemas/provider";
 import { isExcluded, normDomain } from "./excludes.ts";
 
 const DIRECTORY_MARKETPLACE_HOSTS = new Set([
@@ -288,4 +290,51 @@ export function keepInventoryRow(row: InventoryRow): boolean {
   return qualifiesAgentSandbox(row.name, row.website, {
     sources: row.sources,
   });
+}
+
+export type InventoryIdentity = {
+  hostKeys: ReadonlySet<string>;
+  slugs: ReadonlySet<string>;
+};
+
+/** Stable identity for rows loaded before a sync run (never drop on re-qualify). */
+export function inventoryIdentity(rows: SandboxProvider[]): InventoryIdentity {
+  const hostKeys = new Set<string>();
+  const slugs = new Set<string>();
+  for (const row of rows) {
+    const key = providerHostKey(row);
+    if (key) hostKeys.add(key);
+    slugs.add(row.slug.toLowerCase());
+  }
+  return { hostKeys, slugs };
+}
+
+export function isGrandfatheredInventoryRow(
+  row: SandboxProvider,
+  prior: InventoryIdentity,
+): boolean {
+  const key = providerHostKey(row);
+  if (key && prior.hostKeys.has(key)) return true;
+  return prior.slugs.has(row.slug.toLowerCase());
+}
+
+/** Prune only newly discovered rows; inventory loaded at sync start is always kept. */
+export function filterMergedForInventory(
+  merged: SandboxProvider[],
+  prior: InventoryIdentity,
+): { kept: SandboxProvider[]; droppedNew: number } {
+  const kept: SandboxProvider[] = [];
+  let droppedNew = 0;
+  for (const row of merged) {
+    if (isGrandfatheredInventoryRow(row, prior)) {
+      kept.push(row);
+      continue;
+    }
+    if (keepInventoryRow(row)) {
+      kept.push(row);
+    } else {
+      droppedNew += 1;
+    }
+  }
+  return { kept, droppedNew };
 }

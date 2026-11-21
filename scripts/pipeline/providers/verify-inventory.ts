@@ -5,6 +5,10 @@ import {
   applyReconciliation,
   firecrawlReconcileProvider,
 } from "./reconcile.ts";
+import {
+  isGrandfatheredInventoryRow,
+  type InventoryIdentity,
+} from "./qualify.ts";
 import { isListedProvider, needsStaleReverify } from "./status.ts";
 import { checkWebsiteHttp, mapWithConcurrency } from "./verify-http.ts";
 
@@ -27,6 +31,7 @@ export async function verifyAndReconcileInventory(
   rows: SandboxProvider[],
   config: VerifyProvidersConfig,
   newlyAddedKeys: ReadonlySet<string> = new Set(),
+  priorInventory: InventoryIdentity = { hostKeys: new Set(), slugs: new Set() },
 ): Promise<VerifyInventoryResult> {
   const beforeCount = rows.length;
 
@@ -98,7 +103,10 @@ export async function verifyAndReconcileInventory(
     reconciled.push(applyReconciliation(clean, extract));
   }
 
-  const listed = reconciled.filter(isListedProvider);
+  const listed = reconciled.filter(
+    (row) =>
+      isGrandfatheredInventoryRow(row, priorInventory) || isListedProvider(row),
+  );
   return {
     rows: listed,
     httpChecked: beforeCount,
