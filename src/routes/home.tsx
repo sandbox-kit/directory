@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import { IsolationFilter } from "@/components/isolation-filter";
+import { FeaturedProjects } from "@/components/featured-projects";
 import { SearchBar } from "@/components/search-bar";
 import { ProviderRow } from "@/components/provider-row";
 import { SiteHeader } from "@/components/site-header";
@@ -60,7 +61,7 @@ export function HomePage() {
               Search by name or domain
             </span>
           </p>
-          <div className="mt-7 flex justify-center sm:mt-8 md:mt-9">
+          <div className="mx-auto mt-7 flex w-full max-w-2xl flex-col items-stretch sm:mt-8 md:mt-9">
             <SearchBar
               inputId={searchId}
               value={query}
@@ -68,6 +69,7 @@ export function HomePage() {
               resultCount={results.length}
               totalCount={total}
             />
+            <FeaturedProjects />
           </div>
         </header>
 
