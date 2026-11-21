@@ -1,7 +1,7 @@
 ---
 name: sandbox-directory-react
 description: >-
-  Builds and maintains the sandbox-pricing Vite + React 19 + React Router 7 +
+  Builds and maintains the sandbox-directory Vite + React 19 + React Router 7 +
   Tailwind 4 directory UI. Use when editing src/, adding routes, components,
   data loading, or styling the agent sandbox directory app.
 ---

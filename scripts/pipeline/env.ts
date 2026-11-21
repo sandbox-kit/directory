@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 
 const scriptsDir = path.dirname(fileURLToPath(import.meta.url));
 
-/** Repository root (`sandbox-pricing/`). */
+/** Repository root (`sandbox-directory/`). */
 export const repoRoot = path.resolve(scriptsDir, "../..");
 
 export function requireFirecrawlApiKey(): string {
