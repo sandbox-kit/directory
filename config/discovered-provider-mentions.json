@@ -1,35 +1,9 @@
 {
-  "updatedAt": "2026-11-21T19:32:33.938Z",
+  "updatedAt": "2026-11-22T10:15:59.065Z",
   "providers": [
     {
       "name": "Modal",
-      "website": "https://modal.com",
-      "sources": [
-        "mention:site:news.ycombinator.com browser use sandbox",
-        "discovery:mention"
-      ],
-      "extra": true,
-      "offering_type": "hosted",
-      "availability": "public",
-      "launch_stage": "ga",
-      "sandbox_capabilities": [
-        "linux",
-        "container"
-      ],
-      "isolation_technologies": [
-        "docker"
-      ],
-      "logo_url": "https://news.ycombinator.com/y18.svg",
-      "docs": [
-        {
-          "description": "Official platform information",
-          "link": "https://modal.com"
-        }
-      ]
-    },
-    {
-      "name": "Render",
-      "website": "https://render.com",
+      "website": "https://modal.com/",
       "sources": [
         "mention:site:news.ycombinator.com browser use sandbox",
         "discovery:mention"
@@ -42,13 +16,55 @@
         "linux"
       ],
       "isolation_technologies": [
-        "docker"
+        "container"
       ],
       "logo_url": "https://news.ycombinator.com/y18.svg",
       "docs": [
         {
-          "description": "Official platform information",
-          "link": "https://render.com"
+          "description": "Modal Homepage",
+          "link": "https://modal.com/"
+        }
+      ]
+    },
+    {
+      "name": "Daytona",
+      "website": "https://www.daytona.io/",
+      "sources": [
+        "mention:site:news.ycombinator.com browser use sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "hosted",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [],
+      "isolation_technologies": [],
+      "logo_url": "https://news.ycombinator.com/y18.svg",
+      "docs": [
+        {
+          "description": "Daytona Homepage",
+          "link": "https://www.daytona.io/"
+        }
+      ]
+    },
+    {
+      "name": "Render",
+      "website": "https://render.com/",
+      "sources": [
+        "mention:site:news.ycombinator.com browser use sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "hosted",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [],
+      "isolation_technologies": [],
+      "logo_url": "https://news.ycombinator.com/y18.svg",
+      "docs": [
+        {
+          "description": "Render Homepage",
+          "link": "https://render.com/"
         }
       ]
     }

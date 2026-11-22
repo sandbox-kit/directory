@@ -741,6 +741,161 @@
       "id": "vitehub-docs-agents-sandboxes",
       "url": "https://vitehub.dev/docs/agents/sandboxes",
       "mode": "scrape"
+    },
+    {
+      "id": "github-awesome-ai",
+      "url": "https://github.com/awesome-ai",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-global",
+      "url": "https://agentsandboxes.fyi/global",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#sandbox-platforms",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#agent-computers",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#self-hosted",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#isolation-primitives",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-industry-saas",
+      "url": "https://www.ycombinator.com/companies/industry/saas",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-industry-open-source",
+      "url": "https://www.ycombinator.com/companies/industry/open-source",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-agent-relay",
+      "url": "https://www.ycombinator.com/companies/agent-relay",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-showhn",
+      "url": "https://news.ycombinator.com/showhn",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-topics-sandbox",
+      "url": "https://github.com/topics/sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "launchlist",
+      "url": "https://www.launchlist.com",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-category-code-execution",
+      "url": "https://agentsandboxes.fyi/category/code-execution",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-category-dev-environments",
+      "url": "https://agentsandboxes.fyi/category/dev-environments",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#compute-platforms",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#cloud-native",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#browser-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#code-execution-apis",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes",
+      "url": "https://agentsandboxes.org/#dev-environments",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#networking-docs",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-industry-ai",
+      "url": "https://www.ycombinator.com/companies/industry/ai",
+      "mode": "scrape"
+    },
+    {
+      "id": "producthunt-topics-ai",
+      "url": "https://www.producthunt.com/topics/ai",
+      "mode": "scrape"
+    },
+    {
+      "id": "apis-blogs",
+      "url": "https://www.apis.guru/blogs",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-pomerado",
+      "url": "https://www.ycombinator.com/companies/pomerado",
+      "mode": "scrape"
+    },
+    {
+      "id": "hackernews",
+      "url": "https://www.hackernews.com",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-compare-e2b-vs-daytona",
+      "url": "https://comparesandboxes.com/compare/e2b-vs-daytona/",
+      "mode": "scrape"
+    },
+    {
+      "id": "docs",
+      "url": "https://docs.vibekit.sh/",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#faq-gpu-support",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#is-an-allowed-folder-flag-or-a-chroot-a-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#can-an-ai-agent-run-a-browser-or-a-desktop-inside-a-sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=46932343",
+      "mode": "scrape"
     }
   ]
 }
