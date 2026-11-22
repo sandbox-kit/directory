@@ -49,7 +49,7 @@ Extraction includes **hosted, OSS/self-hosted, hybrid, stealth/waitlist** sandbo
 
 ### Scheduled sync (no backend)
 
-[`.github/workflows/sync-providers.yml`](./.github/workflows/sync-providers.yml) (calls `sync-providers-run.yml`) runs **daily** at **11:00 IST** (05:30 UTC, `cron: 30 5 * * *`) and on **`workflow_dispatch`**. Set repository secret **`FIRECRAWL_API_KEY`**. The job runs `discover:sources` → `sync:providers` → `validate:providers`, then **opens a PR** on branch `chore/data-sync-providers` (updates the same PR if one is still open). It does **not** merge to `main`; you review and merge manually. If nothing changed, no PR is created.
+[`.github/workflows/sync-providers.yml`](./.github/workflows/sync-providers.yml) runs **daily** at **11:00 IST** (05:30 UTC, `cron: 30 5 * * *`) and on **`workflow_dispatch`**. Set repository secret **`FIRECRAWL_API_KEY`**. The job runs `discover:sources` → `sync:providers` → `validate:providers`, then **opens a PR** on branch `chore/data-sync-providers` (updates the same PR if one is still open). It does **not** merge to `main`; you review and merge manually. If nothing changed, no PR is created.
 
 ## Key paths
 
