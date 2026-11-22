@@ -896,6 +896,166 @@
       "id": "news-item",
       "url": "https://news.ycombinator.com/item?id=46932343",
       "mode": "scrape"
+    },
+    {
+      "id": "heckernews",
+      "url": "https://www.heckernews.com",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-hub",
+      "url": "https://www.awesome-hub.com",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-topics-ai-agent",
+      "url": "https://github.com/topics/ai-agent",
+      "mode": "scrape"
+    },
+    {
+      "id": "producthunt",
+      "url": "https://www.producthunt.com",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-show",
+      "url": "https://news.ycombinator.com/show",
+      "mode": "scrape"
+    },
+    {
+      "id": "news",
+      "url": "https://news.ycombinator.com",
+      "mode": "scrape"
+    },
+    {
+      "id": "launchlist",
+      "url": "https://www.launchlist.dev",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparison-site-sandbox-comparisons",
+      "url": "https://comparison-site.com/sandbox-comparisons",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-locations",
+      "url": "https://agentsandboxes.org/locations/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#sandbox-platforms",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#agent-computers",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#cloud-native",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#browser-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#code-execution-apis",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#dev-environments",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#self-hosted",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#isolation-primitives",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#local",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-blog-archive",
+      "url": "https://comparesandboxes.com/blog/archive",
+      "mode": "scrape"
+    },
+    {
+      "id": "docker-docs-ai-sandboxes",
+      "url": "https://docker.com/docs/ai/sandboxes/",
+      "mode": "scrape"
+    },
+    {
+      "id": "producthunt-search",
+      "url": "https://www.producthunt.com/search?q=AI%20sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "medium",
+      "url": "https://medium.com",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandbox",
+      "url": "https://agentsandbox.net/",
+      "mode": "scrape"
+    },
+    {
+      "id": "browser-use-customize-sandbox-quickstart",
+      "url": "https://www.browser-use.com/customize/sandbox/quickstart",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=46795584",
+      "mode": "scrape"
+    },
+    {
+      "id": "cosmonic-ai-sandbox-choosing-an-agent-sandbox",
+      "url": "https://cosmonic.com/ai-sandbox/choosing-an-agent-sandbox/",
+      "mode": "scrape"
+    },
+    {
+      "id": "taskade-blog-ai-agent-sandboxes",
+      "url": "https://www.taskade.com/blog/ai-agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-shenli-awesome-agent-infra-blob-main-rea",
+      "url": "https://github.com/shenli/awesome-agent-infra/blob/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-inftyai-awesome-llmops-blob-main-readme-",
+      "url": "https://github.com/InftyAI/Awesome-LLMOps/blob/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "controlplane-blog-post-self-hosted-ai-agent-sandboxes",
+      "url": "https://controlplane.com/blog/post/self-hosted-ai-agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "openhands-blog-open-source-ai-coding-agents",
+      "url": "https://www.openhands.dev/blog/open-source-ai-coding-agents",
+      "mode": "scrape"
+    },
+    {
+      "id": "blog-comparing-ai-agent-sandbox-platforms-e2b",
+      "url": "https://blog.logrocket.com/comparing-ai-agent-sandbox-platforms-e2b-modal-daytona-and-more/",
+      "mode": "scrape"
     }
   ]
 }

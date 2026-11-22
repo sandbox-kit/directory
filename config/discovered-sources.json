@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-22T10:15:42.588Z",
+  "updatedAt": "2026-11-22T22:44:06.014Z",
   "candidates": [
+    {
+      "id": "heckernews",
+      "url": "https://www.heckernews.com",
+      "title": "Show HN Roundups",
+      "kind": "hackernews",
+      "yield": "high",
+      "score": 1,
+      "rationale": "Community-driven lists of various projects, including AI agent sandboxes.",
+      "discoveredVia": "hub:sandboxindex",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:42.696Z"
+    },
     {
       "id": "github-arjan-awesome-agent-sandboxes",
       "url": "https://github.com/arjan/awesome-agent-sandboxes",
@@ -8,7 +20,7 @@
       "kind": "github",
       "yield": "high",
       "score": 0.9999999999999999,
-      "rationale": "A curated list of various sandbox solutions for AI agents, including both self-hosted and cloud options. | also: search:site:github.com awesome agent sandbox README",
+      "rationale": "A curated list of various sandbox solutions for AI agents, including both self-hosted and cloud options. | also: search:site:github.com awesome agent sandbox README | also: search:site:github.com awesome agent sandbox README",
       "discoveredVia": "hub:awesome-agent-sandboxes-github",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:29:34.920Z"
@@ -116,7 +128,7 @@
       "kind": "directory",
       "yield": "high",
       "score": 0.9999999999999999,
-      "rationale": "An index of cloud sandbox providers with comprehensive specs and pricing.",
+      "rationale": "An index of cloud sandbox providers with comprehensive specs and pricing. | also: hub:agentsandboxes-fyi",
       "discoveredVia": "hub:awesome-agent-sandboxes-github",
       "status": "pending",
       "discoveredAt": "2026-11-21T19:29:34.920Z"
@@ -152,7 +164,7 @@
       "kind": "directory",
       "yield": "high",
       "score": 0.9999999999999999,
-      "rationale": "This page lists numerous startups funded by Y Combinator, potentially including several AI agent sandbox providers.",
+      "rationale": "This page lists numerous startups funded by Y Combinator, potentially including several AI agent sandbox providers. | also: hub:yc-devtools | also: hub:yc-devtools",
       "discoveredVia": "hub:yc-infra",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:30:21.088Z"
@@ -272,7 +284,7 @@
       "kind": "directory",
       "yield": "high",
       "score": 0.9999999999999999,
-      "rationale": "This page compares various AI agent sandbox providers, detailing their different features and product types.",
+      "rationale": "This page compares various AI agent sandbox providers, detailing their different features and product types. | also: search:AI agent sandbox provider directory list",
       "discoveredVia": "hub:fly-agent-providers",
       "status": "pending",
       "discoveredAt": "2026-11-22T10:15:19.174Z"
@@ -386,6 +398,66 @@
       "discoveredAt": "2026-11-22T10:15:41.296Z"
     },
     {
+      "id": "github-topics-sandbox",
+      "url": "https://github.com/topics/sandbox",
+      "title": "GitHub Sandbox Topic",
+      "kind": "github",
+      "yield": "high",
+      "score": 0.9999999999999999,
+      "rationale": "This page compiles GitHub repositories that relate to sandboxing technologies, potentially listing relevant projects.",
+      "discoveredVia": "hub:yc-infra",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:40.557Z"
+    },
+    {
+      "id": "ycombinator-companies-industry-ai",
+      "url": "https://www.ycombinator.com/companies/industry/ai",
+      "title": "AI Startups by Y Combinator",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.9999999999999999,
+      "rationale": "This page lists startups specifically in the AI sector, which likely includes several AI agent sandbox providers. | also: hub:yc-devtools",
+      "discoveredVia": "hub:yc-infra",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:40.557Z"
+    },
+    {
+      "id": "awesome-hub",
+      "url": "https://www.awesome-hub.com",
+      "title": "Awesome Lists",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.9999999999999999,
+      "rationale": "A curated list of awesome resources including sandboxes for AI agents.",
+      "discoveredVia": "hub:sandboxindex",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:42.696Z"
+    },
+    {
+      "id": "github-topics-ai-agent",
+      "url": "https://github.com/topics/ai-agent",
+      "title": "GitHub Topic on AI Agents",
+      "kind": "github",
+      "yield": "high",
+      "score": 0.9999999999999999,
+      "rationale": "Discover open source projects related to AI agents which may include sandbox providers.",
+      "discoveredVia": "hub:yc-devtools",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:44:02.850Z"
+    },
+    {
+      "id": "producthunt",
+      "url": "https://www.producthunt.com",
+      "title": "Product Hunt Launch Lists",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.9999999999999999,
+      "rationale": "Lists new products, including AI agents and related software.",
+      "discoveredVia": "hub:yc-devtools",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:44:02.850Z"
+    },
+    {
       "id": "blog-ai-libraries-landscape",
       "url": "https://blog.com/ai-libraries-landscape",
       "title": "AI Libraries Landscape",
@@ -432,6 +504,30 @@
       "discoveredVia": "hub:sandboxindex",
       "status": "promoted",
       "discoveredAt": "2026-11-22T10:14:46.718Z"
+    },
+    {
+      "id": "news-show",
+      "url": "https://news.ycombinator.com/show",
+      "title": "Show HN Discussions",
+      "kind": "hackernews",
+      "yield": "high",
+      "score": 0.9199999999999999,
+      "rationale": "The Show HN section often showcases multiple projects, including those related to AI agents and sandbox environments.",
+      "discoveredVia": "hub:yc-infra",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:40.557Z"
+    },
+    {
+      "id": "news",
+      "url": "https://news.ycombinator.com",
+      "title": "Hacker News",
+      "kind": "hackernews",
+      "yield": "high",
+      "score": 0.9199999999999999,
+      "rationale": "Show HN posts where developers discuss and showcase their AI agent tools and platforms.",
+      "discoveredVia": "hub:yc-devtools",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:44:02.849Z"
     },
     {
       "id": "roost-providers-froog",
@@ -770,18 +866,6 @@
       "discoveredAt": "2026-11-21T19:30:21.088Z"
     },
     {
-      "id": "github-topics-sandbox",
-      "url": "https://github.com/topics/sandbox",
-      "title": "GitHub Sandbox Topic",
-      "kind": "github",
-      "yield": "high",
-      "score": 0.8999999999999999,
-      "rationale": "GitHub topic page that aggregates multiple projects related to sandboxes, including various AI-related open source.",
-      "discoveredVia": "hub:sandboxindex",
-      "status": "promoted",
-      "discoveredAt": "2026-11-22T10:14:46.718Z"
-    },
-    {
       "id": "launchlist",
       "url": "https://www.launchlist.com",
       "title": "AI Launch List",
@@ -890,18 +974,6 @@
       "discoveredAt": "2026-11-22T10:15:19.174Z"
     },
     {
-      "id": "ycombinator-companies-industry-ai",
-      "url": "https://www.ycombinator.com/companies/industry/ai",
-      "title": "AI Startups",
-      "kind": "directory",
-      "yield": "high",
-      "score": 0.8999999999999999,
-      "rationale": "A specialized directory of startups focused on AI, providing potential leads for agent solutions.",
-      "discoveredVia": "hub:yc-infra",
-      "status": "promoted",
-      "discoveredAt": "2026-11-22T10:15:30.721Z"
-    },
-    {
       "id": "producthunt-topics-ai",
       "url": "https://www.producthunt.com/topics/ai",
       "title": "AI Products on Product Hunt",
@@ -936,6 +1008,210 @@
       "discoveredVia": "hub:yc-devtools",
       "status": "promoted",
       "discoveredAt": "2026-11-22T10:15:41.296Z"
+    },
+    {
+      "id": "launchlist",
+      "url": "https://www.launchlist.dev",
+      "title": "Launch Lists",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Lists of new and upcoming sandbox products and services for AI.",
+      "discoveredVia": "hub:sandboxindex",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:42.696Z"
+    },
+    {
+      "id": "comparison-site-sandbox-comparisons",
+      "url": "https://comparison-site.com/sandbox-comparisons",
+      "title": "Sandbox Comparison Tables",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Detailed comparisons of multiple sandbox environments for AI agents.",
+      "discoveredVia": "hub:sandboxindex",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:42.696Z"
+    },
+    {
+      "id": "agentsandboxes-locations",
+      "url": "https://agentsandboxes.org/locations/",
+      "title": "Agent Sandbox Providers by Country",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "A directory to find providers based on specific country listings, useful for exploring available sandbox options globally.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#sandbox-platforms",
+      "title": "Hosted Sandbox Platforms",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Lists various hosted sandbox platforms for creating and running code, detailing distinct features and uses for each.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#agent-computers",
+      "title": "Persistent VMs and Agent Computers",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Describes long-lived virtual machines suited for agents, highlighting features of individual sandboxes.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#cloud-native",
+      "title": "Cloud Provider Code Execution",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Managed code execution sandboxes provided by major cloud vendors, detailing their capabilities and isolation methods.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#browser-sandboxes",
+      "title": "Browser and Desktop Sandboxes",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Overview of cloud-based browser and desktop environments for agents, focusing on user interaction.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#code-execution-apis",
+      "title": "Code Execution APIs",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "A section dedicated to APIs that allow for code submission and execution, including online judges and compiler APIs.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#dev-environments",
+      "title": "Cloud Development Environments",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Details cloud and in-browser development environments usable by coding agents, aiding collaborative coding.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#self-hosted",
+      "title": "Open Source Runtimes to Self-Host",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Lists sandbox runtimes that can be self-hosted, beneficial for users looking for control over their environments.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#isolation-primitives",
+      "title": "Isolation Primitives and Runtimes",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Presents underlying technologies and runtimes that offer isolation for various sandboxed environments.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "agentsandboxes-sandboxes",
+      "url": "https://agentsandboxes.org/sandboxes/#local",
+      "title": "Local Sandboxes for Coding Agents",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Covers local sandbox options suitable for deploying coding agents on personal machines.",
+      "discoveredVia": "hub:agentsandboxes-org",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:01.353Z"
+    },
+    {
+      "id": "comparesandboxes-blog-archive",
+      "url": "https://comparesandboxes.com/blog/archive",
+      "title": "The Sandbox Brief",
+      "kind": "comparison",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "This blog provides updates on the sandbox world, including new entrants and pricing changes.",
+      "discoveredVia": "hub:comparesandboxes",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:06.499Z"
+    },
+    {
+      "id": "docker-docs-ai-sandboxes",
+      "url": "https://docker.com/docs/ai/sandboxes/",
+      "title": "Docker Sandboxes",
+      "kind": "docs",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Specific documentation focusing on how Docker can be used for AI coding agents, showing it as a platform that can host multiple sandboxes.",
+      "discoveredVia": "hub:fly-agent-providers",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:27.922Z"
+    },
+    {
+      "id": "ycombinator-companies-industry-developer-tools",
+      "url": "https://www.ycombinator.com/companies/industry/developer-tools",
+      "title": "Developer Tools Startups by Y Combinator",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Developer Tools is a relevant category where many AI agent sandbox vendors may be listed.",
+      "discoveredVia": "hub:yc-infra",
+      "status": "pending",
+      "discoveredAt": "2026-11-22T22:43:40.557Z"
+    },
+    {
+      "id": "producthunt-search",
+      "url": "https://www.producthunt.com/search?q=AI%20sandboxes",
+      "title": "Searching Product Hunt for AI Sandboxes",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.8999999999999999,
+      "rationale": "Search results provide lists of AI sandbox tools.",
+      "discoveredVia": "hub:yc-devtools",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:44:02.850Z"
+    },
+    {
+      "id": "medium",
+      "url": "https://medium.com",
+      "title": "Medium Blog Landscape",
+      "kind": "blog",
+      "yield": "high",
+      "score": 0.8799999999999999,
+      "rationale": "Blogs feature discussions and comparisons of AI technologies and tools, including sandbox options.",
+      "discoveredVia": "hub:yc-devtools",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:44:02.849Z"
     },
     {
       "id": "showhn-category-sandboxes",
@@ -1262,13 +1538,37 @@
       "discoveredAt": "2026-11-22T10:15:19.174Z"
     },
     {
+      "id": "agentsandbox",
+      "url": "https://agentsandbox.net/",
+      "title": "AI Agent Sandbox",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.7999999999999999,
+      "rationale": "A website that allows running agents in-browser, showcasing various available sandboxes.",
+      "discoveredVia": "hub:awesome-agent-sandboxes-github",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:16.991Z"
+    },
+    {
+      "id": "browser-use-customize-sandbox-quickstart",
+      "url": "https://www.browser-use.com/customize/sandbox/quickstart",
+      "title": "Browser Use Sandboxes",
+      "kind": "directory",
+      "yield": "high",
+      "score": 0.7999999999999999,
+      "rationale": "Guidance on customizing sandbox environments which may relate to multiple sandbox providers.",
+      "discoveredVia": "hub:awesome-agent-sandboxes-github",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:43:16.991Z"
+    },
+    {
       "id": "news-item",
       "url": "https://news.ycombinator.com/item?id=46065997",
       "title": "Show HN: Era – Open-source local sandbox for AI agents",
       "kind": "hackernews",
       "yield": "high",
       "score": 0.7699999999999999,
-      "rationale": "The core issue: AI agents need isolation. We built ERA to fix this – local microVM-based sandboxing for AI-generated code with hardware-level security. Think ... | also: search:site:news.ycombinator.com show hn agent sandbox | also: search:site:news.ycombinator.com show hn agent sandbox",
+      "rationale": "The core issue: AI agents need isolation. We built ERA to fix this – local microVM-based sandboxing for AI-generated code with hardware-level security. Think ... | also: search:site:news.ycombinator.com show hn agent sandbox | also: search:site:news.ycombinator.com show hn agent sandbox | also: search:site:news.ycombinator.com show hn agent sandbox",
       "discoveredVia": "search:open source AI agent sandbox self-hosted",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:31.105Z"
@@ -1280,7 +1580,7 @@
       "kind": "hackernews",
       "yield": "high",
       "score": 0.7699999999999999,
-      "rationale": "|  |  | [Show HN: I Built a Sandbox for Agents](https://github.com/vrn21/bouvet.com) ( [github.com/vrn21](https://news.ycombinator.com/from?site=github.com/vrn21)) | |  | 31 points by [vrn21](https://news.ycombinator.com/user?id=vrn21) [9 months ago](https://news.ycombinator.com/item?id=46797895) | [hide](https://news.ycombinator.com/hide?id=46797895&goto=item%3Fid%3D46797895) | [past](https://hn.algolia.com/?query=Show%20HN%3A%20I%20Built%20a%20Sandbox%20for%20Agents&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0) | [favorite](https://news.ycombinator.com/fave?id=46797895) | [56 comments](https://news.ycombinator.com/item?id=46797895) |\n\n|  |  |  |\n|-|-|-|\n| ![](https://news.ycombinator.com/s.gif) |  | [monomial](https://news.ycombinator.com/user?id=monomial) [9 months ago](https://news.ycombinator.com/item?id=46798939) | [next](https://news.ycombinator.com/item?id=46797895#46798472)[–]<br>Is this a common pattern to have an agent request a sandbox? I feel like I'd want the whole agent running in it's own sandbox to begin with. Firecracker does look like a decent solution for that. |  |\n| ![](https://news.ycombinator.com/s.gif) |  | [canadiantim](https://news.ycombinator.com/user?id=canadiantim) [9 months ago](https://news.ycombinator.com/item?id=46798851) | [prev](https://news.ycombinator.com/item?id=46797895#46799458) | [next](https://news.ycombinator.com/item?id=46797895#46798957)[–]<br>This relies on the agent requesting a sandbox... which seems like the fox guarding the hen house, no? |  |\n| ![](https://news.ycombinator.com/s.gif) |  | [Ronsenshi](https://news.ycombinator.com/user?id=Ronsenshi) [9 months ago](https://news.ycombinator.com/item?id=46799122) | [parent](https://news.ycombinator.com/item?id=46797895#46798957) | [prev](https://news.ycombinator.com/item?id=46797895#46799116) | [next](https://news.ycombinator.com/item?id=46797895#46801434)[–]<br>From what I read others say at some point on HN:<br>- resources<br>- security<br>- setup speed?<br>I suppose a lot depends on how and in what environment you're dealing with agents.<br>Resources might be an issue on Mac if you have bunch of agents running different things, trying to execute code in different containers. But that's the issue of Mac and the way containers are running in a VM there.<br>Security-wise there were concerns with prompt injection telling agent to execute certain steps to escape from container. Possible, but I'm not aware if there were actually cases of that. |  | | also: search:site:news.ycombinator.com agent sandbox launch | also: search:site:news.ycombinator.com agent sandbox launch",
+      "rationale": "|  |  | [Show HN: I Built a Sandbox for Agents](https://github.com/vrn21/bouvet.com) ( [github.com/vrn21](https://news.ycombinator.com/from?site=github.com/vrn21)) | |  | 31 points by [vrn21](https://news.ycombinator.com/user?id=vrn21) [9 months ago](https://news.ycombinator.com/item?id=46797895) | [hide](https://news.ycombinator.com/hide?id=46797895&goto=item%3Fid%3D46797895) | [past](https://hn.algolia.com/?query=Show%20HN%3A%20I%20Built%20a%20Sandbox%20for%20Agents&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0) | [favorite](https://news.ycombinator.com/fave?id=46797895) | [56 comments](https://news.ycombinator.com/item?id=46797895) |\n\n|  |  |  |\n|-|-|-|\n| ![](https://news.ycombinator.com/s.gif) |  | [monomial](https://news.ycombinator.com/user?id=monomial) [9 months ago](https://news.ycombinator.com/item?id=46798939) | [next](https://news.ycombinator.com/item?id=46797895#46798472)[–]<br>Is this a common pattern to have an agent request a sandbox? I feel like I'd want the whole agent running in it's own sandbox to begin with. Firecracker does look like a decent solution for that. |  |\n| ![](https://news.ycombinator.com/s.gif) |  | [canadiantim](https://news.ycombinator.com/user?id=canadiantim) [9 months ago](https://news.ycombinator.com/item?id=46798851) | [prev](https://news.ycombinator.com/item?id=46797895#46799458) | [next](https://news.ycombinator.com/item?id=46797895#46798957)[–]<br>This relies on the agent requesting a sandbox... which seems like the fox guarding the hen house, no? |  |\n| ![](https://news.ycombinator.com/s.gif) |  | [Ronsenshi](https://news.ycombinator.com/user?id=Ronsenshi) [9 months ago](https://news.ycombinator.com/item?id=46799122) | [parent](https://news.ycombinator.com/item?id=46797895#46798957) | [prev](https://news.ycombinator.com/item?id=46797895#46799116) | [next](https://news.ycombinator.com/item?id=46797895#46801434)[–]<br>From what I read others say at some point on HN:<br>- resources<br>- security<br>- setup speed?<br>I suppose a lot depends on how and in what environment you're dealing with agents.<br>Resources might be an issue on Mac if you have bunch of agents running different things, trying to execute code in different containers. But that's the issue of Mac and the way containers are running in a VM there.<br>Security-wise there were concerns with prompt injection telling agent to execute certain steps to escape from container. Possible, but I'm not aware if there were actually cases of that. |  | | also: search:site:news.ycombinator.com agent sandbox launch | also: search:site:news.ycombinator.com agent sandbox launch | also: search:site:news.ycombinator.com agent sandbox launch",
       "discoveredVia": "search:site:news.ycombinator.com show hn agent sandbox",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:36.764Z"
@@ -1352,7 +1652,7 @@
       "kind": "hackernews",
       "yield": "high",
       "score": 0.7699999999999999,
-      "rationale": "Hi HN, we built SuperHQ, an open source app that runs AI coding agents in isolated microVM sandboxes instead of directly on your machine. | also: search:site:news.ycombinator.com agent sandbox launch | also: search:site:news.ycombinator.com agent sandbox launch",
+      "rationale": "Hi HN, we built SuperHQ, an open source app that runs AI coding agents in isolated microVM sandboxes instead of directly on your machine. | also: search:site:news.ycombinator.com agent sandbox launch | also: search:site:news.ycombinator.com agent sandbox launch | also: search:site:news.ycombinator.com agent sandbox launch",
       "discoveredVia": "search:site:news.ycombinator.com show hn agent sandbox",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:36.764Z"
@@ -1478,6 +1778,18 @@
       "discoveredAt": "2026-11-22T10:14:40.743Z"
     },
     {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=46795584",
+      "title": "Show HN: Sandbox Agent SDK – unified API for automating coding ...",
+      "kind": "hackernews",
+      "yield": "high",
+      "score": 0.7699999999999999,
+      "rationale": "We've been working with automating coding agents in sandboxes as of late. It's bewildering how poorly standardized and difficult to use each agent varies ...",
+      "discoveredVia": "search:site:news.ycombinator.com show hn agent sandbox",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:24.745Z"
+    },
+    {
       "id": "upstash-blog-best-sandbox-providers-for-ai-agent",
       "url": "https://upstash.com/blog/best-sandbox-providers-for-ai-agents",
       "title": "The Best Sandbox Providers for AI Agents in 2026",
@@ -1556,7 +1868,7 @@
       "kind": "directory",
       "yield": "medium",
       "score": 0.7499999999999999,
-      "rationale": "Compare six AI agent sandboxes by isolation, credentials, egress, state, deployment model, and lifecycle cost. | also: search:agent code execution sandbox comparison | also: search:agent code execution sandbox comparison",
+      "rationale": "Compare six AI agent sandboxes by isolation, credentials, egress, state, deployment model, and lifecycle cost. | also: search:agent code execution sandbox comparison | also: search:agent code execution sandbox comparison | also: search:agent code execution sandbox comparison",
       "discoveredVia": "search:AI agent sandbox provider directory list",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:02.824Z"
@@ -1580,7 +1892,7 @@
       "kind": "directory",
       "yield": "medium",
       "score": 0.7499999999999999,
-      "rationale": "# The 6 Best AI Agent Sandbox Platforms (August 2026): Features, Tradeoffs, and Use Cases\n## [How to Evaluate an AI Agent Sandbox Platform![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#how-to-evaluate-an-ai-agent-sandbox-platform)\n### [Environment Lifecycle and Persistence![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#environment-lifecycle-and-persistence)\nEphemeral sandboxes work well for isolated code execution, testing, and short-lived analysis.\n\n## [The 6 Best AI Agent Sandbox Platforms![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#the-6-best-ai-agent-sandbox-platforms)\n### [1. Daytona![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#1-daytona)\n#### [Why You Might Choose Daytona![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#why-you-might-choose-daytona)\n- Supports filesystem, Git, process, terminal, and code-execution operations.\n\n### [2. E2B![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#2-e2b)\n[E2B](https://e2b.dev/) provides [isolated cloud environments](https://mastra.ai/blog/introducing-remote-sandboxes) that allow AI agents to execute code, process data, run tools, and interact with a filesystem through JavaScript, TypeScript, and Python SDKs.\n\nBeyond command-line code execution, E2B offers [desktop sandboxes for computer-use agents](https://mastra.ai/blog/introducing-sandbox-computer-use) that need to see and control a virtual Linux desktop.\n\n## [Frequently Asked Questions![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#frequently-asked-questions)\n#### [Why Do AI Agents Need Sandboxes?![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#why-do-ai-agents-need-sandboxes)\nA sandbox isolates that execution from the rest of the application and limits the systems the code can affect.",
+      "rationale": "# The 6 Best AI Agent Sandbox Platforms (August 2026): Features, Tradeoffs, and Use Cases\n## [How to Evaluate an AI Agent Sandbox Platform![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#how-to-evaluate-an-ai-agent-sandbox-platform)\n### [Environment Lifecycle and Persistence![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#environment-lifecycle-and-persistence)\nEphemeral sandboxes work well for isolated code execution, testing, and short-lived analysis.\n\n## [The 6 Best AI Agent Sandbox Platforms![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#the-6-best-ai-agent-sandbox-platforms)\n### [1. Daytona![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#1-daytona)\n#### [Why You Might Choose Daytona![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#why-you-might-choose-daytona)\n- Supports filesystem, Git, process, terminal, and code-execution operations.\n\n### [2. E2B![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#2-e2b)\n[E2B](https://e2b.dev/) provides [isolated cloud environments](https://mastra.ai/blog/introducing-remote-sandboxes) that allow AI agents to execute code, process data, run tools, and interact with a filesystem through JavaScript, TypeScript, and Python SDKs.\n\nBeyond command-line code execution, E2B offers [desktop sandboxes for computer-use agents](https://mastra.ai/blog/introducing-sandbox-computer-use) that need to see and control a virtual Linux desktop.\n\n## [Frequently Asked Questions![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#frequently-asked-questions)\n#### [Why Do AI Agents Need Sandboxes?![](https://mastra.ai/_next/static/immutable/media/anchor.3595n93ztlxu8.svg)](https://mastra.ai/articles/best-ai-agent-sandbox-platforms#why-do-ai-agents-need-sandboxes)\nA sandbox isolates that execution from the rest of the application and limits the systems the code can affect. | also: search:AI agent sandbox provider directory list",
       "discoveredVia": "search:agent code execution sandbox comparison",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:05.985Z"
@@ -1652,7 +1964,7 @@
       "kind": "comparison",
       "yield": "medium",
       "score": 0.7499999999999999,
-      "rationale": "Matched sandbox list heuristics from web search.",
+      "rationale": "Matched sandbox list heuristics from web search. | also: search:AI agent sandbox provider directory list",
       "discoveredVia": "search:agent code execution sandbox comparison",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:05.986Z"
@@ -1700,7 +2012,7 @@
       "kind": "github",
       "yield": "medium",
       "score": 0.7499999999999999,
-      "rationale": "# **A Curated Guide to Code Sandboxing Solutions**\n## About\n### Resources\n[Readme](https://github.com/restyler/awesome-sandbox#readme-ov-file) | also: search:site:github.com microsandbox open source | also: search:site:github.com microsandbox open source",
+      "rationale": "# **A Curated Guide to Code Sandboxing Solutions**\n## About\n### Resources\n[Readme](https://github.com/restyler/awesome-sandbox#readme-ov-file) | also: search:site:github.com microsandbox open source | also: search:site:github.com microsandbox open source | also: search:site:github.com microsandbox open source",
       "discoveredVia": "search:site:github.com awesome agent sandbox README",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:08.758Z"
@@ -1982,16 +2294,100 @@
       "discoveredAt": "2026-11-21T19:27:31.105Z"
     },
     {
+      "id": "cosmonic-ai-sandbox-choosing-an-agent-sandbox",
+      "url": "https://cosmonic.com/ai-sandbox/choosing-an-agent-sandbox/",
+      "title": "How to Choose an AI Agent Sandbox (2026 Guide)",
+      "kind": "directory",
+      "yield": "medium",
+      "score": 0.7499999999999999,
+      "rationale": "## Types of sandboxes for AI agents, from weakest to strongest isolation\n### Sandbox types compared\n| Sandbox type | Boundary | Default authority | Startup | Runs any Linux program | GPU | What you must configure | Best fit |\n|-|-|-|-|-|-|-|-|\n| Full VMs, confidential computing | Hypervisor, optionally encrypted memory | Full OS inside | Slowest | Yes | Yes (passthrough) | Everything a server needs | A high-risk or regulated harness |",
+      "discoveredVia": "search:AI agent sandbox provider directory list",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:03.102Z"
+    },
+    {
+      "id": "taskade-blog-ai-agent-sandboxes",
+      "url": "https://www.taskade.com/blog/ai-agent-sandboxes",
+      "title": "AI Agent Sandboxes: Where Should Your Agent Run? (2026)",
+      "kind": "directory",
+      "yield": "medium",
+      "score": 0.7499999999999999,
+      "rationale": "## The AI Agent Sandbox Landscape in 2026: 20 Options Compared\n| Option | Isolation | Lifetime and state | Open source | Launched or GA |\n|-|-|-|-|-|\n| **Blaxel** | Firecracker microVM | Standby snapshots; runs for any duration | In-VM API only (MIT) | Apr 2025 |\n\n## How to Choose an AI Agent Sandbox\n| Use case | What matters most | Good fits |\n|-|-|-|\n| **Coding agent for one developer** | Local files, low friction | Anthropic sandbox-runtime, Docker Sandboxes |\n| **Hosted coding agent for many users** | Hardware isolation, persistence, snapshots | E2B, Blaxel, Fly.io Sprites, Runloop, Daytona (VM tier) |",
+      "discoveredVia": "search:AI agent sandbox provider directory list",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:03.102Z"
+    },
+    {
+      "id": "github-shenli-awesome-agent-infra-blob-main-rea",
+      "url": "https://github.com/shenli/awesome-agent-infra/blob/main/README.md",
+      "title": "README.md - shenli/awesome-agent-infra",
+      "kind": "github",
+      "yield": "medium",
+      "score": 0.7499999999999999,
+      "rationale": "A curated collection of infrastructure resources for building production AI agents: runtimes, workspaces, sandboxes, tool protocols, context systems, security, ...",
+      "discoveredVia": "search:site:github.com awesome agent sandbox README",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:08.907Z"
+    },
+    {
+      "id": "github-inftyai-awesome-llmops-blob-main-readme-",
+      "url": "https://github.com/InftyAI/Awesome-LLMOps/blob/main/README.md",
+      "title": "Awesome-LLMOps/README.md at main",
+      "kind": "github",
+      "yield": "medium",
+      "score": 0.7499999999999999,
+      "rationale": "SPACE: Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent and user code in isolation. Stars Contributors ...",
+      "discoveredVia": "search:site:github.com awesome agent sandbox README",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:08.907Z"
+    },
+    {
+      "id": "controlplane-blog-post-self-hosted-ai-agent-sandboxes",
+      "url": "https://controlplane.com/blog/post/self-hosted-ai-agent-sandboxes",
+      "title": "Self-Hosted AI Agent Sandboxes",
+      "kind": "directory",
+      "yield": "medium",
+      "score": 0.7499999999999999,
+      "rationale": "Self-hosting an AI agent sandbox starts with an isolation runtime and ends with operational controls that make up most of the work. Plain ...",
+      "discoveredVia": "search:open source AI agent sandbox self-hosted",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:21.960Z"
+    },
+    {
+      "id": "openhands-blog-open-source-ai-coding-agents",
+      "url": "https://www.openhands.dev/blog/open-source-ai-coding-agents",
+      "title": "Top 7 Self-Hosted and Open-Source AI Coding Agents in 2026",
+      "kind": "directory",
+      "yield": "medium",
+      "score": 0.7499999999999999,
+      "rationale": "The open-source AI coding agent category has matured fast enough that you now have real options: agents you can inspect and self-host while choosing the model yourself.\n\n## **How we picked these open-source AI coding agents**\n- **Self-hosting viability:** A strong self-hosting story means the agent runtime, execution environment, credentials, logs, and integrations can run under your control. Air-gapped deployment is a stricter requirement: it also requires local or private inference, no required phone-home behavior, and a validated dependency path.\n\n## **Best open-source AI coding agents at a glance**\n_Self-hosting the agent does not automatically mean prompts, code context, or logs never leave the environment._\n\n### **7. Tabby**\n- **Self-hosted privacy:** Self-hosted privacy keeps source code in your environment and reduces telemetry and data-mining risk.",
+      "discoveredVia": "search:open source AI agent sandbox self-hosted",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:21.960Z"
+    },
+    {
       "id": "dev-thedailyagent-top-5-code-sandboxes-for-a",
       "url": "https://dev.to/thedailyagent/top-5-code-sandboxes-for-ai-agents-in-2026-58id",
       "title": "Top 5 Code Sandboxes for AI Agents in 2026",
       "kind": "blog",
       "yield": "medium",
       "score": 0.7299999999999999,
-      "rationale": "Coding agents write and execute code without you reviewing every line. If your agent executes in an unsandboxed environment, it can access credentials, make external requests, consume unbounded resources, or exploit kernel vulnerabilities to escape entirely.\n\nPlatforms like [Nebula](https://nebula.gg/) run agent tasks in isolated environments precisely because unsandboxed code execution is the fastest way to turn an AI agent into a security incident.\n\n## E2B -- Best for Fast Integration\n[E2B](https://e2b.dev/) is built specifically for AI agent code execution, and it shows.\n\n## Daytona -- Best for Self-Hosted Control\nThe managed cloud option offers 90ms sandbox creation, which is among the fastest available.\n\n## The Verdict\nThe one thing all five agree on: if your coding agent runs in an unsandboxed environment, you are one hallucination away from a production incident.\n\n## [Want to make DEV your full-time job?](https://dev.to/devteam/want-to-make-dev-your-full-time-job-were-hiring-a-community-manager-4p1f?bb=264896)\nThe differentiator is that each sandbox comes with persistent storage, a SQLite database, and full-text search built in - not as add-ons, but as part of the environment. | also: search:open source AI agent sandbox self-hosted | also: search:open source AI agent sandbox self-hosted",
+      "rationale": "Coding agents write and execute code without you reviewing every line. If your agent executes in an unsandboxed environment, it can access credentials, make external requests, consume unbounded resources, or exploit kernel vulnerabilities to escape entirely.\n\nPlatforms like [Nebula](https://nebula.gg/) run agent tasks in isolated environments precisely because unsandboxed code execution is the fastest way to turn an AI agent into a security incident.\n\n## E2B -- Best for Fast Integration\n[E2B](https://e2b.dev/) is built specifically for AI agent code execution, and it shows.\n\n## Daytona -- Best for Self-Hosted Control\nThe managed cloud option offers 90ms sandbox creation, which is among the fastest available.\n\n## The Verdict\nThe one thing all five agree on: if your coding agent runs in an unsandboxed environment, you are one hallucination away from a production incident.\n\n## [Want to make DEV your full-time job?](https://dev.to/devteam/want-to-make-dev-your-full-time-job-were-hiring-a-community-manager-4p1f?bb=264896)\nThe differentiator is that each sandbox comes with persistent storage, a SQLite database, and full-text search built in - not as add-ons, but as part of the environment. | also: search:open source AI agent sandbox self-hosted | also: search:open source AI agent sandbox self-hosted | also: search:AI agent sandbox provider directory list | also: search:open source AI agent sandbox self-hosted",
       "discoveredVia": "search:agent code execution sandbox comparison",
       "status": "promoted",
       "discoveredAt": "2026-11-21T19:27:05.986Z"
+    },
+    {
+      "id": "blog-comparing-ai-agent-sandbox-platforms-e2b",
+      "url": "https://blog.logrocket.com/comparing-ai-agent-sandbox-platforms-e2b-modal-daytona-and-more/",
+      "title": "Comparing AI agent sandbox platforms: E2B, Modal, Daytona, and ...",
+      "kind": "blog",
+      "yield": "medium",
+      "score": 0.7299999999999999,
+      "rationale": "## See how LogRocket's Galileo AI surfaces the most severe issues for you\n### No signup required\nThis article focuses on code-execution sandboxes: the environments where an agent runs code, shell commands, and package installs behind an API.\n\n## Session persistence\n```python\nimport modal\n\napp = modal.App.lookup(\"agent-work\", create_if_missing=True)\nbase = modal.Image.from_registry(\"python:3.13-slim\")\n\n# Prepare an environment once.\nsb = modal.Sandbox.create(app=app, image=base)\nsb.exec(\"bash\", \"-c\", \"pip install pandas numpy scikit-learn\")\nprepared = sb.snapshot_filesystem()   # reusable image\nsb.terminate()\n\n# Fork three parallel sandboxes from the same prepared state.\nbranches = [\\\n    modal.Sandbox.create(app=app, image=prepared)\\\n    for _ in range(3)\\\n]\n\nfor i, branch in enumerate(branches):\n    branch.exec(\"bash\", \"-c\", f\"echo 'running trajectory {i}'\")\n\n# Each branch explores a different approach from the same starting point.\nfor branch in branches:\n    branch.terminate()\n```\n\n## SDK ergonomics\n```typescript\n// Cloudflare — inside a Worker, not a standalone script\nimport { getSandbox } from \"@cloudflare/sandbox\";\nexport { Sandbox } from \"@cloudflare/sandbox\";\n\nexport default {\n  async fetch(request: Request, env: Env) {\n    const sandbox = getSandbox(env.Sandbox, \"my-sandbox\");\n    const result = await sandbox.exec(\"echo hello\");\n    return new Response(result.stdout);\n  },\n};\n```",
+      "discoveredVia": "search:agent code execution sandbox comparison",
+      "status": "promoted",
+      "discoveredAt": "2026-11-22T22:42:05.327Z"
     },
     {
       "id": "airflow-docs-apache-airflow-providers-common-ai-",
@@ -2016,6 +2412,30 @@
       "discoveredVia": "search:open source AI agent sandbox self-hosted",
       "status": "pending",
       "discoveredAt": "2026-11-21T19:27:31.105Z"
+    },
+    {
+      "id": "developers-api-docs-guides-agents-sandboxes",
+      "url": "https://developers.openai.com/api/docs/guides/agents/sandboxes",
+      "title": "Sandbox Agents | OpenAI API",
+      "kind": "docs",
+      "yield": "medium",
+      "score": 0.6499999999999999,
+      "rationale": "## Sandbox providers\n| Provider | SDK client | Documentation and examples |\n|-|-|-|\n| Blaxel | `BlaxelSandboxClient` | [Sandbox overview](https://docs.blaxel.ai/Sandboxes/Overview) |\n| Cloudflare | `CloudflareSandboxClient` | [Sandbox documentation](https://developers.cloudflare.com/sandbox/)<br>[OpenAI Agents tutorial](https://docs.cloudflare.com/sandbox/tutorials/openai-agents/)<br>[Sandbox Bridge examples](https://github.com/cloudflare/sandbox-sdk/tree/main/bridge/examples) |\n| Databricks | `DatabricksSandboxClient` | For Python, install `databricks-openai[sandbox]`.<br>[Sandbox documentation](https://docs.databricks.com/aws/en/compute/serverless/sandbox)<br>[OpenAI Agents SDK example](https://github.com/databricks/databricks-ai-bridge/blob/main/integrations/openai/examples/sandbox_runner.py)<br>[Databricks SDK for Python guide](https://databricks-sdk-py.readthedocs.io/en/latest/sandbox.html) |\n| Daytona | `DaytonaSandboxClient` | [Sandbox documentation](https://www.daytona.io/docs/en/sandboxes/)<br>[OpenAI Agents SDK guide](https://www.daytona.io/docs/en/guides/openai-agents/openai-agents-sdk-with-sandboxes) |\n| Docker | `DockerSandboxClient` | [Docker documentation](https://docs.docker.com/)<br>[TypeScript Docker SDK example](https://github.com/openai/openai-agents-js/blob/main/examples/docs/sandbox-agents/docker-client.ts)<br>[Python Docker SDK example](https://github.com/openai/openai-agents-python/blob/main/examples/sandbox/docker/docker_runner.py) |\n| E2B | `E2BSandboxClient` | [Sandbox documentation](https://e2b.dev/docs)<br>[OpenAI Agents SDK guide](https://e2b.dev/docs/agents/openai-agents-sdk)<br>[Launch blog](https://e2b.dev/blog/e2b-is-now-in-agents-sdk) |\n| Modal | `ModalSandboxClient` | [Sandbox guide](https://modal.com/docs/guide/sandboxes)<br>[Integration blog](https://modal.com/blog/building-with-modal-and-the-openai-agent-sdk)<br>[Example repo](https://github.com/modal-labs/openai-agents-python-example)<br>[Modal extension reference](https://github.com/modal-labs/openai-agents-python-example?tab=readme-ov-file#modal-extension-reference) |\n| Unix-local | `UnixLocalSandboxClient` | [TypeScript local SDK example](https://github.com/openai/openai-agents-js/blob/main/examples/docs/sandbox-agents/basic.ts)<br>[Python local SDK example](https://github.com/openai/openai-agents-python/blob/main/examples/sandbox/unix_local_runner.py) |\n| Vercel | `VercelSandboxClient` | [Sandbox documentation](https://vercel.com/docs/vercel-sandbox)<br>[OpenAI Agents SDK guide](https://vercel.com/kb/guide/building-an-agent-with-openai-agents-sdk-and-vercel-sandbox)<br>[FastAPI template](https://vercel.com/templates/template/openai-agents-sdk-with-fastapi)<br>[Sample app](https://github.com/vercel-labs/openai-agents-fastapi-starter) |",
+      "discoveredVia": "search:AI agent sandbox provider directory list",
+      "status": "pending",
+      "discoveredAt": "2026-11-22T22:42:03.102Z"
+    },
+    {
+      "id": "platform-docs-en-managed-agents-self-hosted-sandb",
+      "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes",
+      "title": "Self-hosted sandboxes - Claude Platform Docs",
+      "kind": "docs",
+      "yield": "medium",
+      "score": 0.6499999999999999,
+      "rationale": "Self-hosted sandboxes move the agent’s tool execution from Anthropic-managed cloud sandboxes into infrastructure you control, while Anthropic keeps running the agent.\n\n## Quickstart\n### Create a self-hosted environment\n```\nant apply environment.yaml\n```\n\n```\n# yaml-language-server: $schema=https://platform.claude.com/schemas/ant/beta/environment.json\nname: self-hosted\nconfig:\n     type: self_hosted\n```\n\n## Availability\nSelf-hosted sandboxes",
+      "discoveredVia": "search:open source AI agent sandbox self-hosted",
+      "status": "pending",
+      "discoveredAt": "2026-11-22T22:42:21.960Z"
     }
   ]
 }
