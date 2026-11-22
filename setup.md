@@ -41,7 +41,7 @@ Pipeline code lives under **`scripts/pipeline/`** (typed Firecrawl client, provi
 
 **Discover sources** (`discover:sources`): Firecrawl **search** (HN, GitHub, blogs, directories, YC, …) + **hub extract** on meta-lists → scores candidates → auto-promotes high-confidence URLs into `firecrawl-sources.json`. Also runs **mention search** (`mentionSearchQueries` in `source-discovery.json`): top hits from HN launches, X/Twitter, and “we use E2B/Modal/…” blogs are scraped for named vendors → `discovered-provider-mentions.json`.
 
-**Sync providers** (`sync:providers`): for each entry in `firecrawl-sources.json`, Firecrawl **scrape** or **crawl** + extract `providers[]`, **plus** merged rows from `discovered-provider-mentions.json` → qualify vendors, write inventory. Run `discover:sources` before sync in CI so mentions are fresh.
+**Sync providers** (`sync:providers`): for each entry in `firecrawl-sources.json`, Firecrawl **scrape** or **crawl** + extract `providers[]`, **plus** merged rows from `discovered-provider-mentions.json` → qualify vendors, write inventory. Scheduled CI runs discovery the prior evening (auto-merged to `main`) and sync the next morning on that updated `main`.
 
 Extraction includes **hosted, OSS/self-hosted, hybrid, stealth/waitlist** sandboxes. Optional fields: `offering_type`, `availability`, `launch_stage`, `sandbox_capabilities`, `isolation_technologies`, `isolation` (display labels), `logo_url`, `docs` (`{ description, link }[]` for docs entry, pricing, API). Taxonomies: `config/capability-taxonomy.md`, `config/isolation-taxonomy.md`, `config/provider-docs.md`. Filtering in `scripts/pipeline/providers/qualify.ts` still drops catalogs and bare runtime docs.
 
@@ -49,7 +49,14 @@ Extraction includes **hosted, OSS/self-hosted, hybrid, stealth/waitlist** sandbo
 
 ### Scheduled sync (no backend)
 
-[`.github/workflows/sync-providers.yml`](./.github/workflows/sync-providers.yml) runs **daily** at **11:00 IST** (05:30 UTC, `cron: 30 5 * * *`) and on **`workflow_dispatch`**. Set repository secret **`FIRECRAWL_API_KEY`**. The job runs `discover:sources` → `sync:providers` → `validate:providers`, then **opens a PR** on branch `chore/data-sync-providers` (updates the same PR if one is still open). It does **not** merge to `main`; you review and merge manually. If nothing changed, no PR is created.
+Two workflows share repository secret **`FIRECRAWL_API_KEY`**; each can be re-run with **`workflow_dispatch`**. If a run is already in progress for that workflow, the next trigger is skipped. Discovery **auto-merges** into `main` (squash); sync still opens a PR for manual review.
+
+| Workflow                                                                             | Schedule (IST)        | Command(s)                              | PR branch                     |
+| ------------------------------------------------------------------------------------ | --------------------- | --------------------------------------- | ----------------------------- |
+| [`.github/workflows/discover-sources.yml`](./.github/workflows/discover-sources.yml) | **23:00** (17:30 UTC) | `discover:sources`                      | `chore/data-discover-sources` |
+| [`.github/workflows/sync-providers.yml`](./.github/workflows/sync-providers.yml)     | **11:00** (05:30 UTC) | `sync:providers` → `validate:providers` | `chore/data-sync-providers`   |
+
+Morning sync reads sources from **`main`** after the prior night’s discovery merge.
 
 ## Key paths
 

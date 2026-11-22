@@ -1,0 +1,68 @@
+name: Discover Firecrawl sources
+
+on:
+  schedule:
+    # Daily 23:00 Asia/Kolkata (IST, UTC+5:30) → 17:30 UTC
+    - cron: "30 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: write
+
+jobs:
+  should-run:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.skip.outputs.should_skip }}
+    steps:
+      - id: skip
+        uses: step-security/skip-duplicate-actions@v5
+        with:
+          concurrent_skipping: always
+
+  discover:
+    needs: should-run
+    if: needs.should-run.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    env:
+      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Discover new Firecrawl source pages
+        run: npm run discover:sources
+
+      - name: Open pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v8.1.3
+        with:
+          commit-message: "chore(data): discover Firecrawl sources"
+          branch: chore/data-discover-sources
+          title: "chore(data): discover Firecrawl sources"
+          body: |
+            Automated source discovery (`discover:sources`).
+
+            Merged automatically by workflow when there are changes.
+          add-paths: |
+            config/firecrawl-sources.json
+            config/discovered-sources.json
+            config/discovered-provider-mentions.json
+
+      - name: Auto-merge pull request
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          gh pr merge "${{ steps.cpr.outputs.pull-request-number }}"
+          --squash --delete-branch
