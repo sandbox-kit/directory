@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-22T10:15:59.065Z",
+  "updatedAt": "2026-11-22T22:44:50.986Z",
   "providers": [
     {
-      "name": "Modal",
-      "website": "https://modal.com/",
+      "name": "Daytona",
+      "website": "https://www.daytona.io",
       "sources": [
         "mention:site:news.ycombinator.com browser use sandbox",
         "discovery:mention"
@@ -13,43 +13,27 @@
       "availability": "public",
       "launch_stage": "ga",
       "sandbox_capabilities": [
-        "linux"
-      ],
-      "isolation_technologies": [
+        "linux",
         "container"
       ],
-      "logo_url": "https://news.ycombinator.com/y18.svg",
-      "docs": [
-        {
-          "description": "Modal Homepage",
-          "link": "https://modal.com/"
-        }
-      ]
-    },
-    {
-      "name": "Daytona",
-      "website": "https://www.daytona.io/",
-      "sources": [
-        "mention:site:news.ycombinator.com browser use sandbox",
-        "discovery:mention"
+      "isolation_technologies": [
+        "docker"
       ],
-      "extra": true,
-      "offering_type": "hosted",
-      "availability": "public",
-      "launch_stage": "ga",
-      "sandbox_capabilities": [],
-      "isolation_technologies": [],
-      "logo_url": "https://news.ycombinator.com/y18.svg",
+      "logo_url": "https://www.daytona.io/logo.png",
       "docs": [
         {
-          "description": "Daytona Homepage",
-          "link": "https://www.daytona.io/"
+          "description": "Daytona Overview",
+          "link": "https://www.daytona.io/docs"
+        },
+        {
+          "description": "Pricing",
+          "link": "https://www.daytona.io/pricing"
         }
       ]
     },
     {
       "name": "Render",
-      "website": "https://render.com/",
+      "website": "https://render.com",
       "sources": [
         "mention:site:news.ycombinator.com browser use sandbox",
         "discovery:mention"
@@ -58,13 +42,44 @@
       "offering_type": "hosted",
       "availability": "public",
       "launch_stage": "ga",
-      "sandbox_capabilities": [],
-      "isolation_technologies": [],
-      "logo_url": "https://news.ycombinator.com/y18.svg",
+      "sandbox_capabilities": [
+        "linux",
+        "container"
+      ],
+      "isolation_technologies": [
+        "docker"
+      ],
+      "logo_url": "https://render.com/favicon.ico",
       "docs": [
         {
-          "description": "Render Homepage",
-          "link": "https://render.com/"
+          "description": "Render documentation",
+          "link": "https://render.com/docs"
+        }
+      ]
+    },
+    {
+      "name": "Modal",
+      "website": "https://modal.com",
+      "sources": [
+        "mention:site:news.ycombinator.com browser use sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "hosted",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux",
+        "container"
+      ],
+      "isolation_technologies": [
+        "docker"
+      ],
+      "logo_url": "https://modal.com/logo.png",
+      "docs": [
+        {
+          "description": "Modal documentation",
+          "link": "https://modal.com/docs"
         }
       ]
     }

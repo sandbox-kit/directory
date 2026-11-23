@@ -173,6 +173,14 @@ function isYcCompanyPage(url: string): boolean {
   return /ycombinator\.com\/companies\/[^/?#]+/i.test(url);
 }
 
+/** Boxyard/compare extractions sometimes emit template URLs — never inventory these. */
+function isExtractionPlaceholderUrl(url: string): boolean {
+  const low = url.toLowerCase();
+  if (/link-to-/i.test(low)) return true;
+  const host = normDomain(url);
+  return host === "agent.sandbox";
+}
+
 function fromYcOrMentionDiscovery(sources: string[] | undefined): boolean {
   if (!sources?.length) return false;
   return sources.some(
@@ -233,6 +241,7 @@ export function qualifiesAgentSandbox(
   if (NAME_DIRECTORY_MARKETPLACE_RE.test(trimmedName)) return false;
   if (hostBlocked(url)) return false;
   if (isGithubTopicsPage(url)) return false;
+  if (isExtractionPlaceholderUrl(url)) return false;
 
   const host = normDomain(url);
   if (KNOWN_SANDBOX_VENDOR_HOSTS.has(host)) return true;

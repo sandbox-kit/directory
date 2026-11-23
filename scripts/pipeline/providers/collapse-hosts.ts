@@ -4,6 +4,7 @@ import {
   providerVendorKey,
 } from "@/lib/dedupe-providers";
 import type { SandboxProvider } from "@/schemas/provider";
+import { collapseProvidersByDisplayName } from "./collapse-redundant.ts";
 import { mergeInventoryRows } from "./merge-fields.ts";
 
 export type CollapseProvidersResult = {
@@ -71,8 +72,7 @@ export function collapseProvidersByVendorKey(
       continue;
     }
     collapsed += 1;
-    const keep =
-      providerRowRank(row) > providerRowRank(prev) ? row : prev;
+    const keep = providerRowRank(row) > providerRowRank(prev) ? row : prev;
     const drop = keep === row ? prev : row;
     byVendor.set(vendorKey, mergeInventoryRows(keep, drop));
   }
@@ -93,6 +93,7 @@ export type FinalizeInventoryResult = {
   rows: SandboxProvider[];
   collapsedHost: number;
   collapsedVendor: number;
+  collapsedRedundant: number;
 };
 
 export function finalizeProviderInventory(
@@ -100,9 +101,11 @@ export function finalizeProviderInventory(
 ): FinalizeInventoryResult {
   const byHost = collapseProvidersByHost(list);
   const byVendor = collapseProvidersByVendorKey(byHost.rows);
+  const byDisplay = collapseProvidersByDisplayName(byVendor.rows);
   return {
-    rows: byVendor.rows,
+    rows: byDisplay.rows,
     collapsedHost: byHost.collapsed,
     collapsedVendor: byVendor.collapsed,
+    collapsedRedundant: byDisplay.collapsed,
   };
 }
