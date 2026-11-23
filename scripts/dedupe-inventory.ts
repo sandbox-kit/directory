@@ -21,7 +21,7 @@ function sortProviders(rows: SandboxProvider[]): SandboxProvider[] {
 
 function main(): void {
   const before = readJsonFile<SandboxProvider[]>(pipelinePaths.inventory);
-  const { rows, collapsedHost, collapsedVendor } =
+  const { rows, collapsedHost, collapsedVendor, collapsedRedundant } =
     finalizeProviderInventory(before);
   const sorted = sortProviders(rows);
   const parsed = sandboxProvidersSchema.safeParse(sorted);
@@ -36,7 +36,7 @@ function main(): void {
   writeJsonFile(pipelinePaths.inventory, parsed.data);
 
   console.log(
-    `deduped inventory: ${before.length} → ${parsed.data.length} (host merges: ${collapsedHost}, vendor merges: ${collapsedVendor})`,
+    `deduped inventory: ${before.length} → ${parsed.data.length} (host merges: ${collapsedHost}, vendor merges: ${collapsedVendor}, redundant: ${collapsedRedundant})`,
   );
   console.log(
     `duplicate slugs: ${dupes.duplicateSlugs.length}, host keys: ${dupes.duplicateHostKeys.length}, vendor keys: ${dupes.duplicateVendorKeys.length}`,

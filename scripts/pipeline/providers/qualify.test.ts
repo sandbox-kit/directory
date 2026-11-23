@@ -25,6 +25,21 @@ describe("qualifiesAgentSandbox", () => {
     ).toBe(true);
   });
 
+  it("rejects Boxyard template placeholder URLs", () => {
+    expect(
+      qualifiesAgentSandbox(
+        "Agent Sandbox",
+        "https://link-to-agent-sandbox.com",
+        { sources: ["firecrawl:boxyard"] },
+      ),
+    ).toBe(false);
+    expect(
+      qualifiesAgentSandbox("Agent Sandbox", "https://agent.sandbox", {
+        sources: ["firecrawl:boxyard"],
+      }),
+    ).toBe(false);
+  });
+
   it("rejects catalogs and marketplaces", () => {
     expect(
       qualifiesAgentSandbox("Boxyard", "https://boxyard.dev/providers", {}),

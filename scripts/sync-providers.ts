@@ -110,6 +110,11 @@ async function main(): Promise<void> {
       `collapsed ${finalized.collapsedVendor} duplicate vendor(s) after URL verify`,
     );
   }
+  if (finalized.collapsedRedundant > 0) {
+    console.log(
+      `collapsed ${finalized.collapsedRedundant} redundant mirror/listing row(s) (same display name)`,
+    );
+  }
   const rows = sortProviders(finalized.rows);
 
   const parsed = sandboxProvidersSchema.safeParse(rows);
