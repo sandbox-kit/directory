@@ -20,7 +20,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.agent37.com/cloud",
-      "checked_at": "2026-11-23T16:16:41.038Z",
+      "checked_at": "2026-11-24T16:02:43.616Z",
       "http_status": 200,
       "final_url": "https://www.agent37.com/cloud",
       "method": "HEAD"
@@ -154,7 +154,7 @@
         "link": "https://www.ycombinator.com/companies/wasmer"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.485Z"
+    "last_verified_at": "2026-11-24T16:02:59.715Z"
   },
   {
     "slug": "agent-sandbox-agentsandbox",
@@ -169,7 +169,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.agentsandbox.com",
-      "checked_at": "2026-11-23T16:16:41.039Z",
+      "checked_at": "2026-11-24T16:02:43.618Z",
       "http_status": 200,
       "final_url": "https://www.agentsandbox.com/",
       "method": "HEAD"
@@ -215,7 +215,7 @@
         "link": "https://boxyard.dev/compare/agentsandbox-vs-azure-container-apps-sandboxes"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.533Z"
+    "last_verified_at": "2026-11-24T16:02:59.874Z"
   },
   {
     "slug": "agent-sandbox-github",
@@ -230,7 +230,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://github.com/agent-sandbox/agent-sandbox",
-      "checked_at": "2026-11-23T16:16:41.040Z",
+      "checked_at": "2026-11-24T16:02:43.619Z",
       "http_status": 200,
       "final_url": "https://github.com/agent-sandbox/agent-sandbox",
       "method": "HEAD"
@@ -268,7 +268,7 @@
         "link": "https://github.com/agent-sandbox/agent-sandbox"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.546Z"
+    "last_verified_at": "2026-11-24T16:02:59.926Z"
   },
   {
     "slug": "agent-sandbox",
@@ -287,7 +287,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://agent-sandbox.github.io",
-      "checked_at": "2026-11-23T16:16:41.041Z",
+      "checked_at": "2026-11-24T16:02:43.620Z",
       "http_status": 200,
       "final_url": "https://agent-sandbox.github.io/",
       "method": "HEAD"
@@ -312,7 +312,7 @@
       "microvm"
     ],
     "docs": [],
-    "last_verified_at": "2026-11-23T16:16:52.568Z"
+    "last_verified_at": "2026-11-24T16:02:59.982Z"
   },
   {
     "slug": "agentcomputer-agentcomputer",
@@ -327,7 +327,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.agentcomputer.ai",
-      "checked_at": "2026-11-23T16:16:41.041Z",
+      "checked_at": "2026-11-24T16:02:43.621Z",
       "http_status": 200,
       "final_url": "https://www.agentcomputer.ai/",
       "method": "HEAD"
@@ -339,7 +339,7 @@
     ],
     "isolation": [],
     "funding": [],
-    "last_verified_at": "2026-11-23T16:16:52.580Z"
+    "last_verified_at": "2026-11-24T16:03:00.034Z"
   },
   {
     "slug": "databrickssandbox",
@@ -354,7 +354,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.langchain.com/oss/python/integrations/sandboxes/databricks",
-      "checked_at": "2026-11-23T16:16:41.042Z",
+      "checked_at": "2026-11-24T16:02:43.621Z",
       "http_status": 200,
       "final_url": "https://docs.langchain.com/oss/python/integrations/sandboxes/databricks",
       "method": "HEAD"
@@ -398,7 +398,7 @@
         "link": "https://pypi.org/project/langchain-modal/"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.592Z"
+    "last_verified_at": "2026-11-24T16:03:00.087Z"
   },
   {
     "slug": "ai-sdk-sandbox-microsandbox",
@@ -413,7 +413,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://ai-sdk-harness.pages.dev/docs/packages/sandbox-microsandbox",
-      "checked_at": "2026-11-23T16:16:41.043Z",
+      "checked_at": "2026-11-24T16:02:43.622Z",
       "http_status": 200,
       "final_url": "https://ai-sdk-harness.pages.dev/docs/packages/sandbox-microsandbox",
       "method": "HEAD"
@@ -435,7 +435,7 @@
     "sandbox_capabilities": [
       "microvm"
     ],
-    "last_verified_at": "2026-11-23T16:16:52.603Z"
+    "last_verified_at": "2026-11-24T16:03:00.137Z"
   },
   {
     "slug": "aio-sandbox",
@@ -451,7 +451,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://github.com/agent-infra/sandbox",
-      "checked_at": "2026-11-23T16:16:41.043Z",
+      "checked_at": "2026-11-24T16:02:43.623Z",
       "http_status": 200,
       "final_url": "https://github.com/agent-infra/sandbox",
       "method": "HEAD"
@@ -472,7 +472,7 @@
         "link": "https://github.com/agent-infra/sandbox"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.616Z"
+    "last_verified_at": "2026-11-24T16:03:00.193Z"
   },
   {
     "slug": "agentbay",
@@ -498,7 +498,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.alibabacloud.com/en/product/agentbay",
-      "checked_at": "2026-11-23T16:16:41.134Z",
+      "checked_at": "2026-11-24T16:02:43.780Z",
       "http_status": 200,
       "final_url": "https://www.alibabacloud.com/en/product/agentbay",
       "method": "HEAD"
@@ -599,7 +599,7 @@
         "link": "https://agentsandboxes.org/sandboxes/alibaba-agentbay"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.629Z"
+    "last_verified_at": "2026-11-24T16:03:00.245Z"
   },
   {
     "slug": "aws-sandbox",
@@ -620,7 +620,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox",
-      "checked_at": "2026-11-23T16:16:41.180Z",
+      "checked_at": "2026-11-24T16:02:43.802Z",
       "http_status": 200,
       "final_url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-builder-center-sandbox/",
       "method": "HEAD"
@@ -682,7 +682,7 @@
         "link": "https://aws.amazon.com/bedrock/agentcore/pricing/"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.642Z"
+    "last_verified_at": "2026-11-24T16:03:00.301Z"
   },
   {
     "slug": "amika-rigs",
@@ -697,7 +697,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.amika.dev",
-      "checked_at": "2026-11-23T16:16:41.321Z",
+      "checked_at": "2026-11-24T16:02:44.013Z",
       "http_status": 200,
       "final_url": "https://www.amika.dev/",
       "method": "HEAD"
@@ -715,7 +715,7 @@
       "managed_runtime"
     ],
     "funding": [],
-    "last_verified_at": "2026-11-23T16:16:52.654Z"
+    "last_verified_at": "2026-11-24T16:03:00.353Z"
   },
   {
     "slug": "anchor-browser",
@@ -737,7 +737,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://anchorbrowser.io",
-      "checked_at": "2026-11-23T16:16:41.331Z",
+      "checked_at": "2026-11-24T16:02:44.321Z",
       "http_status": 200,
       "final_url": "https://anchorbrowser.io/",
       "method": "HEAD"
@@ -790,7 +790,7 @@
         "link": "https://agentsandboxes.org/sandboxes/anchor-browser"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.667Z"
+    "last_verified_at": "2026-11-24T16:03:00.407Z"
   },
   {
     "slug": "apify-ai-code-sandbox",
@@ -806,7 +806,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://apify.com",
-      "checked_at": "2026-11-23T16:16:41.582Z",
+      "checked_at": "2026-11-24T16:02:44.340Z",
       "http_status": 200,
       "final_url": "https://apify.com/",
       "method": "HEAD"
@@ -871,7 +871,7 @@
         "link": "https://docs.apify.com/actors/running/usage-and-resources"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.678Z"
+    "last_verified_at": "2026-11-24T16:03:00.457Z"
   },
   {
     "slug": "archil",
@@ -893,7 +893,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://archil.com",
-      "checked_at": "2026-11-23T16:16:41.584Z",
+      "checked_at": "2026-11-24T16:02:44.346Z",
       "http_status": 200,
       "final_url": "https://archil.com/",
       "method": "HEAD"
@@ -943,7 +943,7 @@
         "link": "https://agentsandboxes.org/sandboxes/archil"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.689Z"
+    "last_verified_at": "2026-11-24T16:03:00.511Z"
   },
   {
     "slug": "arker",
@@ -960,7 +960,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://arker.ai",
-      "checked_at": "2026-11-23T16:16:41.597Z",
+      "checked_at": "2026-11-24T16:02:44.382Z",
       "http_status": 200,
       "final_url": "https://arker.ai/",
       "method": "HEAD"
@@ -976,7 +976,7 @@
       "managed_runtime"
     ],
     "funding": [],
-    "last_verified_at": "2026-11-23T16:16:52.701Z"
+    "last_verified_at": "2026-11-24T16:03:00.566Z"
   },
   {
     "slug": "azure-container-apps-dynamic-sessions",
@@ -992,7 +992,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://azure.microsoft.com/en-us/products/container-apps",
-      "checked_at": "2026-11-23T16:16:41.618Z",
+      "checked_at": "2026-11-24T16:02:44.447Z",
       "http_status": 200,
       "final_url": "https://azure.microsoft.com/en-us/products/container-apps",
       "method": "HEAD"
@@ -1011,7 +1011,7 @@
       "managed_runtime"
     ],
     "funding": [],
-    "last_verified_at": "2026-11-23T16:16:52.714Z"
+    "last_verified_at": "2026-11-24T16:03:00.620Z"
   },
   {
     "slug": "azure-container-apps-sandboxes",
@@ -1027,7 +1027,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sandboxes.azure.com",
-      "checked_at": "2026-11-23T16:16:41.686Z",
+      "checked_at": "2026-11-24T16:02:44.535Z",
       "http_status": 200,
       "final_url": "https://sandboxes.azure.com/",
       "method": "HEAD"
@@ -1082,7 +1082,7 @@
         "link": "https://sandboxes.azure.com/docs/sandboxes/sandbox"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.725Z"
+    "last_verified_at": "2026-11-24T16:03:00.670Z"
   },
   {
     "slug": "baponi",
@@ -1109,7 +1109,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://baponi.ai",
-      "checked_at": "2026-11-23T16:16:41.765Z",
+      "checked_at": "2026-11-24T16:02:44.573Z",
       "http_status": 200,
       "final_url": "https://baponi.ai/",
       "method": "HEAD"
@@ -1149,7 +1149,7 @@
         "link": "https://agentsandboxes.org/sandboxes/baponi"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.737Z"
+    "last_verified_at": "2026-11-24T16:03:00.723Z"
   },
   {
     "slug": "baseten-sandboxes",
@@ -1171,7 +1171,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.baseten.co/sandboxes/overview.md",
-      "checked_at": "2026-11-23T16:16:41.770Z",
+      "checked_at": "2026-11-24T16:02:44.596Z",
       "http_status": 200,
       "final_url": "https://docs.baseten.co/sandboxes/overview.md",
       "method": "HEAD"
@@ -1228,7 +1228,7 @@
         "link": "https://agentsandboxes.org/sandboxes/baseten-sandboxes"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.749Z"
+    "last_verified_at": "2026-11-24T16:03:00.771Z"
   },
   {
     "slug": "beam-sandboxes",
@@ -1259,7 +1259,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.beam.cloud",
-      "checked_at": "2026-11-23T16:16:41.798Z",
+      "checked_at": "2026-11-24T16:02:44.625Z",
       "http_status": 200,
       "final_url": "https://www.beam.cloud/",
       "method": "HEAD"
@@ -1341,7 +1341,7 @@
         "link": "https://agentsandboxes.org/sandboxes/beam"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.761Z"
+    "last_verified_at": "2026-11-24T16:03:00.825Z"
   },
   {
     "slug": "blaxel",
@@ -1378,7 +1378,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://blaxel.ai",
-      "checked_at": "2026-11-23T16:16:41.810Z",
+      "checked_at": "2026-11-24T16:02:44.654Z",
       "http_status": 200,
       "final_url": "https://blaxel.ai/",
       "method": "HEAD"
@@ -1450,7 +1450,7 @@
         "link": "https://agentsandboxes.org/sandboxes/blaxel"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.772Z"
+    "last_verified_at": "2026-11-24T16:03:00.876Z"
   },
   {
     "slug": "bluerock-agent-sandbox",
@@ -1469,7 +1469,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.bluerock.io",
-      "checked_at": "2026-11-23T16:16:41.875Z",
+      "checked_at": "2026-11-24T16:02:44.684Z",
       "http_status": 200,
       "final_url": "https://www.bluerock.io/",
       "method": "HEAD"
@@ -1496,7 +1496,7 @@
         "link": "https://www.bluerock.io/products/agent-sandbox"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.783Z"
+    "last_verified_at": "2026-11-24T16:03:00.933Z"
   },
   {
     "slug": "boat",
@@ -1522,7 +1522,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://boat.dev",
-      "checked_at": "2026-11-23T16:16:41.960Z",
+      "checked_at": "2026-11-24T16:02:44.723Z",
       "http_status": 200,
       "final_url": "https://boat.dev/",
       "method": "HEAD"
@@ -1586,7 +1586,7 @@
         "link": "https://agentsandboxes.org/sandboxes/boat"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.795Z"
+    "last_verified_at": "2026-11-24T16:03:00.983Z"
   },
   {
     "slug": "boxd",
@@ -1609,7 +1609,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://boxd.sh",
-      "checked_at": "2026-11-23T16:16:42.064Z",
+      "checked_at": "2026-11-24T16:02:44.796Z",
       "http_status": 200,
       "final_url": "https://boxd.sh/",
       "method": "HEAD"
@@ -1636,7 +1636,7 @@
     "sandbox_capabilities": [
       "microvm"
     ],
-    "last_verified_at": "2026-11-23T16:16:52.814Z"
+    "last_verified_at": "2026-11-24T16:03:01.039Z"
   },
   {
     "slug": "brimble",
@@ -1653,7 +1653,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://brimble.io",
-      "checked_at": "2026-11-23T16:16:42.077Z",
+      "checked_at": "2026-11-24T16:02:44.818Z",
       "http_status": 200,
       "final_url": "https://www.brimble.io/",
       "method": "HEAD"
@@ -1680,7 +1680,7 @@
         "link": "https://www.brimble.io/sandboxes"
       }
     ],
-    "last_verified_at": "2026-11-23T16:16:52.827Z"
+    "last_verified_at": "2026-11-24T16:03:01.088Z"
   },
   {
     "slug": "browser-use-cloud",
@@ -1702,7 +1702,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://browser-use.com",
-      "checked_at": "2026-11-23T16:16:42.098Z",
+      "checked_at": "2026-11-24T16:02:44.819Z",
       "http_status": 200,
       "final_url": "https://browser-use.com/",
       "method": "HEAD"
@@ -1775,7 +1775,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.browserbase.com",
-      "checked_at": "2026-11-23T16:16:42.121Z",
+      "checked_at": "2026-11-24T16:02:44.929Z",
       "http_status": 200,
       "final_url": "https://www.browserbase.com/",
       "method": "HEAD"
@@ -1851,7 +1851,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.browserless.io",
-      "checked_at": "2026-11-23T16:16:42.143Z",
+      "checked_at": "2026-11-24T16:02:44.991Z",
       "http_status": 200,
       "final_url": "https://www.browserless.io/",
       "method": "HEAD"
@@ -1915,7 +1915,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://buddy.works/sandboxes",
-      "checked_at": "2026-11-23T16:16:42.234Z",
+      "checked_at": "2026-11-24T16:02:45.020Z",
       "http_status": 200,
       "final_url": "https://buddy.works/sandboxes",
       "method": "HEAD"
@@ -1966,7 +1966,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.byteplus.com/en/solutions/ai-cloud-native-sandbox",
-      "checked_at": "2026-11-23T16:16:42.372Z",
+      "checked_at": "2026-11-24T16:02:45.027Z",
       "http_status": 200,
       "final_url": "https://www.byteplus.com/en/solutions/ai-cloud-native-sandbox",
       "method": "HEAD"
@@ -2032,11 +2032,11 @@
       "firecrawl:roost-providers-celesto"
     ],
     "extra": true,
-    "website_status": "ok",
+    "website_status": "broken",
     "website_check": {
       "input_url": "https://celesto.ai",
-      "checked_at": "2026-11-23T16:16:42.464Z",
-      "http_status": 200,
+      "checked_at": "2026-11-24T16:02:45.159Z",
+      "http_status": 429,
       "final_url": "https://celesto.ai/",
       "method": "HEAD"
     },
@@ -2120,7 +2120,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool",
-      "checked_at": "2026-11-23T16:16:42.565Z",
+      "checked_at": "2026-11-24T16:02:45.182Z",
       "http_status": 200,
       "final_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool",
       "method": "HEAD"
@@ -2190,7 +2190,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://developers.cloudflare.com/sandbox",
-      "checked_at": "2026-11-23T16:16:42.580Z",
+      "checked_at": "2026-11-24T16:02:45.224Z",
       "http_status": 200,
       "final_url": "https://developers.cloudflare.com/sandbox/",
       "method": "HEAD"
@@ -2289,7 +2289,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://coasty.ai/platform/",
-      "checked_at": "2026-11-23T16:16:42.608Z",
+      "checked_at": "2026-11-24T16:02:45.372Z",
       "http_status": 200,
       "final_url": "https://coasty.ai/platform/",
       "method": "HEAD"
@@ -2326,7 +2326,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://codapi.org",
-      "checked_at": "2026-11-23T16:16:42.775Z",
+      "checked_at": "2026-11-24T16:02:45.388Z",
       "http_status": 200,
       "final_url": "https://codapi.org/",
       "method": "HEAD"
@@ -2393,7 +2393,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://coder.com",
-      "checked_at": "2026-11-23T16:16:42.864Z",
+      "checked_at": "2026-11-24T16:02:45.429Z",
       "http_status": 200,
       "final_url": "https://coder.com/",
       "method": "HEAD"
@@ -2469,7 +2469,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://learn.chatgpt.com/docs/sandboxing",
-      "checked_at": "2026-11-23T16:16:42.918Z",
+      "checked_at": "2026-11-24T16:02:45.472Z",
       "http_status": 200,
       "final_url": "https://learn.chatgpt.com/docs/sandboxing",
       "method": "HEAD"
@@ -2525,7 +2525,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://collimate.ai",
-      "checked_at": "2026-11-23T16:16:42.949Z",
+      "checked_at": "2026-11-24T16:02:45.532Z",
       "http_status": 200,
       "final_url": "https://collimate.ai/",
       "method": "HEAD"
@@ -2565,7 +2565,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://controlplane.com/platform/ai-agents",
-      "checked_at": "2026-11-23T16:16:42.964Z",
+      "checked_at": "2026-11-24T16:02:45.553Z",
       "http_status": 200,
       "final_url": "https://controlplane.com/platform/ai-agents",
       "method": "HEAD"
@@ -2645,7 +2645,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://createos.sh",
-      "checked_at": "2026-11-23T16:16:43.034Z",
+      "checked_at": "2026-11-24T16:02:45.580Z",
       "http_status": 200,
       "final_url": "https://createos.sh/",
       "method": "HEAD"
@@ -2699,7 +2699,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://cua.ai",
-      "checked_at": "2026-11-23T16:16:43.040Z",
+      "checked_at": "2026-11-24T16:02:45.603Z",
       "http_status": 200,
       "final_url": "https://cua.ai/",
       "method": "HEAD"
@@ -2764,7 +2764,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://cubesandbox.com",
-      "checked_at": "2026-11-23T16:16:43.062Z",
+      "checked_at": "2026-11-24T16:02:45.627Z",
       "http_status": 200,
       "final_url": "https://cubesandbox.com/",
       "method": "HEAD"
@@ -2804,7 +2804,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://datalayer.ai",
-      "checked_at": "2026-11-23T16:16:43.081Z",
+      "checked_at": "2026-11-24T16:02:45.699Z",
       "http_status": 200,
       "final_url": "https://datalayer.ai/",
       "method": "HEAD"
@@ -2884,7 +2884,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.daytona.io",
-      "checked_at": "2026-11-23T16:16:43.092Z",
+      "checked_at": "2026-11-24T16:02:45.777Z",
       "http_status": 200,
       "final_url": "https://www.daytona.io/",
       "method": "HEAD"
@@ -2999,7 +2999,7 @@
     "website_status": "broken",
     "website_check": {
       "input_url": "https://declaw.ai",
-      "checked_at": "2026-11-23T16:16:43.108Z",
+      "checked_at": "2026-11-24T16:02:45.788Z",
       "method": "HEAD",
       "error": "fetch failed"
     },
@@ -3030,7 +3030,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://dedaluslabs.ai",
-      "checked_at": "2026-11-23T16:16:43.109Z",
+      "checked_at": "2026-11-24T16:02:45.836Z",
       "http_status": 200,
       "final_url": "https://www.dedaluslabs.ai/",
       "method": "HEAD"
@@ -3080,7 +3080,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://deno.com/deploy/sandbox",
-      "checked_at": "2026-11-23T16:16:43.131Z",
+      "checked_at": "2026-11-24T16:02:45.884Z",
       "http_status": 200,
       "final_url": "https://deno.com/deploy/sandbox",
       "method": "HEAD"
@@ -3154,7 +3154,7 @@
     "website_status": "broken",
     "website_check": {
       "input_url": "https://docs.deno.com/sandboxes",
-      "checked_at": "2026-11-23T16:16:43.135Z",
+      "checked_at": "2026-11-24T16:02:45.940Z",
       "http_status": 404,
       "final_url": "https://docs.deno.com/sandboxes",
       "method": "HEAD"
@@ -3198,7 +3198,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://depot.dev/docs/sandboxes/overview",
-      "checked_at": "2026-11-23T16:16:43.180Z",
+      "checked_at": "2026-11-24T16:02:45.956Z",
       "http_status": 200,
       "final_url": "https://depot.dev/docs/sandboxes/overview",
       "method": "HEAD"
@@ -3270,7 +3270,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
-      "checked_at": "2026-11-23T16:16:43.193Z",
+      "checked_at": "2026-11-24T16:02:46.014Z",
       "http_status": 200,
       "final_url": "https://developers.openai.com/api/docs/guides/tools-code-interpreter",
       "method": "HEAD"
@@ -3321,7 +3321,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://dexto.ai",
-      "checked_at": "2026-11-23T16:16:43.229Z",
+      "checked_at": "2026-11-24T16:02:46.015Z",
       "http_status": 200,
       "final_url": "https://dexto.ai/",
       "method": "HEAD"
@@ -3361,7 +3361,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.digitalocean.com/products/managed-agents",
-      "checked_at": "2026-11-23T16:16:43.230Z",
+      "checked_at": "2026-11-24T16:02:46.045Z",
       "http_status": 200,
       "final_url": "https://www.digitalocean.com/products/managed-agents",
       "method": "HEAD"
@@ -3437,7 +3437,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.docker.com/press-release/cloud-sandboxes-extending-secure-ai-agent-isolation-beyond-the-laptop",
-      "checked_at": "2026-11-23T16:16:43.275Z",
+      "checked_at": "2026-11-24T16:02:46.103Z",
       "http_status": 200,
       "final_url": "https://www.docker.com/press-release/cloud-sandboxes-extending-secure-ai-agent-isolation-beyond-the-laptop/",
       "method": "HEAD"
@@ -3518,7 +3518,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.docker.com/ai/sandboxes",
-      "checked_at": "2026-11-23T16:16:43.299Z",
+      "checked_at": "2026-11-24T16:02:46.146Z",
       "http_status": 200,
       "final_url": "https://docs.docker.com/ai/sandboxes",
       "method": "HEAD"
@@ -3591,7 +3591,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://soulteary.com/2023/07/25/open-source-implementation-of-openai-code-interpreter-gpt-code-ui.html",
-      "checked_at": "2026-11-23T16:16:43.318Z",
+      "checked_at": "2026-11-24T16:02:46.209Z",
       "http_status": 200,
       "final_url": "https://soulteary.com/2023/07/25/open-source-implementation-of-openai-code-interpreter-gpt-code-ui.html",
       "method": "HEAD"
@@ -3662,7 +3662,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://e2b.dev",
-      "checked_at": "2026-11-23T16:16:43.397Z",
+      "checked_at": "2026-11-24T16:02:46.243Z",
       "http_status": 200,
       "final_url": "https://e2b.dev/",
       "method": "HEAD"
@@ -3776,7 +3776,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox",
-      "checked_at": "2026-11-23T16:16:43.451Z",
+      "checked_at": "2026-11-24T16:02:46.282Z",
       "http_status": 200,
       "final_url": "https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox",
       "method": "HEAD"
@@ -3820,7 +3820,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://eqvps.com/en/sandboxes",
-      "checked_at": "2026-11-23T16:16:43.472Z",
+      "checked_at": "2026-11-24T16:02:46.286Z",
       "http_status": 200,
       "final_url": "https://eqvps.com/en/sandboxes",
       "method": "HEAD"
@@ -3883,7 +3883,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://exe.dev",
-      "checked_at": "2026-11-23T16:16:43.478Z",
+      "checked_at": "2026-11-24T16:02:46.365Z",
       "http_status": 200,
       "final_url": "https://exe.dev/",
       "method": "HEAD"
@@ -3970,7 +3970,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.freestyle.sh",
-      "checked_at": "2026-11-23T16:16:43.566Z",
+      "checked_at": "2026-11-24T16:02:46.366Z",
       "http_status": 200,
       "final_url": "https://www.freestyle.sh/",
       "method": "HEAD"
@@ -4055,7 +4055,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://aistudio.google.com/docs/code-execution",
-      "checked_at": "2026-11-23T16:16:43.616Z",
+      "checked_at": "2026-11-24T16:02:46.431Z",
       "http_status": 200,
       "final_url": "https://aistudio.google.com/docs/code-execution",
       "method": "HEAD"
@@ -4108,7 +4108,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
-      "checked_at": "2026-11-23T16:16:43.633Z",
+      "checked_at": "2026-11-24T16:02:46.523Z",
       "http_status": 200,
       "final_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sandbox/code-execution-overview",
       "method": "HEAD"
@@ -4186,7 +4186,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces",
-      "checked_at": "2026-11-23T16:16:43.745Z",
+      "checked_at": "2026-11-24T16:02:46.552Z",
       "http_status": 200,
       "final_url": "https://docs.github.com/en/codespaces/about-codespaces/what-are-codespaces",
       "method": "HEAD"
@@ -4262,7 +4262,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://glot.io",
-      "checked_at": "2026-11-23T16:16:43.770Z",
+      "checked_at": "2026-11-24T16:02:46.560Z",
       "http_status": 200,
       "final_url": "https://glot.io/",
       "method": "HEAD"
@@ -4329,7 +4329,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
-      "checked_at": "2026-11-23T16:16:43.796Z",
+      "checked_at": "2026-11-24T16:02:46.576Z",
       "http_status": 200,
       "final_url": "https://cloud.google.com/products/gemini-enterprise-agent-platform",
       "method": "HEAD"
@@ -4355,7 +4355,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://fullstack-agent-ui.vercel.app",
-      "checked_at": "2026-11-23T16:16:43.848Z",
+      "checked_at": "2026-11-24T16:02:46.705Z",
       "http_status": 200,
       "final_url": "https://fullstack-agent-ui.vercel.app/login?next=%2F",
       "method": "HEAD"
@@ -4397,7 +4397,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://hopx.ai",
-      "checked_at": "2026-11-23T16:16:43.852Z",
+      "checked_at": "2026-11-24T16:02:46.819Z",
       "http_status": 200,
       "final_url": "https://hopx.ai/",
       "method": "HEAD"
@@ -4478,7 +4478,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://huggingface.co/docs/huggingface_hub/main/en/guides/sandbox",
-      "checked_at": "2026-11-23T16:16:43.943Z",
+      "checked_at": "2026-11-24T16:02:46.885Z",
       "http_status": 200,
       "final_url": "https://huggingface.co/docs/huggingface_hub/main/en/guides/sandbox",
       "method": "HEAD"
@@ -4538,7 +4538,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://hyperbeam.com",
-      "checked_at": "2026-11-23T16:16:43.957Z",
+      "checked_at": "2026-11-24T16:02:46.907Z",
       "http_status": 200,
       "final_url": "https://hyperbeam.com/",
       "method": "HEAD"
@@ -4615,7 +4615,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.hyperbrowser.ai",
-      "checked_at": "2026-11-23T16:16:44.066Z",
+      "checked_at": "2026-11-24T16:02:46.931Z",
       "http_status": 200,
       "final_url": "https://www.hyperbrowser.ai/",
       "method": "HEAD"
@@ -4697,7 +4697,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://instabox.sh",
-      "checked_at": "2026-11-23T16:16:44.119Z",
+      "checked_at": "2026-11-24T16:02:46.946Z",
       "http_status": 200,
       "final_url": "https://instabox.sh/",
       "method": "HEAD"
@@ -4744,7 +4744,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://instavm.io",
-      "checked_at": "2026-11-23T16:16:44.231Z",
+      "checked_at": "2026-11-24T16:02:46.979Z",
       "http_status": 200,
       "final_url": "https://instavm.io/",
       "method": "HEAD"
@@ -4814,7 +4814,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.tryisle.com",
-      "checked_at": "2026-11-23T16:16:44.245Z",
+      "checked_at": "2026-11-24T16:02:47.088Z",
       "http_status": 200,
       "final_url": "https://www.tryisle.com/",
       "method": "HEAD"
@@ -4858,7 +4858,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://islo.dev",
-      "checked_at": "2026-11-23T16:16:44.260Z",
+      "checked_at": "2026-11-24T16:02:47.110Z",
       "http_status": 200,
       "final_url": "https://islo.dev/",
       "method": "HEAD"
@@ -4926,7 +4926,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://isorun.ai",
-      "checked_at": "2026-11-23T16:16:44.303Z",
+      "checked_at": "2026-11-24T16:02:47.141Z",
       "http_status": 200,
       "final_url": "https://isorun.ai/",
       "method": "HEAD"
@@ -4966,7 +4966,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.jdoodle.com/compiler-api",
-      "checked_at": "2026-11-23T16:16:44.354Z",
+      "checked_at": "2026-11-24T16:02:47.148Z",
       "http_status": 200,
       "final_url": "https://www.jdoodle.com/compiler-api",
       "method": "HEAD"
@@ -5032,7 +5032,7 @@
     "website_status": "broken",
     "website_check": {
       "input_url": "https://jilebi.ai",
-      "checked_at": "2026-11-23T16:16:44.369Z",
+      "checked_at": "2026-11-24T16:02:47.153Z",
       "http_status": 403,
       "final_url": "https://jilebi.ai/",
       "method": "HEAD"
@@ -5066,7 +5066,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://judge0.com",
-      "checked_at": "2026-11-23T16:16:44.382Z",
+      "checked_at": "2026-11-24T16:02:47.186Z",
       "http_status": 200,
       "final_url": "https://judge0.com/",
       "method": "HEAD"
@@ -5136,7 +5136,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://kasm.com",
-      "checked_at": "2026-11-23T16:16:44.448Z",
+      "checked_at": "2026-11-24T16:02:47.292Z",
       "http_status": 200,
       "final_url": "https://kasm.com/",
       "method": "HEAD"
@@ -5191,7 +5191,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://kedge.dev",
-      "checked_at": "2026-11-23T16:16:44.481Z",
+      "checked_at": "2026-11-24T16:02:47.341Z",
       "http_status": 200,
       "final_url": "https://kedge.dev/",
       "method": "HEAD"
@@ -5230,7 +5230,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.kernel.sh",
-      "checked_at": "2026-11-23T16:16:44.482Z",
+      "checked_at": "2026-11-24T16:02:47.355Z",
       "http_status": 200,
       "final_url": "https://www.kernel.sh/",
       "method": "HEAD"
@@ -5310,7 +5310,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.koyeb.com/pricing",
-      "checked_at": "2026-11-23T16:16:44.486Z",
+      "checked_at": "2026-11-24T16:02:47.378Z",
       "http_status": 200,
       "final_url": "https://www.koyeb.com/pricing",
       "method": "HEAD"
@@ -5400,7 +5400,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://agent-sandbox.sigs.k8s.io/",
-      "checked_at": "2026-11-23T16:16:44.553Z",
+      "checked_at": "2026-11-24T16:02:47.426Z",
       "http_status": 200,
       "final_url": "https://agent-sandbox.sigs.k8s.io/",
       "method": "HEAD"
@@ -5470,7 +5470,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.langchain.com/langsmith/sandboxes",
-      "checked_at": "2026-11-23T16:16:44.654Z",
+      "checked_at": "2026-11-24T16:02:47.534Z",
       "http_status": 200,
       "final_url": "https://www.langchain.com/langsmith/sandboxes",
       "method": "HEAD"
@@ -5532,7 +5532,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://leap0.dev",
-      "checked_at": "2026-11-23T16:16:44.659Z",
+      "checked_at": "2026-11-24T16:02:47.609Z",
       "http_status": 200,
       "final_url": "https://leap0.dev/",
       "method": "HEAD"
@@ -5603,7 +5603,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://lightning.ai/docs/platform/build/sandbox",
-      "checked_at": "2026-11-23T16:16:44.687Z",
+      "checked_at": "2026-11-24T16:02:47.613Z",
       "http_status": 200,
       "final_url": "https://lightning.ai/docs/platform/build/sandbox",
       "method": "HEAD"
@@ -5676,7 +5676,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://lightpanda.io",
-      "checked_at": "2026-11-23T16:16:44.716Z",
+      "checked_at": "2026-11-24T16:02:47.653Z",
       "http_status": 200,
       "final_url": "https://lightpanda.io/",
       "method": "HEAD"
@@ -5745,7 +5745,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://lizard.build/sandboxes",
-      "checked_at": "2026-11-23T16:16:44.760Z",
+      "checked_at": "2026-11-24T16:02:47.671Z",
       "http_status": 200,
       "final_url": "https://lizard.build/",
       "method": "HEAD"
@@ -5800,7 +5800,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://vndee.github.io/llm-sandbox",
-      "checked_at": "2026-11-23T16:16:44.797Z",
+      "checked_at": "2026-11-24T16:02:47.702Z",
       "http_status": 200,
       "final_url": "https://vndee.github.io/llm-sandbox/",
       "method": "HEAD"
@@ -5836,7 +5836,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://arxiv.org/abs/2601.16206",
-      "checked_at": "2026-11-23T16:16:44.800Z",
+      "checked_at": "2026-11-24T16:02:47.789Z",
       "http_status": 200,
       "final_url": "https://arxiv.org/abs/2601.16206",
       "method": "HEAD"
@@ -5868,7 +5868,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://machine0.io",
-      "checked_at": "2026-11-23T16:16:44.844Z",
+      "checked_at": "2026-11-24T16:02:47.829Z",
       "http_status": 200,
       "final_url": "https://machine0.io/",
       "method": "HEAD"
@@ -5906,7 +5906,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://microsandbox.dev",
-      "checked_at": "2026-11-23T16:16:44.846Z",
+      "checked_at": "2026-11-24T16:02:47.852Z",
       "http_status": 200,
       "final_url": "https://microsandbox.dev/",
       "method": "HEAD"
@@ -5960,7 +5960,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://reef.clawbits.ai",
-      "checked_at": "2026-11-23T16:16:44.857Z",
+      "checked_at": "2026-11-24T16:02:47.947Z",
       "http_status": 200,
       "final_url": "https://reef.clawbits.ai/",
       "method": "HEAD"
@@ -6001,7 +6001,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://minimal.dev",
-      "checked_at": "2026-11-23T16:16:44.926Z",
+      "checked_at": "2026-11-24T16:02:47.999Z",
       "http_status": 200,
       "final_url": "https://minimal.dev/",
       "method": "HEAD"
@@ -6062,7 +6062,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://miosa.ai",
-      "checked_at": "2026-11-23T16:16:44.966Z",
+      "checked_at": "2026-11-24T16:02:48.061Z",
       "http_status": 200,
       "final_url": "https://miosa.ai/",
       "method": "HEAD"
@@ -6107,7 +6107,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.mistral.ai/agents/tools/built-in/code_interpreter",
-      "checked_at": "2026-11-23T16:16:45.034Z",
+      "checked_at": "2026-11-24T16:02:48.123Z",
       "http_status": 200,
       "final_url": "https://docs.mistral.ai/studio/agents/agent-tools/code_interpreter",
       "method": "HEAD"
@@ -6190,7 +6190,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://modal.com/use-cases/sandboxes",
-      "checked_at": "2026-11-23T16:16:45.078Z",
+      "checked_at": "2026-11-24T16:02:48.133Z",
       "http_status": 200,
       "final_url": "https://modal.com/products/sandboxes",
       "method": "HEAD"
@@ -6311,7 +6311,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://cloud.morph.so",
-      "checked_at": "2026-11-23T16:16:45.088Z",
+      "checked_at": "2026-11-24T16:02:48.232Z",
       "http_status": 200,
       "final_url": "https://cloud.morph.so/web/",
       "method": "HEAD"
@@ -6369,7 +6369,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sandbox.mosaicos.com",
-      "checked_at": "2026-11-23T16:16:45.092Z",
+      "checked_at": "2026-11-24T16:02:48.248Z",
       "http_status": 200,
       "final_url": "https://sandbox.mosaicos.com/",
       "method": "HEAD"
@@ -6403,7 +6403,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://munito.ai/sandboxes",
-      "checked_at": "2026-11-23T16:16:45.124Z",
+      "checked_at": "2026-11-24T16:02:48.268Z",
       "http_status": 200,
       "final_url": "https://munito.ai/sandboxes",
       "method": "HEAD"
@@ -6475,7 +6475,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://namespace.so",
-      "checked_at": "2026-11-23T16:16:45.229Z",
+      "checked_at": "2026-11-24T16:02:48.353Z",
       "http_status": 200,
       "final_url": "https://namespace.so/",
       "method": "HEAD"
@@ -6552,7 +6552,7 @@
     "website_status": "broken",
     "website_check": {
       "input_url": "https://tokenfactory.nebius.com/sandboxes/about",
-      "checked_at": "2026-11-23T16:16:45.233Z",
+      "checked_at": "2026-11-24T16:02:48.410Z",
       "http_status": 403,
       "final_url": "https://tokenfactory.nebius.com/sandboxes/about",
       "method": "HEAD"
@@ -6584,8 +6584,8 @@
     "website_status": "broken",
     "website_check": {
       "input_url": "https://kvcache-ai.github.io/AgentENV/latest/concepts/sandboxes.html",
-      "checked_at": "2026-11-23T16:16:45.242Z",
-      "http_status": 404,
+      "checked_at": "2026-11-24T16:02:48.477Z",
+      "http_status": 503,
       "final_url": "https://kvcache-ai.github.io/AgentENV/latest/concepts/sandboxes.html",
       "method": "HEAD"
     },
@@ -6612,7 +6612,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://nodus-compute.ai",
-      "checked_at": "2026-11-23T16:16:45.356Z",
+      "checked_at": "2026-11-24T16:02:48.498Z",
       "http_status": 200,
       "final_url": "https://nodus-compute.ai/",
       "method": "HEAD"
@@ -6653,7 +6653,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://nono.sh",
-      "checked_at": "2026-11-23T16:16:45.420Z",
+      "checked_at": "2026-11-24T16:02:48.576Z",
       "http_status": 200,
       "final_url": "https://nono.sh/",
       "method": "HEAD"
@@ -6735,7 +6735,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://northflank.com/product/sandboxes",
-      "checked_at": "2026-11-23T16:16:45.449Z",
+      "checked_at": "2026-11-24T16:02:48.584Z",
       "http_status": 200,
       "final_url": "https://northflank.com/product/sandboxes",
       "method": "HEAD"
@@ -6827,7 +6827,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://notte.cc",
-      "checked_at": "2026-11-23T16:16:45.482Z",
+      "checked_at": "2026-11-24T16:02:48.636Z",
       "http_status": 200,
       "final_url": "https://www.notte.cc/",
       "method": "HEAD"
@@ -6920,7 +6920,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://novita.ai/sandbox",
-      "checked_at": "2026-11-23T16:16:45.505Z",
+      "checked_at": "2026-11-24T16:02:48.645Z",
       "http_status": 200,
       "final_url": "https://novita.ai/sandbox",
       "method": "HEAD"
@@ -7005,7 +7005,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://omnirun.io",
-      "checked_at": "2026-11-23T16:16:45.506Z",
+      "checked_at": "2026-11-24T16:02:48.647Z",
       "http_status": 200,
       "final_url": "https://omnirun.io/",
       "method": "HEAD"
@@ -7046,7 +7046,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://ona.com",
-      "checked_at": "2026-11-23T16:16:45.599Z",
+      "checked_at": "2026-11-24T16:02:48.694Z",
       "http_status": 200,
       "final_url": "https://ona.com/",
       "method": "HEAD"
@@ -7117,7 +7117,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://onecompiler.com/apis",
-      "checked_at": "2026-11-23T16:16:45.655Z",
+      "checked_at": "2026-11-24T16:02:48.735Z",
       "http_status": 200,
       "final_url": "https://onecompiler.com/apis",
       "method": "HEAD"
@@ -7160,7 +7160,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://openai.com",
-      "checked_at": "2026-11-23T16:16:45.684Z",
+      "checked_at": "2026-11-24T16:02:48.790Z",
       "http_status": 200,
       "final_url": "https://openai.com/",
       "method": "HEAD"
@@ -7243,7 +7243,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://opencomputer.dev",
-      "checked_at": "2026-11-23T16:16:45.817Z",
+      "checked_at": "2026-11-24T16:02:48.818Z",
       "http_status": 200,
       "final_url": "https://opencomputer.dev/",
       "method": "HEAD"
@@ -7313,7 +7313,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.openhands.dev/sdk/guides/agent-server/overview",
-      "checked_at": "2026-11-23T16:16:45.824Z",
+      "checked_at": "2026-11-24T16:02:48.821Z",
       "http_status": 200,
       "final_url": "https://docs.openhands.dev/sdk/guides/agent-server/overview",
       "method": "HEAD"
@@ -7380,7 +7380,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://openpond.ai",
-      "checked_at": "2026-11-23T16:16:45.837Z",
+      "checked_at": "2026-11-24T16:02:48.933Z",
       "http_status": 200,
       "final_url": "https://openpond.ai/",
       "method": "HEAD"
@@ -7437,7 +7437,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://open-sandbox.ai",
-      "checked_at": "2026-11-23T16:16:45.841Z",
+      "checked_at": "2026-11-24T16:02:48.947Z",
       "http_status": 200,
       "final_url": "https://open-sandbox.ai/",
       "method": "HEAD"
@@ -7487,7 +7487,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.orgo.ai",
-      "checked_at": "2026-11-23T16:16:45.868Z",
+      "checked_at": "2026-11-24T16:02:48.965Z",
       "http_status": 200,
       "final_url": "https://www.orgo.ai/",
       "method": "HEAD"
@@ -7548,7 +7548,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://orkestr.eu/sandboxes",
-      "checked_at": "2026-11-23T16:16:45.926Z",
+      "checked_at": "2026-11-24T16:02:48.982Z",
       "http_status": 200,
       "final_url": "https://orkestr.eu/sandboxes",
       "method": "HEAD"
@@ -7585,7 +7585,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.pandastack.ai",
-      "checked_at": "2026-11-23T16:16:45.927Z",
+      "checked_at": "2026-11-24T16:02:49.097Z",
       "http_status": 200,
       "final_url": "https://www.pandastack.ai/",
       "method": "HEAD"
@@ -7641,7 +7641,7 @@
     "website_status": "broken",
     "website_check": {
       "input_url": "https://www.paperpod.dev",
-      "checked_at": "2026-11-23T16:16:45.948Z",
+      "checked_at": "2026-11-24T16:02:49.107Z",
       "http_status": 404,
       "final_url": "https://www.paperpod.dev/",
       "method": "HEAD"
@@ -7674,7 +7674,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.perplexity.ai",
-      "checked_at": "2026-11-23T16:16:46.033Z",
+      "checked_at": "2026-11-24T16:02:49.208Z",
       "http_status": 200,
       "final_url": "https://www.perplexity.ai/",
       "method": "HEAD"
@@ -7708,13 +7708,12 @@
       "InfraForAgents"
     ],
     "extra": true,
-    "website_status": "ok",
+    "website_status": "broken",
     "website_check": {
       "input_url": "https://ppio.com",
-      "checked_at": "2026-11-23T16:16:46.045Z",
-      "http_status": 200,
-      "final_url": "https://ppio.com/",
-      "method": "HEAD"
+      "checked_at": "2026-11-24T16:02:49.257Z",
+      "method": "HEAD",
+      "error": "fetch failed"
     },
     "logo_url": "https://www.google.com/s2/favicons?domain=ppio.com&sz=128",
     "display_name": "PPIO",
@@ -7748,7 +7747,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.primeintellect.ai",
-      "checked_at": "2026-11-23T16:16:46.056Z",
+      "checked_at": "2026-11-24T16:02:49.280Z",
       "http_status": 200,
       "final_url": "https://www.primeintellect.ai/",
       "method": "HEAD"
@@ -7814,7 +7813,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://prized.dev/docs/sandboxes-langchain?utm_source=langchain&utm_medium=listing&utm_campaign=lw-sdk",
-      "checked_at": "2026-11-23T16:16:46.112Z",
+      "checked_at": "2026-11-24T16:02:49.302Z",
       "http_status": 200,
       "final_url": "https://prized.dev/docs/sandboxes-langchain?utm_source=langchain&utm_medium=listing&utm_campaign=lw-sdk",
       "method": "HEAD"
@@ -7844,7 +7843,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://pullrun.dev",
-      "checked_at": "2026-11-23T16:16:46.162Z",
+      "checked_at": "2026-11-24T16:02:49.339Z",
       "http_status": 200,
       "final_url": "https://pullrun.dev/",
       "method": "HEAD"
@@ -7902,7 +7901,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://qbox.sh",
-      "checked_at": "2026-11-23T16:16:46.163Z",
+      "checked_at": "2026-11-24T16:02:49.343Z",
       "http_status": 200,
       "final_url": "https://www.qbox.sh/",
       "method": "HEAD"
@@ -7963,7 +7962,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://quave.one",
-      "checked_at": "2026-11-23T16:16:46.449Z",
+      "checked_at": "2026-11-24T16:02:49.344Z",
       "http_status": 200,
       "final_url": "https://quave.one/",
       "method": "HEAD"
@@ -8000,7 +7999,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.railway.com/sandboxes.md",
-      "checked_at": "2026-11-23T16:16:46.708Z",
+      "checked_at": "2026-11-24T16:02:49.483Z",
       "http_status": 200,
       "final_url": "https://docs.railway.com/sandboxes.md",
       "method": "HEAD"
@@ -8067,7 +8066,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://render.com/docs/sandboxes",
-      "checked_at": "2026-11-23T16:16:46.808Z",
+      "checked_at": "2026-11-24T16:02:49.557Z",
       "http_status": 200,
       "final_url": "https://render.com/docs/sandboxes",
       "method": "HEAD"
@@ -8121,7 +8120,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://rivet.dev/agentos",
-      "checked_at": "2026-11-23T16:16:46.908Z",
+      "checked_at": "2026-11-24T16:02:49.639Z",
       "http_status": 200,
       "final_url": "https://rivet.dev/agentos/",
       "method": "HEAD"
@@ -8160,7 +8159,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://runloop.ai",
-      "checked_at": "2026-11-23T16:16:46.915Z",
+      "checked_at": "2026-11-24T16:02:49.911Z",
       "http_status": 200,
       "final_url": "https://runloop.ai/",
       "method": "HEAD"
@@ -8200,7 +8199,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.runpod.io",
-      "checked_at": "2026-11-23T16:16:46.953Z",
+      "checked_at": "2026-11-24T16:02:50.017Z",
       "http_status": 200,
       "final_url": "https://www.runpod.io/",
       "method": "HEAD"
@@ -8234,7 +8233,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://runta.com",
-      "checked_at": "2026-11-23T16:16:46.976Z",
+      "checked_at": "2026-11-24T16:02:50.044Z",
       "http_status": 200,
       "final_url": "https://runta.com/",
       "method": "HEAD"
@@ -8279,7 +8278,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://withruntime.com",
-      "checked_at": "2026-11-23T16:16:46.978Z",
+      "checked_at": "2026-11-24T16:02:50.078Z",
       "http_status": 200,
       "final_url": "https://withruntime.com/",
       "method": "HEAD"
@@ -8351,7 +8350,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.sailresearch.com/sailboxes",
-      "checked_at": "2026-11-23T16:16:47.020Z",
+      "checked_at": "2026-11-24T16:02:50.153Z",
       "http_status": 200,
       "final_url": "https://www.sailresearch.com/sailboxes",
       "method": "HEAD"
@@ -8384,7 +8383,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.salesforce.com/platform/sandboxes-environments/salesforce-sandbox-guide",
-      "checked_at": "2026-11-23T16:16:47.053Z",
+      "checked_at": "2026-11-24T16:02:50.222Z",
       "http_status": 200,
       "final_url": "https://www.salesforce.com/platform/sandboxes-environments/salesforce-sandbox-guide/",
       "method": "HEAD"
@@ -8417,7 +8416,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://capakit.com",
-      "checked_at": "2026-11-23T16:16:47.129Z",
+      "checked_at": "2026-11-24T16:02:50.305Z",
       "http_status": 200,
       "final_url": "https://capakit.com/",
       "method": "HEAD"
@@ -8452,7 +8451,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sandbox-as-a-service.com",
-      "checked_at": "2026-11-23T16:16:47.159Z",
+      "checked_at": "2026-11-24T16:02:50.400Z",
       "http_status": 200,
       "final_url": "https://sandbox-as-a-service.com/",
       "method": "HEAD"
@@ -8487,7 +8486,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://questom-sandbox-agent.vercel.app",
-      "checked_at": "2026-11-23T16:16:47.172Z",
+      "checked_at": "2026-11-24T16:02:50.402Z",
       "http_status": 200,
       "final_url": "https://questom-sandbox-agent.vercel.app/",
       "method": "HEAD"
@@ -8526,7 +8525,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sandbox0.ai",
-      "checked_at": "2026-11-23T16:16:47.231Z",
+      "checked_at": "2026-11-24T16:02:50.474Z",
       "http_status": 200,
       "final_url": "https://sandbox0.ai/",
       "method": "HEAD"
@@ -8578,7 +8577,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sandboxed.ai",
-      "checked_at": "2026-11-23T16:16:47.252Z",
+      "checked_at": "2026-11-24T16:02:50.553Z",
       "http_status": 200,
       "final_url": "https://www.sandboxed.ai/",
       "method": "HEAD"
@@ -8610,7 +8609,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sandboxer.com/docs/mcp",
-      "checked_at": "2026-11-23T16:16:47.356Z",
+      "checked_at": "2026-11-24T16:02:50.633Z",
       "http_status": 200,
       "final_url": "https://sandboxer.com/docs/mcp",
       "method": "HEAD"
@@ -8648,7 +8647,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://shardflux.dev",
-      "checked_at": "2026-11-23T16:16:47.362Z",
+      "checked_at": "2026-11-24T16:02:50.635Z",
       "http_status": 200,
       "final_url": "https://shardflux.dev/",
       "method": "HEAD"
@@ -8680,7 +8679,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://shellbox.dev",
-      "checked_at": "2026-11-23T16:16:47.404Z",
+      "checked_at": "2026-11-24T16:02:50.668Z",
       "http_status": 200,
       "final_url": "https://shellbox.dev/",
       "method": "HEAD"
@@ -8717,7 +8716,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://smolmachines.com",
-      "checked_at": "2026-11-23T16:16:47.423Z",
+      "checked_at": "2026-11-24T16:02:50.798Z",
       "http_status": 200,
       "final_url": "https://smolmachines.com/",
       "method": "HEAD"
@@ -8754,7 +8753,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.getsolari.com/sandboxes",
-      "checked_at": "2026-11-23T16:16:47.429Z",
+      "checked_at": "2026-11-24T16:02:50.833Z",
       "http_status": 200,
       "final_url": "https://www.getsolari.com/sandboxes",
       "method": "HEAD"
@@ -8809,7 +8808,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://spens.refwd.ai",
-      "checked_at": "2026-11-23T16:16:47.657Z",
+      "checked_at": "2026-11-24T16:02:50.944Z",
       "http_status": 200,
       "final_url": "https://spens.refwd.ai/",
       "method": "HEAD"
@@ -8848,7 +8847,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sphere-engine.com",
-      "checked_at": "2026-11-23T16:16:47.726Z",
+      "checked_at": "2026-11-24T16:02:51.034Z",
       "http_status": 200,
       "final_url": "https://sphere-engine.com/",
       "method": "HEAD"
@@ -8917,7 +8916,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://spinframework.dev",
-      "checked_at": "2026-11-23T16:16:47.727Z",
+      "checked_at": "2026-11-24T16:02:51.086Z",
       "http_status": 200,
       "final_url": "https://spinframework.dev/",
       "method": "HEAD"
@@ -8991,7 +8990,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://fly.io/sprites",
-      "checked_at": "2026-11-23T16:16:47.821Z",
+      "checked_at": "2026-11-24T16:02:51.111Z",
       "http_status": 200,
       "final_url": "https://fly.io/sprites/",
       "method": "HEAD"
@@ -9126,7 +9125,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://sandbox.stateset.app",
-      "checked_at": "2026-11-23T16:16:47.874Z",
+      "checked_at": "2026-11-24T16:02:51.199Z",
       "http_status": 200,
       "final_url": "https://sandbox.stateset.app/",
       "method": "HEAD"
@@ -9170,7 +9169,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://steel.dev",
-      "checked_at": "2026-11-23T16:16:47.881Z",
+      "checked_at": "2026-11-24T16:02:51.386Z",
       "http_status": 200,
       "final_url": "https://steel.dev/",
       "method": "HEAD"
@@ -9239,7 +9238,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.stripe.com/sandboxes",
-      "checked_at": "2026-11-23T16:16:47.886Z",
+      "checked_at": "2026-11-24T16:02:51.387Z",
       "http_status": 200,
       "final_url": "https://docs.stripe.com/sandboxes",
       "method": "HEAD"
@@ -9285,7 +9284,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.superserve.ai",
-      "checked_at": "2026-11-23T16:16:47.890Z",
+      "checked_at": "2026-11-24T16:02:51.421Z",
       "http_status": 200,
       "final_url": "https://www.superserve.ai/",
       "method": "HEAD"
@@ -9366,7 +9365,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://docs.superserve.ai/introduction",
-      "checked_at": "2026-11-23T16:16:47.954Z",
+      "checked_at": "2026-11-24T16:02:51.426Z",
       "http_status": 200,
       "final_url": "https://docs.superserve.ai/introduction",
       "method": "HEAD"
@@ -9534,7 +9533,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://github.com/SWE-agent/SWE-ReX",
-      "checked_at": "2026-11-23T16:16:47.981Z",
+      "checked_at": "2026-11-24T16:02:51.501Z",
       "http_status": 200,
       "final_url": "https://github.com/SWE-agent/SWE-ReX",
       "method": "HEAD"
@@ -9817,7 +9816,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://tama.computer",
-      "checked_at": "2026-11-23T16:16:48.094Z",
+      "checked_at": "2026-11-24T16:02:51.599Z",
       "http_status": 200,
       "final_url": "https://tama.computer/",
       "method": "HEAD"
@@ -9851,7 +9850,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.tangle.tools",
-      "checked_at": "2026-11-23T16:16:48.118Z",
+      "checked_at": "2026-11-24T16:02:51.645Z",
       "http_status": 200,
       "final_url": "https://www.tangle.tools/",
       "method": "HEAD"
@@ -9888,7 +9887,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://temps.sh",
-      "checked_at": "2026-11-23T16:16:48.150Z",
+      "checked_at": "2026-11-24T16:02:51.649Z",
       "http_status": 200,
       "final_url": "https://temps.sh/",
       "method": "HEAD"
@@ -9940,7 +9939,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://cloud.tencent.com",
-      "checked_at": "2026-11-23T16:16:48.241Z",
+      "checked_at": "2026-11-24T16:02:51.758Z",
       "http_status": 200,
       "final_url": "https://cloud.tencent.com/",
       "method": "HEAD"
@@ -9986,7 +9985,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://luxor.ai/products/sandbox",
-      "checked_at": "2026-11-23T16:16:48.338Z",
+      "checked_at": "2026-11-24T16:02:51.846Z",
       "http_status": 200,
       "final_url": "https://luxor.ai/products/sandbox",
       "method": "HEAD"
@@ -10072,7 +10071,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.tensorlake.ai",
-      "checked_at": "2026-11-23T16:16:48.377Z",
+      "checked_at": "2026-11-24T16:02:51.864Z",
       "http_status": 200,
       "final_url": "https://www.tensorlake.ai/",
       "method": "HEAD"
@@ -10162,7 +10161,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.thundercompute.com/products/sandboxes",
-      "checked_at": "2026-11-23T16:16:48.404Z",
+      "checked_at": "2026-11-24T16:02:52.052Z",
       "http_status": 200,
       "final_url": "https://www.thundercompute.com/products/sandboxes",
       "method": "HEAD"
@@ -10226,7 +10225,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.together.ai/code-sandbox",
-      "checked_at": "2026-11-23T16:16:48.588Z",
+      "checked_at": "2026-11-24T16:02:52.085Z",
       "http_status": 200,
       "final_url": "https://www.together.ai/sandbox",
       "method": "HEAD"
@@ -10298,7 +10297,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://astraflow.ucloud.cn",
-      "checked_at": "2026-11-23T16:16:48.597Z",
+      "checked_at": "2026-11-24T16:02:52.157Z",
       "http_status": 200,
       "final_url": "https://astraflow.ucloud.cn/",
       "method": "HEAD"
@@ -10332,7 +10331,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://unikraft.com",
-      "checked_at": "2026-11-23T16:16:48.659Z",
+      "checked_at": "2026-11-24T16:02:52.166Z",
       "http_status": 200,
       "final_url": "https://unikraft.com/",
       "method": "HEAD"
@@ -10414,7 +10413,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://upstash.com/docs/box/overall/how-it-works",
-      "checked_at": "2026-11-23T16:16:48.706Z",
+      "checked_at": "2026-11-24T16:02:52.195Z",
       "http_status": 200,
       "final_url": "https://upstash.com/docs/box/overall/how-it-works",
       "method": "HEAD"
@@ -10493,7 +10492,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.val.town",
-      "checked_at": "2026-11-23T16:16:48.720Z",
+      "checked_at": "2026-11-24T16:02:52.299Z",
       "http_status": 200,
       "final_url": "https://www.val.town/",
       "method": "HEAD"
@@ -10576,7 +10575,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://vercel.com/docs/vercel-sandbox",
-      "checked_at": "2026-11-23T16:16:48.726Z",
+      "checked_at": "2026-11-24T16:02:52.386Z",
       "http_status": 200,
       "final_url": "https://vercel.com/docs/sandbox",
       "method": "HEAD"
@@ -10680,7 +10679,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://veris.ai/sandbox",
-      "checked_at": "2026-11-23T16:16:48.726Z",
+      "checked_at": "2026-11-24T16:02:52.474Z",
       "http_status": 200,
       "final_url": "https://veris.ai/veris-benchmark",
       "method": "HEAD"
@@ -10712,7 +10711,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://vitehub.dev/docs/agents/sandboxes",
-      "checked_at": "2026-11-23T16:16:48.781Z",
+      "checked_at": "2026-11-24T16:02:52.648Z",
       "http_status": 200,
       "final_url": "https://vitehub.dev/docs/agents/sandboxes",
       "method": "HEAD"
@@ -10745,7 +10744,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://www.volcengine.com",
-      "checked_at": "2026-11-23T16:16:48.928Z",
+      "checked_at": "2026-11-24T16:02:52.713Z",
       "http_status": 200,
       "final_url": "https://www.volcengine.com/",
       "method": "HEAD"
@@ -10784,7 +10783,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://webcontainers.io",
-      "checked_at": "2026-11-23T16:16:49.011Z",
+      "checked_at": "2026-11-24T16:02:52.720Z",
       "http_status": 200,
       "final_url": "https://webcontainers.io/",
       "method": "HEAD"
@@ -10843,7 +10842,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox",
-      "checked_at": "2026-11-23T16:16:49.014Z",
+      "checked_at": "2026-11-24T16:02:52.777Z",
       "http_status": 200,
       "final_url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox",
       "method": "HEAD"
@@ -10896,7 +10895,7 @@
     "website_status": "ok",
     "website_check": {
       "input_url": "https://yepcode.io",
-      "checked_at": "2026-11-23T16:16:49.047Z",
+      "checked_at": "2026-11-24T16:02:52.849Z",
       "http_status": 200,
       "final_url": "https://yepcode.io/",
       "method": "HEAD"
