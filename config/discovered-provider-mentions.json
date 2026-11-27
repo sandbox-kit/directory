@@ -1,4 +1,153 @@
 {
-  "updatedAt": "2026-11-26T01:05:59.995Z",
-  "providers": []
+  "updatedAt": "2026-11-27T01:09:58.967Z",
+  "providers": [
+    {
+      "name": "Modal",
+      "website": "https://modal.com",
+      "sources": [
+        "mention:show hn e2b daytona modal agent sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "unknown",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux",
+        "gvisor"
+      ],
+      "isolation_technologies": [
+        "gvisor"
+      ],
+      "logo_url": "https://modal.com/logo.png",
+      "docs": [
+        {
+          "description": "Modal API documentation",
+          "link": "https://modal.com/docs"
+        },
+        {
+          "description": "Pricing for Modal",
+          "link": "https://modal.com/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Vercel",
+      "website": "https://vercel.com",
+      "sources": [
+        "mention:show hn e2b daytona modal agent sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "unknown",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux"
+      ],
+      "isolation_technologies": [
+        "firecracker"
+      ],
+      "logo_url": "https://vercel.com/logo.png",
+      "docs": [
+        {
+          "description": "Vercel API documentation",
+          "link": "https://vercel.com/docs"
+        },
+        {
+          "description": "Vercel pricing overview",
+          "link": "https://vercel.com/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Northflank",
+      "website": "https://northflank.com",
+      "sources": [
+        "mention:show hn e2b daytona modal agent sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "unknown",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux"
+      ],
+      "isolation_technologies": [
+        "gvisor",
+        "kata"
+      ],
+      "logo_url": "https://northflank.com/logo.png",
+      "docs": [
+        {
+          "description": "Northflank documentation",
+          "link": "https://northflank.com/docs"
+        },
+        {
+          "description": "Pricing for Northflank",
+          "link": "https://northflank.com/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "website": "https://cloudflare.com",
+      "sources": [
+        "mention:show hn e2b daytona modal agent sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "unknown",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux",
+        "browser"
+      ],
+      "isolation_technologies": [
+        "container"
+      ],
+      "logo_url": "https://cloudflare.com/logo.png",
+      "docs": [
+        {
+          "description": "Cloudflare documentation",
+          "link": "https://cloudflare.com/docs"
+        },
+        {
+          "description": "Cloudflare pricing info",
+          "link": "https://cloudflare.com/pricing"
+        }
+      ]
+    },
+    {
+      "name": "Google Agent Sandbox",
+      "website": "https://cloud.google.com/agent-sandbox",
+      "sources": [
+        "mention:show hn e2b daytona modal agent sandbox",
+        "discovery:mention"
+      ],
+      "extra": true,
+      "offering_type": "unknown",
+      "availability": "public",
+      "launch_stage": "ga",
+      "sandbox_capabilities": [
+        "linux"
+      ],
+      "isolation_technologies": [
+        "gvisor"
+      ],
+      "logo_url": "https://cloud.google.com/logo.png",
+      "docs": [
+        {
+          "description": "Billing information for Google Agent Sandbox",
+          "link": "https://cloud.google.com/agent-sandbox/pricing"
+        },
+        {
+          "description": "Google Agent Sandbox documentation",
+          "link": "https://cloud.google.com/agent-sandbox/docs"
+        }
+      ]
+    }
+  ]
 }

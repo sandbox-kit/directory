@@ -1056,6 +1056,201 @@
       "id": "blog-comparing-ai-agent-sandbox-platforms-e2b",
       "url": "https://blog.logrocket.com/comparing-ai-agent-sandbox-platforms-e2b-modal-daytona-and-more/",
       "mode": "scrape"
+    },
+    {
+      "id": "roost-agent-sandboxes",
+      "url": "https://roost.guide/agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "fly-learn-agent-sandbox-providers",
+      "url": "https://fly.io/learn/agent-sandbox-providers/#sources",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-industry-enterprise-software",
+      "url": "https://www.ycombinator.com/companies/industry/enterprise-software",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-topics-ai-agents",
+      "url": "https://github.com/topics/ai-agents",
+      "mode": "scrape"
+    },
+    {
+      "id": "producthunt-topics-ai-sandboxes",
+      "url": "https://www.producthunt.com/topics/ai-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "hackernoon-show-hn-list-2023",
+      "url": "https://www.hackernoon.com/show-hn-list-2023",
+      "mode": "scrape"
+    },
+    {
+      "id": "hackernews-show-hn-ai-sandboxes",
+      "url": "https://www.hackernews.com/show/hn-ai-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-sandbox",
+      "url": "https://awesome.list/sandbox",
+      "mode": "scrape"
+    },
+    {
+      "id": "launch-sandboxes",
+      "url": "https://www.launch.co/sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentsandboxes-guides-what-a-sandbox-provider-listing-s",
+      "url": "https://agentsandboxes.fyi/guides/what-a-sandbox-provider-listing-shows",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-industry-cloud-computing",
+      "url": "https://www.ycombinator.com/companies/industry/cloud-computing",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-industry-robotics",
+      "url": "https://www.ycombinator.com/companies/industry/robotics",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-algolia",
+      "url": "https://www.ycombinator.com/companies/algolia",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-amplitude",
+      "url": "https://www.ycombinator.com/companies/amplitude",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-spita-labs",
+      "url": "https://www.ycombinator.com/companies/spita-labs",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-letter-dev",
+      "url": "https://www.ycombinator.com/companies/letter-dev",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-tesser",
+      "url": "https://www.ycombinator.com/companies/tesser",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-routerplus",
+      "url": "https://www.ycombinator.com/companies/routerplus",
+      "mode": "scrape"
+    },
+    {
+      "id": "ycombinator-companies-pomodoro",
+      "url": "https://www.ycombinator.com/companies/pomodoro",
+      "mode": "scrape"
+    },
+    {
+      "id": "awesome-awesome-ai-sandboxes",
+      "url": "https://awesome.com/awesome-ai-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "comparesandboxes-compare-e2b-vs-modal",
+      "url": "https://comparesandboxes.com/compare/e2b-vs-modal/",
+      "mode": "scrape"
+    },
+    {
+      "id": "agents-playground",
+      "url": "https://agents.one/playground",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=50629936",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=46400129",
+      "mode": "scrape"
+    },
+    {
+      "id": "news-item",
+      "url": "https://news.ycombinator.com/item?id=49783896",
+      "mode": "scrape"
+    },
+    {
+      "id": "computesdk-benchmarks-sandboxes-ratings",
+      "url": "https://www.computesdk.com/benchmarks/sandboxes/ratings",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-0xmetaschool-ai-agents-directory",
+      "url": "https://github.com/0xmetaschool/AI-Agents-Directory",
+      "mode": "scrape"
+    },
+    {
+      "id": "agentlist",
+      "url": "https://www.agentlist.io/",
+      "mode": "scrape"
+    },
+    {
+      "id": "mcpmarket-server-ai-agent-directory",
+      "url": "https://mcpmarket.com/server/ai-agent-directory",
+      "mode": "scrape"
+    },
+    {
+      "id": "everstack-blog-best-code-execution-sandboxes-for-a",
+      "url": "https://everstack.ai/blog/best-code-execution-sandboxes-for-ai-agents/",
+      "mode": "scrape"
+    },
+    {
+      "id": "respan-market-map-best-agent-sandboxes",
+      "url": "https://www.respan.ai/market-map/best/agent-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "autolearningagents-open-source-ai-agents-complete-list-php",
+      "url": "https://www.autolearningagents.com/open-source-ai-agents/complete-list.php",
+      "mode": "scrape"
+    },
+    {
+      "id": "syndai-lists-code-execution-sandboxes",
+      "url": "https://syndai.ai/lists/code-execution-sandboxes",
+      "mode": "scrape"
+    },
+    {
+      "id": "controlplane-blog-post-best-ai-agent-sandboxes-2026",
+      "url": "https://controlplane.com/blog/post/best-ai-agent-sandboxes-2026",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-dloss-awesome-agent-sandboxes-blob-main-",
+      "url": "https://github.com/dloss/awesome-agent-sandboxes/blob/main/README.md",
+      "mode": "scrape"
+    },
+    {
+      "id": "github-superradcompany",
+      "url": "https://github.com/superradcompany",
+      "mode": "scrape"
+    },
+    {
+      "id": "sandboxd",
+      "url": "https://sandboxd.io/",
+      "mode": "scrape"
+    },
+    {
+      "id": "dev-aiagentstore-ai-agent-directory-in-ai-ag",
+      "url": "https://dev.to/aiagentstore/ai-agent-directory-in-ai-agent-store-4dif",
+      "mode": "scrape"
+    },
+    {
+      "id": "heeki-closing-the-loop-from-code-generation-to",
+      "url": "https://heeki.medium.com/closing-the-loop-from-code-generation-to-sandboxed-code-execution-b90cff6adbf7",
+      "mode": "scrape"
     }
   ]
 }
